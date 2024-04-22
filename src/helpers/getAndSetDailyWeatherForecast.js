@@ -1,13 +1,14 @@
 import axios from "axios"
 import { DateTime } from "luxon"
 import { promises as fs } from "fs"
+import { incrementAPICallCounter } from "../../src/helpers/awAPICounter.js"
 
 const AW_API_KEY = process.env.AW_API
 const BRAZE_API_KEY = process.env.BRAZE_API
 const CATALOG_NAME = process.env.DAILY_FORECAST_CATALOG_NAME
 const delayBetweenRequests = 200
 let counter = 0
-let maxCounter = 10
+let maxCounter = 20
 const batchSize = 50 // Set your desired batch size
 
 const locationCodesPath = "./src/dataFiles/locationCodes.txt"
@@ -57,6 +58,7 @@ async function getAndSetWeatherDailyForecastData() {
           lowTemp: response.data.DailyForecasts[0].Temperature.Minimum.Value,
           updateDate: currentDate,
         })
+        await incrementAPICallCounter()
         processedItems++ // Increment processedItems for each item added
       } catch (error) {
         console.error("Error fetching location code:", error)

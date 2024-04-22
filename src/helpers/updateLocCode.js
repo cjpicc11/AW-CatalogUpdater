@@ -2,11 +2,12 @@ import axios from "axios"
 import { zipCodes } from "./zipCodes.js"
 import { DateTime } from "luxon"
 import { promises as fs } from "fs"
+import { incrementAPICallCounter } from "../../src/helpers/awAPICounter.js"
 const locationCodesPath = "./src/dataFiles/locationCodes.txt"
 const AW_API_KEY = process.env.AW_API
 
 let counter = 0
-let maxCounter = 10
+let maxCounter = 20
 
 async function clearLocationCodeFile() {
   const filePath = locationCodesPath
@@ -35,6 +36,7 @@ async function getAndSetLocationCodes() {
     try {
       let response = await axios.get(`https://dataservice.accuweather.com/locations/v1/postalcodes/search?apikey=${AW_API_KEY}&q=${zipCodes[i]}`)
       await appendToFile(zipCodes[i] + ":" + response.data[0].Key)
+      await incrementAPICallCounter()
     } catch (error) {
       console.error("Error fetching location code:", error)
 
