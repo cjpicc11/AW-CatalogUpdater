@@ -1,0 +1,2203 @@
+[2024-07-17T15:46:56.236Z] Received GET request for zipCode: 07657 and dateString: 2024-07-10
+[2024-07-17T15:48:22.665Z] Received GET request for zipCode: 07657 and dateString: 2024-07-10
+[2024-07-17T15:48:22.669Z] 1
+[2024-07-17T15:48:22.673Z] DB Connection Established!
+[2024-07-17T15:48:22.775Z] Data Payload Returned!
+[2024-07-17T15:50:09.330Z] Received GET request for zipCode: 07657 and dateString: 2024-07-10
+[2024-07-17T15:50:09.334Z] DB Connection Status:  1
+[2024-07-17T15:50:09.337Z] DB Connection Established!
+[2024-07-17T15:50:09.418Z] Data Payload Returned!
+[2024-07-17T15:50:48.331Z] Received GET request for zipCode: 07657 and dateString: 2024-07-100
+[2024-07-17T15:58:48.197Z] Received GET request for zipCode: 07657 and dateString: 2024-07-10
+[2024-07-17T15:58:48.209Z] DB Connection Status:  1
+[2024-07-17T15:58:48.218Z] DB Connection Established!
+[2024-07-17T15:58:48.318Z] Data Payload Returned!
+[2024-07-17T16:21:34.151Z] DB Connection Status:  1
+[2024-07-17T16:21:34.158Z] DB Connection Established!
+[2024-07-17T16:21:34.471Z] Updated zip code 18034 with location code 7361_PC and time zone America/New_York
+[2024-07-17T16:21:34.478Z] Specific zip codes updated successfully.
+[2024-07-17T16:23:28.333Z] Error fetching location code for zip code 18038: Client must be connected before running operations
+[2024-07-17T16:23:28.482Z] Error fetching location code for zip code 07657: Client must be connected before running operations
+[2024-07-17T16:23:28.491Z] Specific zip codes updated successfully.
+[2024-07-17T16:30:37.643Z] DB Connection Status:  1
+[2024-07-17T16:30:37.663Z] DB Connection Established!
+[2024-07-17T16:30:37.680Z] Connected to database.
+[2024-07-17T16:30:38.002Z] Updated zip code 18038 with location code 7365_PC and time zone America/New_York
+[2024-07-17T16:30:38.168Z] Updated zip code 07657 with location code 2835_PC and time zone America/New_York
+[2024-07-17T16:30:38.189Z] Specific zip codes updated successfully.
+[2024-07-17T16:30:38.223Z] Disconnected from database.
+[2024-07-17T16:31:13.082Z] Connected to database.
+[2024-07-17T16:31:13.346Z] Error fetching location code for zip code 07656: Client must be connected before running operations
+[2024-07-17T16:31:13.480Z] Error fetching location code for zip code 07655: Cannot read properties of undefined (reading 'Key')
+[2024-07-17T16:31:13.495Z] Specific zip codes updated successfully.
+[2024-07-17T16:31:13.510Z] Disconnected from database.
+[2024-07-17T16:32:20.443Z] Connected to database.
+[2024-07-17T16:32:20.737Z] Error fetching location code for zip code 19020: Client must be connected before running operations
+[2024-07-17T16:32:20.925Z] Error fetching location code for zip code 18032: Client must be connected before running operations
+[2024-07-17T16:32:20.941Z] Specific zip codes updated successfully.
+[2024-07-17T16:32:20.957Z] Disconnected from database.
+[2024-07-17T17:12:37.619Z] DB Connection Status:  1
+[2024-07-17T17:12:37.636Z] DB Connection Established!
+[2024-07-17T17:12:37.646Z] Connected to database.
+[2024-07-17T17:12:37.860Z] Updated zip code 19020 with location code 7748_PC and time zone America/New_York
+[2024-07-17T17:12:37.971Z] Updated zip code 18032 with location code 7360_PC and time zone America/New_York
+[2024-07-17T17:12:37.977Z] Specific zip codes updated successfully.
+[2024-07-17T17:13:04.655Z] Connected to database.
+[2024-07-17T17:13:04.961Z] Updated zip code 90210 with location code 37935_PC and time zone America/Los_Angeles
+[2024-07-17T17:13:05.178Z] Updated zip code 90211 with location code 37936_PC and time zone America/Los_Angeles
+[2024-07-17T17:13:05.189Z] Specific zip codes updated successfully.
+[2024-07-17T18:23:06.803Z] DB Connection Status:  1
+[2024-07-17T18:23:06.807Z] DB Connection Established!
+[2024-07-17T18:23:06.809Z] Connected to database.
+[2024-07-17T18:23:07.241Z] Updated zip code 60148 with location code 26252_PC and time zone America/Chicago
+[2024-07-17T18:23:07.250Z] Specific zip codes updated successfully.
+[2024-07-17T18:56:58.202Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T18:56:58.211Z] Zip Codes:  18034
+[2024-07-17T18:56:58.251Z] DB Connection Status:  1
+[2024-07-17T18:56:58.254Z] DB Connection Established!
+[2024-07-17T18:56:58.767Z] Catalog updated:
+[2024-07-17T18:56:59.775Z] Total processed items: 1
+[2024-07-17T18:56:59.781Z] Weather Updates by ZipCode is a success!
+[2024-07-17T18:58:40.089Z] DB Connection Status:  1
+[2024-07-17T18:58:40.093Z] DB Connection Established!
+[2024-07-17T18:58:40.100Z] Connected to database.
+[2024-07-17T18:58:40.416Z] Updated zip code 96718 with location code 40630_PC and time zone Pacific/Honolulu
+[2024-07-17T18:58:40.420Z] Specific zip codes updated successfully.
+[2024-07-17T18:58:59.421Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T18:58:59.426Z] Zip Codes:  96718,60148
+[2024-07-17T18:58:59.430Z] DB Connection Status:  1
+[2024-07-17T18:58:59.437Z] DB Connection Established!
+[2024-07-17T18:59:00.109Z] Catalog updated:
+[2024-07-17T18:59:01.122Z] Total processed items: 2
+[2024-07-17T18:59:01.131Z] Weather Updates by ZipCode is a success!
+[2024-07-17T19:20:22.170Z] Inside POST call to update weather forecast for All zips.
+[2024-07-17T19:20:22.176Z] DB Connection Status:  1
+[2024-07-17T19:20:22.179Z] DB Connection Established!
+[2024-07-17T19:20:25.958Z] Catalog updated:
+[2024-07-17T19:20:27.087Z] Catalog updated:
+[2024-07-17T19:20:28.224Z] Catalog updated:
+[2024-07-17T19:20:29.347Z] Catalog updated:
+[2024-07-17T19:20:30.465Z] Catalog updated:
+[2024-07-17T19:20:31.572Z] Catalog updated:
+[2024-07-17T19:20:32.696Z] Catalog updated:
+[2024-07-17T19:20:33.819Z] Catalog updated:
+[2024-07-17T19:20:34.941Z] Catalog updated:
+[2024-07-17T19:20:36.044Z] Catalog updated:
+[2024-07-17T19:20:37.153Z] Catalog updated:
+[2024-07-17T19:20:38.328Z] Catalog updated:
+[2024-07-17T19:20:39.537Z] Catalog updated:
+[2024-07-17T19:20:40.639Z] Catalog updated:
+[2024-07-17T19:20:41.752Z] Catalog updated:
+[2024-07-17T19:20:42.863Z] Catalog updated:
+[2024-07-17T19:20:43.966Z] Catalog updated:
+[2024-07-17T19:20:45.058Z] Catalog updated:
+[2024-07-17T19:20:46.179Z] Catalog updated:
+[2024-07-17T19:20:47.283Z] Catalog updated:
+[2024-07-17T19:20:48.395Z] Catalog updated:
+[2024-07-17T19:20:49.507Z] Catalog updated:
+[2024-07-17T19:20:50.634Z] Catalog updated:
+[2024-07-17T19:20:51.749Z] Catalog updated:
+[2024-07-17T19:20:53.116Z] Catalog updated:
+[2024-07-17T19:20:54.210Z] Catalog updated:
+[2024-07-17T19:20:55.303Z] Catalog updated:
+[2024-07-17T19:20:56.402Z] Catalog updated:
+[2024-07-17T19:20:57.498Z] Catalog updated:
+[2024-07-17T19:20:58.633Z] Catalog updated:
+[2024-07-17T19:20:59.825Z] Catalog updated:
+[2024-07-17T19:21:00.967Z] Catalog updated:
+[2024-07-17T19:21:02.101Z] Catalog updated:
+[2024-07-17T19:21:03.201Z] Catalog updated:
+[2024-07-17T19:21:04.302Z] Catalog updated:
+[2024-07-17T19:21:05.402Z] Catalog updated:
+[2024-07-17T19:21:06.529Z] Catalog updated:
+[2024-07-17T19:21:07.624Z] Catalog updated:
+[2024-07-17T19:21:08.746Z] Catalog updated:
+[2024-07-17T19:21:09.883Z] Catalog updated:
+[2024-07-17T19:21:10.987Z] Catalog updated:
+[2024-07-17T19:21:12.107Z] Catalog updated:
+[2024-07-17T19:21:13.194Z] Catalog updated:
+[2024-07-17T19:21:14.321Z] Catalog updated:
+[2024-07-17T19:21:15.440Z] Catalog updated:
+[2024-07-17T19:21:16.547Z] Catalog updated:
+[2024-07-17T19:21:17.723Z] Catalog updated:
+[2024-07-17T19:21:18.867Z] Catalog updated:
+[2024-07-17T19:21:19.993Z] Catalog updated:
+[2024-07-17T19:21:21.097Z] Catalog updated:
+[2024-07-17T19:21:22.238Z] Catalog updated:
+[2024-07-17T19:21:23.339Z] Catalog updated:
+[2024-07-17T19:21:24.474Z] Catalog updated:
+[2024-07-17T19:21:25.588Z] Catalog updated:
+[2024-07-17T19:21:26.772Z] Catalog updated:
+[2024-07-17T19:21:27.916Z] Catalog updated:
+[2024-07-17T19:21:29.020Z] Catalog updated:
+[2024-07-17T19:21:30.114Z] Catalog updated:
+[2024-07-17T19:21:31.273Z] Catalog updated:
+[2024-07-17T19:21:32.378Z] Catalog updated:
+[2024-07-17T19:21:33.506Z] Catalog updated:
+[2024-07-17T19:21:34.616Z] Catalog updated:
+[2024-07-17T19:21:35.721Z] Catalog updated:
+[2024-07-17T19:21:36.822Z] Catalog updated:
+[2024-07-17T19:21:37.928Z] Catalog updated:
+[2024-07-17T19:21:39.065Z] Catalog updated:
+[2024-07-17T19:21:40.372Z] Catalog updated:
+[2024-07-17T19:21:41.697Z] Catalog updated:
+[2024-07-17T19:21:42.827Z] Catalog updated:
+[2024-07-17T19:21:43.918Z] Catalog updated:
+[2024-07-17T19:21:45.044Z] Catalog updated:
+[2024-07-17T19:21:46.184Z] Catalog updated:
+[2024-07-17T19:21:47.487Z] Catalog updated:
+[2024-07-17T19:21:48.584Z] Catalog updated:
+[2024-07-17T19:21:49.732Z] Catalog updated:
+[2024-07-17T19:21:50.866Z] Catalog updated:
+[2024-07-17T19:21:52.019Z] Catalog updated:
+[2024-07-17T19:21:53.130Z] Catalog updated:
+[2024-07-17T19:21:54.244Z] Catalog updated:
+[2024-07-17T19:21:55.338Z] Catalog updated:
+[2024-07-17T19:21:56.920Z] Catalog updated:
+[2024-07-17T19:21:58.888Z] Catalog updated:
+[2024-07-17T19:21:59.984Z] Catalog updated:
+[2024-07-17T19:22:01.198Z] Catalog updated:
+[2024-07-17T19:22:02.308Z] Catalog updated:
+[2024-07-17T19:22:03.452Z] Catalog updated:
+[2024-07-17T19:22:04.589Z] Catalog updated:
+[2024-07-17T19:22:05.685Z] Catalog updated:
+[2024-07-17T19:22:07.572Z] Catalog updated:
+[2024-07-17T19:22:08.692Z] Catalog updated:
+[2024-07-17T19:22:09.793Z] Catalog updated:
+[2024-07-17T19:22:10.882Z] Catalog updated:
+[2024-07-17T19:22:12.020Z] Catalog updated:
+[2024-07-17T19:22:13.176Z] Catalog updated:
+[2024-07-17T19:22:14.294Z] Catalog updated:
+[2024-07-17T19:22:15.404Z] Catalog updated:
+[2024-07-17T19:22:16.528Z] Catalog updated:
+[2024-07-17T19:22:17.637Z] Catalog updated:
+[2024-07-17T19:22:18.754Z] Catalog updated:
+[2024-07-17T19:22:19.859Z] Catalog updated:
+[2024-07-17T19:22:20.965Z] Catalog updated:
+[2024-07-17T19:22:22.080Z] Catalog updated:
+[2024-07-17T19:22:23.191Z] Catalog updated:
+[2024-07-17T19:22:24.322Z] Catalog updated:
+[2024-07-17T19:22:25.431Z] Catalog updated:
+[2024-07-17T19:22:26.523Z] Catalog updated:
+[2024-07-17T19:22:27.615Z] Catalog updated:
+[2024-07-17T19:22:28.749Z] Catalog updated:
+[2024-07-17T19:22:29.838Z] Catalog updated:
+[2024-07-17T19:22:30.960Z] Catalog updated:
+[2024-07-17T19:22:32.056Z] Catalog updated:
+[2024-07-17T19:22:33.176Z] Catalog updated:
+[2024-07-17T19:22:34.562Z] Catalog updated:
+[2024-07-17T19:22:35.684Z] Catalog updated:
+[2024-07-17T19:22:36.788Z] Catalog updated:
+[2024-07-17T19:22:37.892Z] Catalog updated:
+[2024-07-17T19:22:38.989Z] Catalog updated:
+[2024-07-17T19:22:40.105Z] Catalog updated:
+[2024-07-17T19:22:41.442Z] Catalog updated:
+[2024-07-17T19:22:42.652Z] Catalog updated:
+[2024-07-17T19:22:43.774Z] Catalog updated:
+[2024-07-17T19:22:44.906Z] Catalog updated:
+[2024-07-17T19:22:46.025Z] Catalog updated:
+[2024-07-17T19:22:48.088Z] Catalog updated:
+[2024-07-17T19:22:49.257Z] Catalog updated:
+[2024-07-17T19:22:50.378Z] Catalog updated:
+[2024-07-17T19:22:52.953Z] Catalog updated:
+[2024-07-17T19:22:54.069Z] Catalog updated:
+[2024-07-17T19:22:55.183Z] Catalog updated:
+[2024-07-17T19:22:57.457Z] Catalog updated:
+[2024-07-17T19:22:58.622Z] Catalog updated:
+[2024-07-17T19:22:59.740Z] Catalog updated:
+[2024-07-17T19:23:00.957Z] Catalog updated:
+[2024-07-17T19:23:02.698Z] Catalog updated:
+[2024-07-17T19:23:03.819Z] Catalog updated:
+[2024-07-17T19:23:04.911Z] Catalog updated:
+[2024-07-17T19:23:07.171Z] Catalog updated:
+[2024-07-17T19:23:10.302Z] Catalog updated:
+[2024-07-17T19:23:12.961Z] Catalog updated:
+[2024-07-17T19:23:14.075Z] Catalog updated:
+[2024-07-17T19:23:15.219Z] Catalog updated:
+[2024-07-17T19:23:16.388Z] Catalog updated:
+[2024-07-17T19:23:18.044Z] Catalog updated:
+[2024-07-17T19:23:20.271Z] Catalog updated:
+[2024-07-17T19:23:21.427Z] Catalog updated:
+[2024-07-17T19:23:23.389Z] Catalog updated:
+[2024-07-17T19:23:24.498Z] Catalog updated:
+[2024-07-17T19:23:25.642Z] Catalog updated:
+[2024-07-17T19:23:26.761Z] Catalog updated:
+[2024-07-17T19:23:27.858Z] Catalog updated:
+[2024-07-17T19:23:28.964Z] Catalog updated:
+[2024-07-17T19:23:30.112Z] Catalog updated:
+[2024-07-17T19:23:31.215Z] Catalog updated:
+[2024-07-17T19:23:32.331Z] Catalog updated:
+[2024-07-17T19:23:33.431Z] Catalog updated:
+[2024-07-17T19:23:34.545Z] Catalog updated:
+[2024-07-17T19:23:35.658Z] Catalog updated:
+[2024-07-17T19:23:36.757Z] Catalog updated:
+[2024-07-17T19:23:37.866Z] Catalog updated:
+[2024-07-17T19:23:38.989Z] Catalog updated:
+[2024-07-17T19:23:40.078Z] Catalog updated:
+[2024-07-17T19:23:41.217Z] Catalog updated:
+[2024-07-17T19:23:42.511Z] Catalog updated:
+[2024-07-17T19:23:43.630Z] Catalog updated:
+[2024-07-17T19:23:44.735Z] Catalog updated:
+[2024-07-17T19:23:45.842Z] Catalog updated:
+[2024-07-17T19:23:46.956Z] Catalog updated:
+[2024-07-17T19:23:48.088Z] Catalog updated:
+[2024-07-17T19:23:49.175Z] Catalog updated:
+[2024-07-17T19:23:50.266Z] Catalog updated:
+[2024-07-17T19:23:51.395Z] Catalog updated:
+[2024-07-17T19:23:52.513Z] Catalog updated:
+[2024-07-17T19:23:53.625Z] Catalog updated:
+[2024-07-17T19:23:54.756Z] Catalog updated:
+[2024-07-17T19:23:55.847Z] Catalog updated:
+[2024-07-17T19:23:56.944Z] Catalog updated:
+[2024-07-17T19:23:58.070Z] Catalog updated:
+[2024-07-17T19:23:59.168Z] Catalog updated:
+[2024-07-17T19:24:00.290Z] Catalog updated:
+[2024-07-17T19:24:01.608Z] Catalog updated:
+[2024-07-17T19:24:02.710Z] Catalog updated:
+[2024-07-17T19:24:03.807Z] Catalog updated:
+[2024-07-17T19:24:04.932Z] Catalog updated:
+[2024-07-17T19:24:06.047Z] Catalog updated:
+[2024-07-17T19:24:07.131Z] Catalog updated:
+[2024-07-17T19:24:08.245Z] Catalog updated:
+[2024-07-17T19:24:09.331Z] Catalog updated:
+[2024-07-17T19:24:10.451Z] Catalog updated:
+[2024-07-17T19:24:11.563Z] Catalog updated:
+[2024-07-17T19:24:12.665Z] Catalog updated:
+[2024-07-17T19:24:13.769Z] Catalog updated:
+[2024-07-17T19:24:14.883Z] Catalog updated:
+[2024-07-17T19:24:15.987Z] Catalog updated:
+[2024-07-17T19:24:17.117Z] Catalog updated:
+[2024-07-17T19:24:18.247Z] Catalog updated:
+[2024-07-17T19:24:19.374Z] Catalog updated:
+[2024-07-17T19:24:20.475Z] Catalog updated:
+[2024-07-17T19:24:21.590Z] Catalog updated:
+[2024-07-17T19:24:22.710Z] Catalog updated:
+[2024-07-17T19:24:23.827Z] Catalog updated:
+[2024-07-17T19:24:24.991Z] Catalog updated:
+[2024-07-17T19:24:26.139Z] Catalog updated:
+[2024-07-17T19:24:27.258Z] Catalog updated:
+[2024-07-17T19:24:28.359Z] Catalog updated:
+[2024-07-17T19:24:29.450Z] Catalog updated:
+[2024-07-17T19:24:30.569Z] Catalog updated:
+[2024-07-17T19:24:31.676Z] Catalog updated:
+[2024-07-17T19:24:32.772Z] Catalog updated:
+[2024-07-17T19:24:33.865Z] Catalog updated:
+[2024-07-17T19:24:35.004Z] Catalog updated:
+[2024-07-17T19:24:36.111Z] Catalog updated:
+[2024-07-17T19:24:37.264Z] Catalog updated:
+[2024-07-17T19:24:38.375Z] Catalog updated:
+[2024-07-17T19:24:39.479Z] Catalog updated:
+[2024-07-17T19:24:40.583Z] Catalog updated:
+[2024-07-17T19:24:41.699Z] Catalog updated:
+[2024-07-17T19:24:42.815Z] Catalog updated:
+[2024-07-17T19:24:43.931Z] Catalog updated:
+[2024-07-17T19:24:45.030Z] Catalog updated:
+[2024-07-17T19:24:46.151Z] Catalog updated:
+[2024-07-17T19:24:47.242Z] Catalog updated:
+[2024-07-17T19:24:48.333Z] Catalog updated:
+[2024-07-17T19:24:49.476Z] Catalog updated:
+[2024-07-17T19:24:50.575Z] Catalog updated:
+[2024-07-17T19:24:51.688Z] Catalog updated:
+[2024-07-17T19:24:52.812Z] Catalog updated:
+[2024-07-17T19:24:53.920Z] Catalog updated:
+[2024-07-17T19:24:55.039Z] Catalog updated:
+[2024-07-17T19:24:56.126Z] Catalog updated:
+[2024-07-17T19:24:57.295Z] Catalog updated:
+[2024-07-17T19:24:58.393Z] Catalog updated:
+[2024-07-17T19:24:59.511Z] Catalog updated:
+[2024-07-17T19:25:00.669Z] Catalog updated:
+[2024-07-17T19:25:03.891Z] Catalog updated:
+[2024-07-17T19:25:04.979Z] Catalog updated:
+[2024-07-17T19:25:06.110Z] Catalog updated:
+[2024-07-17T19:25:10.308Z] Catalog updated:
+[2024-07-17T19:25:17.754Z] Catalog updated:
+[2024-07-17T19:25:19.998Z] Catalog updated:
+[2024-07-17T19:25:21.121Z] Catalog updated:
+[2024-07-17T19:25:23.775Z] Catalog updated:
+[2024-07-17T19:25:24.911Z] Catalog updated:
+[2024-07-17T19:25:26.013Z] Catalog updated:
+[2024-07-17T19:25:27.110Z] Catalog updated:
+[2024-07-17T19:25:28.260Z] Catalog updated:
+[2024-07-17T19:25:29.366Z] Catalog updated:
+[2024-07-17T19:25:30.475Z] Catalog updated:
+[2024-07-17T19:25:31.581Z] Catalog updated:
+[2024-07-17T19:25:32.712Z] Catalog updated:
+[2024-07-17T19:25:33.829Z] Catalog updated:
+[2024-07-17T19:25:34.937Z] Catalog updated:
+[2024-07-17T19:25:36.050Z] Catalog updated:
+[2024-07-17T19:25:37.147Z] Catalog updated:
+[2024-07-17T19:25:38.249Z] Catalog updated:
+[2024-07-17T19:25:39.387Z] Catalog updated:
+[2024-07-17T19:25:40.500Z] Catalog updated:
+[2024-07-17T19:25:41.606Z] Catalog updated:
+[2024-07-17T19:25:42.696Z] Catalog updated:
+[2024-07-17T19:25:43.791Z] Catalog updated:
+[2024-07-17T19:25:44.883Z] Catalog updated:
+[2024-07-17T19:25:45.980Z] Catalog updated:
+[2024-07-17T19:25:47.098Z] Catalog updated:
+[2024-07-17T19:25:48.230Z] Catalog updated:
+[2024-07-17T19:25:49.566Z] Catalog updated:
+[2024-07-17T19:25:50.723Z] Catalog updated:
+[2024-07-17T19:25:51.830Z] Catalog updated:
+[2024-07-17T19:25:52.938Z] Catalog updated:
+[2024-07-17T19:25:54.049Z] Catalog updated:
+[2024-07-17T19:25:55.146Z] Catalog updated:
+[2024-07-17T19:25:56.263Z] Catalog updated:
+[2024-07-17T19:25:57.378Z] Catalog updated:
+[2024-07-17T19:25:58.473Z] Catalog updated:
+[2024-07-17T19:25:59.561Z] Catalog updated:
+[2024-07-17T19:26:00.699Z] Catalog updated:
+[2024-07-17T19:26:01.825Z] Catalog updated:
+[2024-07-17T19:26:02.937Z] Catalog updated:
+[2024-07-17T19:26:04.083Z] Catalog updated:
+[2024-07-17T19:26:05.196Z] Catalog updated:
+[2024-07-17T19:26:06.296Z] Catalog updated:
+[2024-07-17T19:26:08.152Z] Catalog updated:
+[2024-07-17T19:26:09.230Z] Catalog updated:
+[2024-07-17T19:26:10.338Z] Catalog updated:
+[2024-07-17T19:26:11.463Z] Catalog updated:
+[2024-07-17T19:26:14.631Z] Catalog updated:
+[2024-07-17T19:26:16.428Z] Catalog updated:
+[2024-07-17T19:26:23.864Z] Catalog updated:
+[2024-07-17T19:26:24.981Z] Catalog updated:
+[2024-07-17T19:26:26.086Z] Catalog updated:
+[2024-07-17T19:26:30.339Z] Catalog updated:
+[2024-07-17T19:26:33.108Z] Catalog updated:
+[2024-07-17T19:26:34.207Z] Catalog updated:
+[2024-07-17T19:26:35.290Z] Catalog updated:
+[2024-07-17T19:26:36.414Z] Catalog updated:
+[2024-07-17T19:26:37.509Z] Catalog updated:
+[2024-07-17T19:26:38.606Z] Catalog updated:
+[2024-07-17T19:26:39.731Z] Catalog updated:
+[2024-07-17T19:26:40.848Z] Catalog updated:
+[2024-07-17T19:26:41.961Z] Catalog updated:
+[2024-07-17T19:26:43.076Z] Catalog updated:
+[2024-07-17T19:26:44.168Z] Catalog updated:
+[2024-07-17T19:26:45.251Z] Catalog updated:
+[2024-07-17T19:26:46.351Z] Catalog updated:
+[2024-07-17T19:26:47.451Z] Catalog updated:
+[2024-07-17T19:26:48.541Z] Catalog updated:
+[2024-07-17T19:26:49.660Z] Catalog updated:
+[2024-07-17T19:26:50.793Z] Catalog updated:
+[2024-07-17T19:26:51.888Z] Catalog updated:
+[2024-07-17T19:26:52.981Z] Catalog updated:
+[2024-07-17T19:26:54.087Z] Catalog updated:
+[2024-07-17T19:26:55.177Z] Catalog updated:
+[2024-07-17T19:26:56.320Z] Catalog updated:
+[2024-07-17T19:26:57.403Z] Catalog updated:
+[2024-07-17T19:26:58.480Z] Catalog updated:
+[2024-07-17T19:26:59.570Z] Catalog updated:
+[2024-07-17T19:27:00.775Z] Catalog updated:
+[2024-07-17T19:27:01.901Z] Catalog updated:
+[2024-07-17T19:27:03.004Z] Catalog updated:
+[2024-07-17T19:27:04.108Z] Catalog updated:
+[2024-07-17T19:27:05.224Z] Catalog updated:
+[2024-07-17T19:27:06.340Z] Catalog updated:
+[2024-07-17T19:27:07.444Z] Catalog updated:
+[2024-07-17T19:27:08.589Z] Catalog updated:
+[2024-07-17T19:27:09.689Z] Catalog updated:
+[2024-07-17T19:27:10.783Z] Catalog updated:
+[2024-07-17T19:27:11.904Z] Catalog updated:
+[2024-07-17T19:27:13.002Z] Catalog updated:
+[2024-07-17T19:27:14.081Z] Catalog updated:
+[2024-07-17T19:27:15.163Z] Catalog updated:
+[2024-07-17T19:27:16.267Z] Catalog updated:
+[2024-07-17T19:27:17.380Z] Catalog updated:
+[2024-07-17T19:27:18.466Z] Catalog updated:
+[2024-07-17T19:27:19.570Z] Catalog updated:
+[2024-07-17T19:27:20.659Z] Catalog updated:
+[2024-07-17T19:27:21.761Z] Catalog updated:
+[2024-07-17T19:27:22.886Z] Catalog updated:
+[2024-07-17T19:27:23.983Z] Catalog updated:
+[2024-07-17T19:27:25.080Z] Catalog updated:
+[2024-07-17T19:27:26.166Z] Catalog updated:
+[2024-07-17T19:27:27.266Z] Catalog updated:
+[2024-07-17T19:27:28.368Z] Catalog updated:
+[2024-07-17T19:27:29.487Z] Catalog updated:
+[2024-07-17T19:27:30.588Z] Catalog updated:
+[2024-07-17T19:27:31.702Z] Catalog updated:
+[2024-07-17T19:27:32.799Z] Catalog updated:
+[2024-07-17T19:27:33.815Z] Inside POST call to update weather forecast for All zips.
+[2024-07-17T19:27:33.820Z] DB Connection Status:  1
+[2024-07-17T19:27:33.822Z] DB Connection Established!
+[2024-07-17T19:27:33.933Z] Catalog updated:
+[2024-07-17T19:27:35.022Z] Catalog updated:
+[2024-07-17T19:27:38.045Z] Catalog updated:
+[2024-07-17T19:27:38.049Z] Catalog updated:
+[2024-07-17T19:27:39.199Z] Catalog updated:
+[2024-07-17T19:27:39.200Z] Catalog updated:
+[2024-07-17T19:27:40.336Z] Catalog updated:
+[2024-07-17T19:27:40.340Z] Catalog updated:
+[2024-07-17T19:27:41.451Z] Catalog updated:
+[2024-07-17T19:27:41.453Z] Catalog updated:
+[2024-07-17T19:27:42.540Z] Catalog updated:
+[2024-07-17T19:27:42.574Z] Catalog updated:
+[2024-07-17T19:27:43.643Z] Catalog updated:
+[2024-07-17T19:27:43.733Z] Catalog updated:
+[2024-07-17T19:27:44.724Z] Catalog updated:
+[2024-07-17T19:27:44.851Z] Catalog updated:
+[2024-07-17T19:27:45.826Z] Catalog updated:
+[2024-07-17T19:27:45.966Z] Catalog updated:
+[2024-07-17T19:27:46.913Z] Catalog updated:
+[2024-07-17T19:27:47.082Z] Catalog updated:
+[2024-07-17T19:27:47.990Z] Catalog updated:
+[2024-07-17T19:27:48.213Z] Catalog updated:
+[2024-07-17T19:27:49.086Z] Catalog updated:
+[2024-07-17T19:27:49.362Z] Catalog updated:
+[2024-07-17T19:27:50.172Z] Catalog updated:
+[2024-07-17T19:27:50.501Z] Catalog updated:
+[2024-07-17T19:27:51.280Z] Catalog updated:
+[2024-07-17T19:27:51.771Z] Catalog updated:
+[2024-07-17T19:27:52.370Z] Catalog updated:
+[2024-07-17T19:27:52.901Z] Catalog updated:
+[2024-07-17T19:27:53.452Z] Catalog updated:
+[2024-07-17T19:27:54.118Z] Catalog updated:
+[2024-07-17T19:27:54.557Z] Catalog updated:
+[2024-07-17T19:27:55.230Z] Catalog updated:
+[2024-07-17T19:27:55.683Z] Catalog updated:
+[2024-07-17T19:27:56.364Z] Catalog updated:
+[2024-07-17T19:27:56.823Z] Catalog updated:
+[2024-07-17T19:27:57.519Z] Catalog updated:
+[2024-07-17T19:27:57.921Z] Catalog updated:
+[2024-07-17T19:27:58.649Z] Catalog updated:
+[2024-07-17T19:27:59.009Z] Catalog updated:
+[2024-07-17T19:27:59.787Z] Catalog updated:
+[2024-07-17T19:28:00.113Z] Catalog updated:
+[2024-07-17T19:28:01.203Z] Catalog updated:
+[2024-07-17T19:28:01.406Z] Catalog updated:
+[2024-07-17T19:28:02.314Z] Catalog updated:
+[2024-07-17T19:28:02.495Z] Catalog updated:
+[2024-07-17T19:28:03.483Z] Catalog updated:
+[2024-07-17T19:28:03.599Z] Catalog updated:
+[2024-07-17T19:28:04.605Z] Catalog updated:
+[2024-07-17T19:28:04.707Z] Catalog updated:
+[2024-07-17T19:28:05.741Z] Catalog updated:
+[2024-07-17T19:28:05.825Z] Catalog updated:
+[2024-07-17T19:28:06.888Z] Catalog updated:
+[2024-07-17T19:28:07.036Z] Catalog updated:
+[2024-07-17T19:28:08.029Z] Catalog updated:
+[2024-07-17T19:28:08.150Z] Catalog updated:
+[2024-07-17T19:28:09.150Z] Catalog updated:
+[2024-07-17T19:28:09.280Z] Catalog updated:
+[2024-07-17T19:28:10.292Z] Catalog updated:
+[2024-07-17T19:28:10.366Z] Catalog updated:
+[2024-07-17T19:28:11.460Z] Catalog updated:
+[2024-07-17T19:28:11.484Z] Catalog updated:
+[2024-07-17T19:28:12.594Z] Catalog updated:
+[2024-07-17T19:28:12.598Z] Catalog updated:
+[2024-07-17T19:28:13.724Z] Catalog updated:
+[2024-07-17T19:28:13.727Z] Catalog updated:
+[2024-07-17T19:28:14.819Z] Catalog updated:
+[2024-07-17T19:28:14.879Z] Catalog updated:
+[2024-07-17T19:28:15.895Z] Catalog updated:
+[2024-07-17T19:28:16.021Z] Catalog updated:
+[2024-07-17T19:28:16.993Z] Catalog updated:
+[2024-07-17T19:28:17.158Z] Catalog updated:
+[2024-07-17T19:28:18.084Z] Catalog updated:
+[2024-07-17T19:28:18.316Z] Catalog updated:
+[2024-07-17T19:28:19.179Z] Catalog updated:
+[2024-07-17T19:28:19.440Z] Catalog updated:
+[2024-07-17T19:28:20.288Z] Catalog updated:
+[2024-07-17T19:28:20.568Z] Catalog updated:
+[2024-07-17T19:28:21.409Z] Catalog updated:
+[2024-07-17T19:28:21.709Z] Catalog updated:
+[2024-07-17T19:28:22.518Z] Catalog updated:
+[2024-07-17T19:28:22.885Z] Catalog updated:
+[2024-07-17T19:28:23.664Z] Catalog updated:
+[2024-07-17T19:28:24.031Z] Catalog updated:
+[2024-07-17T19:28:24.754Z] Catalog updated:
+[2024-07-17T19:28:25.198Z] Catalog updated:
+[2024-07-17T19:28:25.850Z] Catalog updated:
+[2024-07-17T19:28:26.322Z] Catalog updated:
+[2024-07-17T19:28:26.944Z] Catalog updated:
+[2024-07-17T19:28:27.472Z] Catalog updated:
+[2024-07-17T19:28:28.043Z] Catalog updated:
+[2024-07-17T19:28:28.626Z] Catalog updated:
+[2024-07-17T19:28:29.130Z] Catalog updated:
+[2024-07-17T19:28:29.804Z] Catalog updated:
+[2024-07-17T19:28:30.235Z] Catalog updated:
+[2024-07-17T19:28:30.915Z] Catalog updated:
+[2024-07-17T19:28:31.348Z] Catalog updated:
+[2024-07-17T19:28:32.058Z] Catalog updated:
+[2024-07-17T19:28:32.450Z] Catalog updated:
+[2024-07-17T19:28:54.054Z] Inside POST call to update weather forecast for All zips.
+[2024-07-17T19:28:54.533Z] DB Connection Status:  1
+[2024-07-17T19:28:54.534Z] DB Connection Established!
+[2024-07-17T19:28:58.886Z] Catalog updated:
+[2024-07-17T19:29:00.068Z] Catalog updated:
+[2024-07-17T19:29:01.581Z] Catalog updated:
+[2024-07-17T19:29:02.752Z] Catalog updated:
+[2024-07-17T19:29:03.936Z] Catalog updated:
+[2024-07-17T19:29:05.099Z] Catalog updated:
+[2024-07-17T19:29:06.223Z] Catalog updated:
+[2024-07-17T19:29:07.399Z] Catalog updated:
+[2024-07-17T19:29:08.556Z] Catalog updated:
+[2024-07-17T19:29:09.704Z] Catalog updated:
+[2024-07-17T19:29:10.818Z] Catalog updated:
+[2024-07-17T19:29:11.972Z] Catalog updated:
+[2024-07-17T19:29:13.147Z] Catalog updated:
+[2024-07-17T19:29:14.278Z] Catalog updated:
+[2024-07-17T19:29:15.420Z] Catalog updated:
+[2024-07-17T19:29:16.567Z] Catalog updated:
+[2024-07-17T19:29:17.713Z] Catalog updated:
+[2024-07-17T19:29:18.872Z] Catalog updated:
+[2024-07-17T19:29:20.059Z] Catalog updated:
+[2024-07-17T19:29:21.212Z] Catalog updated:
+[2024-07-17T19:29:22.344Z] Catalog updated:
+[2024-07-17T19:29:23.473Z] Catalog updated:
+[2024-07-17T19:29:24.586Z] Catalog updated:
+[2024-07-17T19:29:25.718Z] Catalog updated:
+[2024-07-17T19:29:26.845Z] Catalog updated:
+[2024-07-17T19:29:27.995Z] Catalog updated:
+[2024-07-17T19:29:29.162Z] Catalog updated:
+[2024-07-17T19:29:30.334Z] Catalog updated:
+[2024-07-17T19:29:31.519Z] Catalog updated:
+[2024-07-17T19:29:32.650Z] Catalog updated:
+[2024-07-17T19:29:33.848Z] Catalog updated:
+[2024-07-17T19:29:35.011Z] Catalog updated:
+[2024-07-17T19:29:36.172Z] Catalog updated:
+[2024-07-17T19:29:37.318Z] Catalog updated:
+[2024-07-17T19:29:38.428Z] Catalog updated:
+[2024-07-17T19:29:39.557Z] Catalog updated:
+[2024-07-17T19:29:40.713Z] Catalog updated:
+[2024-07-17T19:29:41.844Z] Catalog updated:
+[2024-07-17T19:29:42.993Z] Catalog updated:
+[2024-07-17T19:29:44.147Z] Catalog updated:
+[2024-07-17T19:29:45.267Z] Catalog updated:
+[2024-07-17T19:29:46.417Z] Catalog updated:
+[2024-07-17T19:29:47.542Z] Catalog updated:
+[2024-07-17T19:29:48.697Z] Catalog updated:
+[2024-07-17T19:29:49.864Z] Catalog updated:
+[2024-07-17T19:29:50.999Z] Catalog updated:
+[2024-07-17T19:30:07.744Z] Inside POST call to update weather forecast for All zips.
+[2024-07-17T19:30:08.268Z] DB Connection Status:  1
+[2024-07-17T19:30:08.269Z] DB Connection Established!
+[2024-07-17T19:36:25.222Z] Inside POST call to update weather forecast for All zips.
+[2024-07-17T19:36:25.633Z] DB Connection Status:  1
+[2024-07-17T19:36:25.634Z] DB Connection Established!
+[2024-07-17T19:36:29.570Z] Zip Codes Processed:  50
+[2024-07-17T19:36:30.729Z] Zip Codes Processed:  100
+[2024-07-17T19:36:31.891Z] Zip Codes Processed:  150
+[2024-07-17T19:36:33.157Z] Zip Codes Processed:  200
+[2024-07-17T19:36:34.335Z] Zip Codes Processed:  250
+[2024-07-17T19:36:35.567Z] Zip Codes Processed:  300
+[2024-07-17T19:36:36.731Z] Zip Codes Processed:  350
+[2024-07-17T19:36:37.912Z] Zip Codes Processed:  400
+[2024-07-17T19:36:39.078Z] Zip Codes Processed:  450
+[2024-07-17T19:36:40.249Z] Zip Codes Processed:  500
+[2024-07-17T19:36:41.446Z] Zip Codes Processed:  550
+[2024-07-17T19:36:42.588Z] Zip Codes Processed:  600
+[2024-07-17T19:36:43.769Z] Zip Codes Processed:  650
+[2024-07-17T19:36:44.911Z] Zip Codes Processed:  700
+[2024-07-17T19:36:46.076Z] Zip Codes Processed:  750
+[2024-07-17T19:36:47.217Z] Zip Codes Processed:  800
+[2024-07-17T19:36:48.386Z] Zip Codes Processed:  850
+[2024-07-17T19:36:49.512Z] Zip Codes Processed:  900
+[2024-07-17T19:36:50.690Z] Zip Codes Processed:  950
+[2024-07-17T19:36:51.818Z] Zip Codes Processed:  1000
+[2024-07-17T19:36:52.978Z] Zip Codes Processed:  1050
+[2024-07-17T19:36:54.104Z] Zip Codes Processed:  1100
+[2024-07-17T19:36:55.256Z] Zip Codes Processed:  1150
+[2024-07-17T19:36:56.390Z] Zip Codes Processed:  1200
+[2024-07-17T19:36:57.552Z] Zip Codes Processed:  1250
+[2024-07-17T19:36:58.680Z] Zip Codes Processed:  1300
+[2024-07-17T19:36:59.815Z] Zip Codes Processed:  1350
+[2024-07-17T19:37:01.077Z] Zip Codes Processed:  1400
+[2024-07-17T19:37:02.213Z] Zip Codes Processed:  1450
+[2024-07-17T19:37:03.360Z] Zip Codes Processed:  1500
+[2024-07-17T19:37:04.520Z] Zip Codes Processed:  1550
+[2024-07-17T19:37:05.660Z] Zip Codes Processed:  1600
+[2024-07-17T19:37:06.787Z] Zip Codes Processed:  1650
+[2024-07-17T19:37:07.913Z] Zip Codes Processed:  1700
+[2024-07-17T19:37:09.045Z] Zip Codes Processed:  1750
+[2024-07-17T19:37:10.211Z] Zip Codes Processed:  1800
+[2024-07-17T19:37:11.401Z] Zip Codes Processed:  1850
+[2024-07-17T19:37:12.561Z] Zip Codes Processed:  1900
+[2024-07-17T19:37:13.689Z] Zip Codes Processed:  1950
+[2024-07-17T19:37:14.804Z] Zip Codes Processed:  2000
+[2024-07-17T19:37:15.976Z] Zip Codes Processed:  2050
+[2024-07-17T19:37:17.111Z] Zip Codes Processed:  2100
+[2024-07-17T19:37:18.263Z] Zip Codes Processed:  2150
+[2024-07-17T19:37:19.422Z] Zip Codes Processed:  2200
+[2024-07-17T19:37:20.559Z] Zip Codes Processed:  2250
+[2024-07-17T19:37:21.678Z] Zip Codes Processed:  2300
+[2024-07-17T19:37:22.856Z] Zip Codes Processed:  2350
+[2024-07-17T19:37:23.978Z] Zip Codes Processed:  2400
+[2024-07-17T19:37:25.116Z] Zip Codes Processed:  2450
+[2024-07-17T19:37:26.254Z] Zip Codes Processed:  2500
+[2024-07-17T19:37:27.399Z] Zip Codes Processed:  2550
+[2024-07-17T19:37:28.531Z] Zip Codes Processed:  2600
+[2024-07-17T19:37:29.684Z] Zip Codes Processed:  2650
+[2024-07-17T19:37:30.801Z] Zip Codes Processed:  2700
+[2024-07-17T19:37:31.938Z] Zip Codes Processed:  2750
+[2024-07-17T19:37:33.077Z] Zip Codes Processed:  2800
+[2024-07-17T19:37:34.241Z] Zip Codes Processed:  2850
+[2024-07-17T19:37:35.399Z] Zip Codes Processed:  2900
+[2024-07-17T19:37:36.524Z] Zip Codes Processed:  2950
+[2024-07-17T19:37:37.653Z] Zip Codes Processed:  3000
+[2024-07-17T19:37:38.787Z] Zip Codes Processed:  3050
+[2024-07-17T19:37:39.939Z] Zip Codes Processed:  3100
+[2024-07-17T19:37:41.074Z] Zip Codes Processed:  3150
+[2024-07-17T19:37:42.214Z] Zip Codes Processed:  3200
+[2024-07-17T19:37:43.366Z] Zip Codes Processed:  3250
+[2024-07-17T19:37:44.525Z] Zip Codes Processed:  3300
+[2024-07-17T19:37:45.643Z] Zip Codes Processed:  3350
+[2024-07-17T19:37:46.802Z] Zip Codes Processed:  3400
+[2024-07-17T19:37:47.967Z] Zip Codes Processed:  3450
+[2024-07-17T19:37:49.091Z] Zip Codes Processed:  3500
+[2024-07-17T19:37:50.245Z] Zip Codes Processed:  3550
+[2024-07-17T19:37:51.374Z] Zip Codes Processed:  3600
+[2024-07-17T19:37:52.539Z] Zip Codes Processed:  3650
+[2024-07-17T19:37:53.659Z] Zip Codes Processed:  3700
+[2024-07-17T19:37:54.784Z] Zip Codes Processed:  3750
+[2024-07-17T19:37:55.912Z] Zip Codes Processed:  3800
+[2024-07-17T19:37:57.080Z] Zip Codes Processed:  3850
+[2024-07-17T19:37:58.196Z] Zip Codes Processed:  3900
+[2024-07-17T19:37:59.332Z] Zip Codes Processed:  3950
+[2024-07-17T19:38:00.456Z] Zip Codes Processed:  4000
+[2024-07-17T19:38:01.798Z] Zip Codes Processed:  4050
+[2024-07-17T19:38:02.935Z] Zip Codes Processed:  4100
+[2024-07-17T19:38:04.070Z] Zip Codes Processed:  4150
+[2024-07-17T19:38:05.176Z] Zip Codes Processed:  4200
+[2024-07-17T19:38:06.307Z] Zip Codes Processed:  4250
+[2024-07-17T19:38:07.437Z] Zip Codes Processed:  4300
+[2024-07-17T19:38:08.600Z] Zip Codes Processed:  4350
+[2024-07-17T19:38:09.786Z] Zip Codes Processed:  4400
+[2024-07-17T19:38:10.903Z] Zip Codes Processed:  4450
+[2024-07-17T19:38:12.032Z] Zip Codes Processed:  4500
+[2024-07-17T19:38:13.165Z] Zip Codes Processed:  4550
+[2024-07-17T19:38:14.323Z] Zip Codes Processed:  4600
+[2024-07-17T19:38:15.438Z] Zip Codes Processed:  4650
+[2024-07-17T19:38:16.708Z] Zip Codes Processed:  4700
+[2024-07-17T19:38:17.854Z] Zip Codes Processed:  4750
+[2024-07-17T19:38:18.978Z] Zip Codes Processed:  4800
+[2024-07-17T19:38:20.139Z] Zip Codes Processed:  4850
+[2024-07-17T19:38:21.269Z] Zip Codes Processed:  4900
+[2024-07-17T19:38:22.424Z] Zip Codes Processed:  4950
+[2024-07-17T19:38:23.552Z] Zip Codes Processed:  5000
+[2024-07-17T19:38:24.718Z] Zip Codes Processed:  5050
+[2024-07-17T19:38:25.850Z] Zip Codes Processed:  5100
+[2024-07-17T19:38:26.999Z] Zip Codes Processed:  5150
+[2024-07-17T19:38:28.160Z] Zip Codes Processed:  5200
+[2024-07-17T19:38:29.332Z] Zip Codes Processed:  5250
+[2024-07-17T19:38:30.647Z] Zip Codes Processed:  5300
+[2024-07-17T19:38:31.784Z] Zip Codes Processed:  5350
+[2024-07-17T19:38:32.933Z] Zip Codes Processed:  5400
+[2024-07-17T19:38:34.089Z] Zip Codes Processed:  5450
+[2024-07-17T19:38:35.217Z] Zip Codes Processed:  5500
+[2024-07-17T19:38:36.384Z] Zip Codes Processed:  5550
+[2024-07-17T19:38:37.548Z] Zip Codes Processed:  5600
+[2024-07-17T19:38:38.677Z] Zip Codes Processed:  5650
+[2024-07-17T19:38:39.817Z] Zip Codes Processed:  5700
+[2024-07-17T19:38:40.971Z] Zip Codes Processed:  5750
+[2024-07-17T19:38:42.114Z] Zip Codes Processed:  5800
+[2024-07-17T19:38:43.292Z] Zip Codes Processed:  5850
+[2024-07-17T19:38:44.418Z] Zip Codes Processed:  5900
+[2024-07-17T19:38:45.557Z] Zip Codes Processed:  5950
+[2024-07-17T19:38:46.742Z] Zip Codes Processed:  6000
+[2024-07-17T19:38:47.847Z] Zip Codes Processed:  6050
+[2024-07-17T19:38:49.011Z] Zip Codes Processed:  6100
+[2024-07-17T19:38:50.152Z] Zip Codes Processed:  6150
+[2024-07-17T19:38:51.274Z] Zip Codes Processed:  6200
+[2024-07-17T19:38:52.417Z] Zip Codes Processed:  6250
+[2024-07-17T19:38:53.610Z] Zip Codes Processed:  6300
+[2024-07-17T19:38:54.729Z] Zip Codes Processed:  6350
+[2024-07-17T19:38:55.900Z] Zip Codes Processed:  6400
+[2024-07-17T19:38:57.058Z] Zip Codes Processed:  6450
+[2024-07-17T19:38:58.183Z] Zip Codes Processed:  6500
+[2024-07-17T19:38:59.331Z] Zip Codes Processed:  6550
+[2024-07-17T19:39:00.535Z] Zip Codes Processed:  6600
+[2024-07-17T19:39:01.797Z] Zip Codes Processed:  6650
+[2024-07-17T19:39:02.913Z] Zip Codes Processed:  6700
+[2024-07-17T19:39:04.090Z] Zip Codes Processed:  6750
+[2024-07-17T19:39:05.247Z] Zip Codes Processed:  6800
+[2024-07-17T19:39:06.396Z] Zip Codes Processed:  6850
+[2024-07-17T19:39:07.527Z] Zip Codes Processed:  6900
+[2024-07-17T19:39:08.684Z] Zip Codes Processed:  6950
+[2024-07-17T19:39:09.819Z] Zip Codes Processed:  7000
+[2024-07-17T19:39:10.995Z] Zip Codes Processed:  7050
+[2024-07-17T19:39:12.134Z] Zip Codes Processed:  7100
+[2024-07-17T19:39:13.281Z] Zip Codes Processed:  7150
+[2024-07-17T19:39:14.466Z] Zip Codes Processed:  7200
+[2024-07-17T19:39:15.598Z] Zip Codes Processed:  7250
+[2024-07-17T19:39:16.752Z] Zip Codes Processed:  7300
+[2024-07-17T19:39:17.898Z] Zip Codes Processed:  7350
+[2024-07-17T19:39:19.152Z] Zip Codes Processed:  7400
+[2024-07-17T19:39:20.315Z] Zip Codes Processed:  7450
+[2024-07-17T19:39:21.477Z] Zip Codes Processed:  7500
+[2024-07-17T19:39:22.598Z] Zip Codes Processed:  7550
+[2024-07-17T19:39:23.758Z] Zip Codes Processed:  7600
+[2024-07-17T19:39:24.919Z] Zip Codes Processed:  7650
+[2024-07-17T19:39:26.044Z] Zip Codes Processed:  7700
+[2024-07-17T19:39:27.159Z] Zip Codes Processed:  7750
+[2024-07-17T19:39:28.416Z] Zip Codes Processed:  7800
+[2024-07-17T19:39:29.578Z] Zip Codes Processed:  7850
+[2024-07-17T19:39:30.698Z] Zip Codes Processed:  7900
+[2024-07-17T19:39:31.853Z] Zip Codes Processed:  7950
+[2024-07-17T19:39:32.989Z] Zip Codes Processed:  8000
+[2024-07-17T19:39:34.126Z] Zip Codes Processed:  8050
+[2024-07-17T19:39:35.283Z] Zip Codes Processed:  8100
+[2024-07-17T19:39:36.392Z] Zip Codes Processed:  8150
+[2024-07-17T19:39:37.527Z] Zip Codes Processed:  8200
+[2024-07-17T19:39:38.681Z] Zip Codes Processed:  8250
+[2024-07-17T19:39:39.810Z] Zip Codes Processed:  8300
+[2024-07-17T19:39:40.940Z] Zip Codes Processed:  8350
+[2024-07-17T19:39:42.077Z] Zip Codes Processed:  8400
+[2024-07-17T19:39:43.233Z] Zip Codes Processed:  8450
+[2024-07-17T19:39:44.384Z] Zip Codes Processed:  8500
+[2024-07-17T19:39:45.535Z] Zip Codes Processed:  8550
+[2024-07-17T19:39:46.670Z] Zip Codes Processed:  8600
+[2024-07-17T19:39:47.798Z] Zip Codes Processed:  8650
+[2024-07-17T19:39:48.930Z] Zip Codes Processed:  8700
+[2024-07-17T19:39:50.101Z] Zip Codes Processed:  8750
+[2024-07-17T19:39:51.296Z] Zip Codes Processed:  8800
+[2024-07-17T19:39:52.434Z] Zip Codes Processed:  8850
+[2024-07-17T19:39:53.583Z] Zip Codes Processed:  8900
+[2024-07-17T19:39:54.789Z] Zip Codes Processed:  8950
+[2024-07-17T19:39:55.955Z] Zip Codes Processed:  9000
+[2024-07-17T19:39:57.114Z] Zip Codes Processed:  9050
+[2024-07-17T19:39:58.241Z] Zip Codes Processed:  9100
+[2024-07-17T19:39:59.364Z] Zip Codes Processed:  9150
+[2024-07-17T19:40:00.583Z] Zip Codes Processed:  9200
+[2024-07-17T19:40:01.954Z] Zip Codes Processed:  9250
+[2024-07-17T19:40:03.117Z] Zip Codes Processed:  9300
+[2024-07-17T19:40:04.271Z] Zip Codes Processed:  9350
+[2024-07-17T19:40:05.441Z] Zip Codes Processed:  9400
+[2024-07-17T19:40:06.562Z] Zip Codes Processed:  9450
+[2024-07-17T19:40:07.714Z] Zip Codes Processed:  9500
+[2024-07-17T19:40:08.862Z] Zip Codes Processed:  9550
+[2024-07-17T19:40:10.006Z] Zip Codes Processed:  9600
+[2024-07-17T19:40:11.138Z] Zip Codes Processed:  9650
+[2024-07-17T19:40:13.032Z] Zip Codes Processed:  9700
+[2024-07-17T19:40:14.180Z] Zip Codes Processed:  9750
+[2024-07-17T19:40:15.343Z] Zip Codes Processed:  9800
+[2024-07-17T19:40:16.483Z] Zip Codes Processed:  9850
+[2024-07-17T19:40:17.791Z] Zip Codes Processed:  9900
+[2024-07-17T19:40:18.934Z] Zip Codes Processed:  9950
+[2024-07-17T19:40:20.088Z] Zip Codes Processed:  10000
+[2024-07-17T19:40:21.305Z] Zip Codes Processed:  10050
+[2024-07-17T19:40:22.466Z] Zip Codes Processed:  10100
+[2024-07-17T19:40:23.584Z] Zip Codes Processed:  10150
+[2024-07-17T19:40:24.743Z] Zip Codes Processed:  10200
+[2024-07-17T19:40:25.937Z] Zip Codes Processed:  10250
+[2024-07-17T19:40:27.657Z] Zip Codes Processed:  10300
+[2024-07-17T19:40:28.832Z] Zip Codes Processed:  10350
+[2024-07-17T19:40:29.959Z] Zip Codes Processed:  10400
+[2024-07-17T19:40:31.114Z] Zip Codes Processed:  10450
+[2024-07-17T19:40:32.544Z] Zip Codes Processed:  10500
+[2024-07-17T19:40:33.698Z] Zip Codes Processed:  10550
+[2024-07-17T19:40:34.817Z] Zip Codes Processed:  10600
+[2024-07-17T19:40:35.983Z] Zip Codes Processed:  10650
+[2024-07-17T19:40:37.141Z] Zip Codes Processed:  10700
+[2024-07-17T19:40:38.294Z] Zip Codes Processed:  10750
+[2024-07-17T19:40:39.428Z] Zip Codes Processed:  10800
+[2024-07-17T19:40:40.557Z] Zip Codes Processed:  10850
+[2024-07-17T19:40:41.732Z] Zip Codes Processed:  10900
+[2024-07-17T19:40:42.873Z] Zip Codes Processed:  10950
+[2024-07-17T19:40:44.028Z] Zip Codes Processed:  11000
+[2024-07-17T19:40:45.147Z] Zip Codes Processed:  11050
+[2024-07-17T19:40:46.312Z] Zip Codes Processed:  11100
+[2024-07-17T19:40:47.465Z] Zip Codes Processed:  11150
+[2024-07-17T19:40:48.603Z] Zip Codes Processed:  11200
+[2024-07-17T19:40:49.761Z] Zip Codes Processed:  11250
+[2024-07-17T19:40:50.889Z] Zip Codes Processed:  11300
+[2024-07-17T19:40:52.022Z] Zip Codes Processed:  11350
+[2024-07-17T19:40:53.157Z] Zip Codes Processed:  11400
+[2024-07-17T19:40:54.316Z] Zip Codes Processed:  11450
+[2024-07-17T19:40:55.438Z] Zip Codes Processed:  11500
+[2024-07-17T19:40:56.605Z] Zip Codes Processed:  11550
+[2024-07-17T19:40:57.782Z] Zip Codes Processed:  11600
+[2024-07-17T19:40:58.935Z] Zip Codes Processed:  11650
+[2024-07-17T19:41:00.084Z] Zip Codes Processed:  11700
+[2024-07-17T19:41:01.290Z] Zip Codes Processed:  11750
+[2024-07-17T19:41:02.414Z] Zip Codes Processed:  11800
+[2024-07-17T19:41:03.578Z] Zip Codes Processed:  11850
+[2024-07-17T19:41:04.714Z] Zip Codes Processed:  11900
+[2024-07-17T19:41:05.827Z] Zip Codes Processed:  11950
+[2024-07-17T19:41:06.955Z] Zip Codes Processed:  12000
+[2024-07-17T19:41:08.111Z] Zip Codes Processed:  12050
+[2024-07-17T19:41:09.257Z] Zip Codes Processed:  12100
+[2024-07-17T19:41:10.381Z] Zip Codes Processed:  12150
+[2024-07-17T19:41:11.519Z] Zip Codes Processed:  12200
+[2024-07-17T19:41:12.660Z] Zip Codes Processed:  12250
+[2024-07-17T19:41:13.788Z] Zip Codes Processed:  12300
+[2024-07-17T19:41:14.930Z] Zip Codes Processed:  12350
+[2024-07-17T19:41:16.115Z] Zip Codes Processed:  12400
+[2024-07-17T19:41:17.256Z] Zip Codes Processed:  12450
+[2024-07-17T19:41:18.408Z] Zip Codes Processed:  12500
+[2024-07-17T19:41:20.110Z] Zip Codes Processed:  12550
+[2024-07-17T19:41:21.241Z] Zip Codes Processed:  12600
+[2024-07-17T19:41:22.348Z] Zip Codes Processed:  12650
+[2024-07-17T19:41:23.506Z] Zip Codes Processed:  12700
+[2024-07-17T19:41:24.628Z] Zip Codes Processed:  12750
+[2024-07-17T19:41:25.780Z] Zip Codes Processed:  12800
+[2024-07-17T19:41:26.937Z] Zip Codes Processed:  12850
+[2024-07-17T19:41:28.100Z] Zip Codes Processed:  12900
+[2024-07-17T19:41:29.226Z] Zip Codes Processed:  12950
+[2024-07-17T19:41:30.377Z] Zip Codes Processed:  13000
+[2024-07-17T19:41:31.516Z] Zip Codes Processed:  13050
+[2024-07-17T19:41:32.643Z] Zip Codes Processed:  13100
+[2024-07-17T19:41:33.800Z] Zip Codes Processed:  13150
+[2024-07-17T19:41:34.935Z] Zip Codes Processed:  13200
+[2024-07-17T19:41:36.076Z] Zip Codes Processed:  13250
+[2024-07-17T19:41:37.208Z] Zip Codes Processed:  13300
+[2024-07-17T19:41:38.337Z] Zip Codes Processed:  13350
+[2024-07-17T19:41:39.485Z] Zip Codes Processed:  13400
+[2024-07-17T19:41:40.590Z] Zip Codes Processed:  13450
+[2024-07-17T19:41:41.737Z] Zip Codes Processed:  13500
+[2024-07-17T19:41:42.886Z] Zip Codes Processed:  13550
+[2024-07-17T19:41:44.019Z] Zip Codes Processed:  13600
+[2024-07-17T19:41:45.182Z] Zip Codes Processed:  13650
+[2024-07-17T19:41:46.331Z] Zip Codes Processed:  13700
+[2024-07-17T19:41:47.451Z] Zip Codes Processed:  13750
+[2024-07-17T19:41:48.599Z] Zip Codes Processed:  13800
+[2024-07-17T19:41:49.740Z] Zip Codes Processed:  13850
+[2024-07-17T19:41:50.880Z] Zip Codes Processed:  13900
+[2024-07-17T19:41:52.047Z] Zip Codes Processed:  13950
+[2024-07-17T19:41:53.203Z] Zip Codes Processed:  14000
+[2024-07-17T19:41:54.368Z] Zip Codes Processed:  14050
+[2024-07-17T19:41:55.514Z] Zip Codes Processed:  14100
+[2024-07-17T19:41:56.657Z] Zip Codes Processed:  14150
+[2024-07-17T19:41:57.793Z] Zip Codes Processed:  14200
+[2024-07-17T19:41:58.913Z] Zip Codes Processed:  14250
+[2024-07-17T19:42:00.083Z] Zip Codes Processed:  14300
+[2024-07-17T19:42:01.677Z] Zip Codes Processed:  14350
+[2024-07-17T19:42:02.807Z] Zip Codes Processed:  14400
+[2024-07-17T19:42:03.928Z] Zip Codes Processed:  14450
+[2024-07-17T19:42:05.071Z] Zip Codes Processed:  14500
+[2024-07-17T19:42:06.194Z] Zip Codes Processed:  14550
+[2024-07-17T19:42:07.355Z] Zip Codes Processed:  14600
+[2024-07-17T19:42:08.484Z] Zip Codes Processed:  14650
+[2024-07-17T19:42:09.616Z] Zip Codes Processed:  14700
+[2024-07-17T19:42:10.777Z] Zip Codes Processed:  14750
+[2024-07-17T19:42:11.905Z] Zip Codes Processed:  14800
+[2024-07-17T19:42:13.038Z] Zip Codes Processed:  14850
+[2024-07-17T19:42:14.205Z] Zip Codes Processed:  14900
+[2024-07-17T19:42:15.340Z] Zip Codes Processed:  14950
+[2024-07-17T19:42:16.496Z] Zip Codes Processed:  15000
+[2024-07-17T19:42:17.668Z] Zip Codes Processed:  15050
+[2024-07-17T19:42:18.803Z] Zip Codes Processed:  15100
+[2024-07-17T19:42:19.940Z] Zip Codes Processed:  15150
+[2024-07-17T19:42:21.084Z] Zip Codes Processed:  15200
+[2024-07-17T19:42:22.218Z] Zip Codes Processed:  15250
+[2024-07-17T19:42:23.348Z] Zip Codes Processed:  15300
+[2024-07-17T19:42:24.473Z] Zip Codes Processed:  15350
+[2024-07-17T19:42:25.601Z] Zip Codes Processed:  15400
+[2024-07-17T19:42:26.899Z] Zip Codes Processed:  15450
+[2024-07-17T19:42:28.062Z] Zip Codes Processed:  15500
+[2024-07-17T19:42:29.193Z] Zip Codes Processed:  15550
+[2024-07-17T19:42:30.334Z] Zip Codes Processed:  15600
+[2024-07-17T19:42:31.467Z] Zip Codes Processed:  15650
+[2024-07-17T19:42:32.624Z] Zip Codes Processed:  15700
+[2024-07-17T19:42:33.746Z] Zip Codes Processed:  15750
+[2024-07-17T19:42:34.881Z] Zip Codes Processed:  15800
+[2024-07-17T19:42:36.033Z] Zip Codes Processed:  15850
+[2024-07-17T19:42:37.222Z] Zip Codes Processed:  15900
+[2024-07-17T19:42:38.372Z] Zip Codes Processed:  15950
+[2024-07-17T19:42:39.525Z] Zip Codes Processed:  16000
+[2024-07-17T19:42:40.690Z] Zip Codes Processed:  16050
+[2024-07-17T19:42:41.857Z] Zip Codes Processed:  16100
+[2024-07-17T19:42:42.990Z] Zip Codes Processed:  16150
+[2024-07-17T19:42:44.117Z] Zip Codes Processed:  16200
+[2024-07-17T19:42:45.256Z] Zip Codes Processed:  16250
+[2024-07-17T19:42:46.386Z] Zip Codes Processed:  16300
+[2024-07-17T19:42:47.596Z] Zip Codes Processed:  16350
+[2024-07-17T19:42:48.733Z] Zip Codes Processed:  16400
+[2024-07-17T19:42:49.851Z] Zip Codes Processed:  16450
+[2024-07-17T19:42:50.983Z] Zip Codes Processed:  16500
+[2024-07-17T19:42:52.119Z] Zip Codes Processed:  16550
+[2024-07-17T19:42:53.283Z] Zip Codes Processed:  16600
+[2024-07-17T19:42:54.443Z] Zip Codes Processed:  16650
+[2024-07-17T19:42:55.602Z] Zip Codes Processed:  16700
+[2024-07-17T19:42:56.726Z] Zip Codes Processed:  16750
+[2024-07-17T19:42:57.861Z] Zip Codes Processed:  16800
+[2024-07-17T19:42:59.019Z] Zip Codes Processed:  16850
+[2024-07-17T19:43:00.162Z] Zip Codes Processed:  16900
+[2024-07-17T19:43:01.417Z] Zip Codes Processed:  16950
+[2024-07-17T19:43:02.539Z] Zip Codes Processed:  17000
+[2024-07-17T19:43:03.694Z] Zip Codes Processed:  17050
+[2024-07-17T19:43:04.864Z] Zip Codes Processed:  17100
+[2024-07-17T19:43:06.016Z] Zip Codes Processed:  17150
+[2024-07-17T19:43:07.178Z] Zip Codes Processed:  17200
+[2024-07-17T19:43:08.306Z] Zip Codes Processed:  17250
+[2024-07-17T19:43:09.461Z] Zip Codes Processed:  17300
+[2024-07-17T19:43:10.608Z] Zip Codes Processed:  17350
+[2024-07-17T19:43:11.748Z] Zip Codes Processed:  17400
+[2024-07-17T19:43:12.876Z] Zip Codes Processed:  17450
+[2024-07-17T19:43:14.032Z] Zip Codes Processed:  17500
+[2024-07-17T19:43:15.173Z] Zip Codes Processed:  17550
+[2024-07-17T19:43:16.318Z] Zip Codes Processed:  17600
+[2024-07-17T19:43:17.453Z] Zip Codes Processed:  17650
+[2024-07-17T19:43:18.613Z] Zip Codes Processed:  17700
+[2024-07-17T19:43:19.798Z] Zip Codes Processed:  17750
+[2024-07-17T19:43:20.962Z] Zip Codes Processed:  17800
+[2024-07-17T19:43:22.132Z] Zip Codes Processed:  17850
+[2024-07-17T19:43:23.345Z] Zip Codes Processed:  17900
+[2024-07-17T19:43:24.493Z] Zip Codes Processed:  17950
+[2024-07-17T19:43:25.643Z] Zip Codes Processed:  18000
+[2024-07-17T19:43:26.777Z] Zip Codes Processed:  18050
+[2024-07-17T19:43:27.921Z] Zip Codes Processed:  18100
+[2024-07-17T19:43:29.070Z] Zip Codes Processed:  18150
+[2024-07-17T19:43:30.238Z] Zip Codes Processed:  18200
+[2024-07-17T19:43:31.385Z] Zip Codes Processed:  18250
+[2024-07-17T19:43:32.547Z] Zip Codes Processed:  18300
+[2024-07-17T19:43:33.679Z] Zip Codes Processed:  18350
+[2024-07-17T19:43:34.815Z] Zip Codes Processed:  18400
+[2024-07-17T19:43:35.953Z] Zip Codes Processed:  18450
+[2024-07-17T19:43:37.084Z] Zip Codes Processed:  18500
+[2024-07-17T19:43:38.233Z] Zip Codes Processed:  18550
+[2024-07-17T19:43:39.346Z] Zip Codes Processed:  18600
+[2024-07-17T19:43:40.502Z] Zip Codes Processed:  18650
+[2024-07-17T19:43:41.635Z] Zip Codes Processed:  18700
+[2024-07-17T19:43:42.775Z] Zip Codes Processed:  18750
+[2024-07-17T19:43:43.940Z] Zip Codes Processed:  18800
+[2024-07-17T19:43:45.069Z] Zip Codes Processed:  18850
+[2024-07-17T19:43:46.268Z] Zip Codes Processed:  18900
+[2024-07-17T19:43:47.769Z] Zip Codes Processed:  18950
+[2024-07-17T19:43:48.928Z] Zip Codes Processed:  19000
+[2024-07-17T19:43:50.317Z] Zip Codes Processed:  19050
+[2024-07-17T19:43:51.593Z] Zip Codes Processed:  19100
+[2024-07-17T19:43:52.769Z] Zip Codes Processed:  19150
+[2024-07-17T19:43:53.915Z] Zip Codes Processed:  19200
+[2024-07-17T19:43:55.074Z] Zip Codes Processed:  19250
+[2024-07-17T19:43:56.207Z] Zip Codes Processed:  19300
+[2024-07-17T19:43:57.362Z] Zip Codes Processed:  19350
+[2024-07-17T19:43:58.556Z] Zip Codes Processed:  19400
+[2024-07-17T19:43:59.731Z] Zip Codes Processed:  19450
+[2024-07-17T19:44:00.925Z] Zip Codes Processed:  19500
+[2024-07-17T19:44:02.060Z] Zip Codes Processed:  19550
+[2024-07-17T19:44:03.215Z] Zip Codes Processed:  19600
+[2024-07-17T19:44:04.363Z] Zip Codes Processed:  19650
+[2024-07-17T19:44:05.541Z] Zip Codes Processed:  19700
+[2024-07-17T19:44:06.690Z] Zip Codes Processed:  19750
+[2024-07-17T19:44:07.821Z] Zip Codes Processed:  19800
+[2024-07-17T19:44:08.961Z] Zip Codes Processed:  19850
+[2024-07-17T19:44:10.082Z] Zip Codes Processed:  19900
+[2024-07-17T19:44:11.222Z] Zip Codes Processed:  19950
+[2024-07-17T19:44:12.347Z] Zip Codes Processed:  20000
+[2024-07-17T19:44:13.510Z] Zip Codes Processed:  20050
+[2024-07-17T19:44:14.655Z] Zip Codes Processed:  20100
+[2024-07-17T19:44:15.791Z] Zip Codes Processed:  20150
+[2024-07-17T19:44:16.968Z] Zip Codes Processed:  20200
+[2024-07-17T19:44:18.124Z] Zip Codes Processed:  20250
+[2024-07-17T19:44:19.249Z] Zip Codes Processed:  20300
+[2024-07-17T19:44:20.373Z] Zip Codes Processed:  20350
+[2024-07-17T19:44:21.532Z] Zip Codes Processed:  20400
+[2024-07-17T19:44:22.659Z] Zip Codes Processed:  20450
+[2024-07-17T19:44:23.861Z] Zip Codes Processed:  20500
+[2024-07-17T19:44:24.992Z] Zip Codes Processed:  20550
+[2024-07-17T19:44:26.108Z] Zip Codes Processed:  20600
+[2024-07-17T19:44:27.240Z] Zip Codes Processed:  20650
+[2024-07-17T19:44:28.374Z] Zip Codes Processed:  20700
+[2024-07-17T19:44:29.543Z] Zip Codes Processed:  20750
+[2024-07-17T19:44:30.683Z] Zip Codes Processed:  20800
+[2024-07-17T19:44:31.812Z] Zip Codes Processed:  20850
+[2024-07-17T19:44:32.959Z] Zip Codes Processed:  20900
+[2024-07-17T19:44:34.087Z] Zip Codes Processed:  20950
+[2024-07-17T19:44:35.230Z] Zip Codes Processed:  21000
+[2024-07-17T19:44:36.399Z] Zip Codes Processed:  21050
+[2024-07-17T19:44:37.562Z] Zip Codes Processed:  21100
+[2024-07-17T19:44:38.719Z] Zip Codes Processed:  21150
+[2024-07-17T19:44:39.872Z] Zip Codes Processed:  21200
+[2024-07-17T19:44:41.022Z] Zip Codes Processed:  21250
+[2024-07-17T19:44:42.163Z] Zip Codes Processed:  21300
+[2024-07-17T19:44:43.268Z] Zip Codes Processed:  21350
+[2024-07-17T19:44:44.412Z] Zip Codes Processed:  21400
+[2024-07-17T19:44:45.753Z] Zip Codes Processed:  21450
+[2024-07-17T19:44:46.911Z] Zip Codes Processed:  21500
+[2024-07-17T19:44:48.058Z] Zip Codes Processed:  21550
+[2024-07-17T19:44:49.247Z] Zip Codes Processed:  21600
+[2024-07-17T19:44:50.386Z] Zip Codes Processed:  21650
+[2024-07-17T19:44:51.547Z] Zip Codes Processed:  21700
+[2024-07-17T19:44:52.663Z] Zip Codes Processed:  21750
+[2024-07-17T19:44:53.825Z] Zip Codes Processed:  21800
+[2024-07-17T19:44:54.957Z] Zip Codes Processed:  21850
+[2024-07-17T19:44:56.107Z] Zip Codes Processed:  21900
+[2024-07-17T19:44:57.225Z] Zip Codes Processed:  21950
+[2024-07-17T19:44:58.368Z] Zip Codes Processed:  22000
+[2024-07-17T19:44:59.508Z] Zip Codes Processed:  22050
+[2024-07-17T19:45:00.833Z] Zip Codes Processed:  22100
+[2024-07-17T19:45:02.043Z] Zip Codes Processed:  22150
+[2024-07-17T19:45:03.181Z] Zip Codes Processed:  22200
+[2024-07-17T19:45:04.309Z] Zip Codes Processed:  22250
+[2024-07-17T19:45:05.457Z] Zip Codes Processed:  22300
+[2024-07-17T19:45:06.568Z] Zip Codes Processed:  22350
+[2024-07-17T19:45:07.739Z] Zip Codes Processed:  22400
+[2024-07-17T19:45:08.969Z] Zip Codes Processed:  22450
+[2024-07-17T19:45:10.145Z] Zip Codes Processed:  22500
+[2024-07-17T19:45:11.316Z] Zip Codes Processed:  22550
+[2024-07-17T19:45:12.500Z] Zip Codes Processed:  22600
+[2024-07-17T19:45:13.626Z] Zip Codes Processed:  22650
+[2024-07-17T19:45:14.736Z] Zip Codes Processed:  22700
+[2024-07-17T19:45:15.874Z] Zip Codes Processed:  22750
+[2024-07-17T19:45:17.029Z] Zip Codes Processed:  22800
+[2024-07-17T19:45:18.178Z] Zip Codes Processed:  22850
+[2024-07-17T19:45:19.347Z] Zip Codes Processed:  22900
+[2024-07-17T19:45:20.489Z] Zip Codes Processed:  22950
+[2024-07-17T19:45:22.141Z] Zip Codes Processed:  23000
+[2024-07-17T19:45:23.296Z] Zip Codes Processed:  23050
+[2024-07-17T19:45:24.418Z] Zip Codes Processed:  23100
+[2024-07-17T19:45:25.589Z] Zip Codes Processed:  23150
+[2024-07-17T19:45:26.743Z] Zip Codes Processed:  23200
+[2024-07-17T19:45:27.886Z] Zip Codes Processed:  23250
+[2024-07-17T19:45:29.044Z] Zip Codes Processed:  23300
+[2024-07-17T19:45:30.174Z] Zip Codes Processed:  23350
+[2024-07-17T19:45:31.324Z] Zip Codes Processed:  23400
+[2024-07-17T19:45:32.470Z] Zip Codes Processed:  23450
+[2024-07-17T19:45:33.642Z] Zip Codes Processed:  23500
+[2024-07-17T19:45:34.793Z] Zip Codes Processed:  23550
+[2024-07-17T19:45:35.944Z] Zip Codes Processed:  23600
+[2024-07-17T19:45:37.082Z] Zip Codes Processed:  23650
+[2024-07-17T19:45:38.234Z] Zip Codes Processed:  23700
+[2024-07-17T19:45:39.435Z] Zip Codes Processed:  23750
+[2024-07-17T19:45:40.584Z] Zip Codes Processed:  23800
+[2024-07-17T19:45:41.736Z] Zip Codes Processed:  23850
+[2024-07-17T19:45:42.911Z] Zip Codes Processed:  23900
+[2024-07-17T19:45:44.066Z] Zip Codes Processed:  23950
+[2024-07-17T19:45:45.209Z] Zip Codes Processed:  24000
+[2024-07-17T19:45:46.360Z] Zip Codes Processed:  24050
+[2024-07-17T19:45:47.471Z] Zip Codes Processed:  24100
+[2024-07-17T19:45:48.633Z] Zip Codes Processed:  24150
+[2024-07-17T19:45:49.790Z] Zip Codes Processed:  24200
+[2024-07-17T19:45:51.122Z] Zip Codes Processed:  24250
+[2024-07-17T19:45:52.257Z] Zip Codes Processed:  24300
+[2024-07-17T19:45:53.433Z] Zip Codes Processed:  24350
+[2024-07-17T19:45:54.621Z] Zip Codes Processed:  24400
+[2024-07-17T19:45:55.773Z] Zip Codes Processed:  24450
+[2024-07-17T19:45:56.886Z] Zip Codes Processed:  24500
+[2024-07-17T19:45:58.004Z] Zip Codes Processed:  24550
+[2024-07-17T19:45:59.165Z] Zip Codes Processed:  24600
+[2024-07-17T19:46:00.405Z] Zip Codes Processed:  24650
+[2024-07-17T19:46:01.594Z] Zip Codes Processed:  24700
+[2024-07-17T19:46:02.772Z] Zip Codes Processed:  24750
+[2024-07-17T19:46:03.899Z] Zip Codes Processed:  24800
+[2024-07-17T19:46:05.036Z] Zip Codes Processed:  24850
+[2024-07-17T19:46:06.162Z] Zip Codes Processed:  24900
+[2024-07-17T19:46:07.272Z] Zip Codes Processed:  24950
+[2024-07-17T19:46:08.411Z] Zip Codes Processed:  25000
+[2024-07-17T19:46:09.580Z] Zip Codes Processed:  25050
+[2024-07-17T19:46:10.759Z] Zip Codes Processed:  25100
+[2024-07-17T19:46:11.932Z] Zip Codes Processed:  25150
+[2024-07-17T19:46:13.085Z] Zip Codes Processed:  25200
+[2024-07-17T19:46:14.201Z] Zip Codes Processed:  25250
+[2024-07-17T19:46:15.322Z] Zip Codes Processed:  25300
+[2024-07-17T19:46:16.470Z] Zip Codes Processed:  25350
+[2024-07-17T19:46:17.617Z] Zip Codes Processed:  25400
+[2024-07-17T19:46:18.748Z] Zip Codes Processed:  25450
+[2024-07-17T19:46:19.897Z] Zip Codes Processed:  25500
+[2024-07-17T19:46:21.030Z] Zip Codes Processed:  25550
+[2024-07-17T19:46:22.170Z] Zip Codes Processed:  25600
+[2024-07-17T19:46:23.305Z] Zip Codes Processed:  25650
+[2024-07-17T19:46:24.453Z] Zip Codes Processed:  25700
+[2024-07-17T19:46:25.562Z] Zip Codes Processed:  25750
+[2024-07-17T19:46:26.751Z] Zip Codes Processed:  25800
+[2024-07-17T19:46:27.903Z] Zip Codes Processed:  25850
+[2024-07-17T19:46:29.057Z] Zip Codes Processed:  25900
+[2024-07-17T19:46:30.216Z] Zip Codes Processed:  25950
+[2024-07-17T19:46:31.392Z] Zip Codes Processed:  26000
+[2024-07-17T19:46:32.541Z] Zip Codes Processed:  26050
+[2024-07-17T19:46:33.709Z] Zip Codes Processed:  26100
+[2024-07-17T19:46:34.845Z] Zip Codes Processed:  26150
+[2024-07-17T19:46:36.010Z] Zip Codes Processed:  26200
+[2024-07-17T19:46:37.135Z] Zip Codes Processed:  26250
+[2024-07-17T19:46:38.299Z] Zip Codes Processed:  26300
+[2024-07-17T19:46:39.454Z] Zip Codes Processed:  26350
+[2024-07-17T19:46:40.593Z] Zip Codes Processed:  26400
+[2024-07-17T19:46:41.784Z] Zip Codes Processed:  26450
+[2024-07-17T19:46:42.935Z] Zip Codes Processed:  26500
+[2024-07-17T19:46:44.087Z] Zip Codes Processed:  26550
+[2024-07-17T19:46:45.237Z] Zip Codes Processed:  26600
+[2024-07-17T19:46:46.380Z] Zip Codes Processed:  26650
+[2024-07-17T19:46:47.499Z] Zip Codes Processed:  26700
+[2024-07-17T19:46:48.622Z] Zip Codes Processed:  26750
+[2024-07-17T19:46:49.747Z] Zip Codes Processed:  26800
+[2024-07-17T19:46:50.887Z] Zip Codes Processed:  26850
+[2024-07-17T19:46:52.022Z] Zip Codes Processed:  26900
+[2024-07-17T19:46:53.180Z] Zip Codes Processed:  26950
+[2024-07-17T19:46:54.341Z] Zip Codes Processed:  27000
+[2024-07-17T19:46:55.482Z] Zip Codes Processed:  27050
+[2024-07-17T19:46:56.608Z] Zip Codes Processed:  27100
+[2024-07-17T19:46:57.742Z] Zip Codes Processed:  27150
+[2024-07-17T19:46:58.923Z] Zip Codes Processed:  27200
+[2024-07-17T19:47:00.043Z] Zip Codes Processed:  27250
+[2024-07-17T19:47:01.314Z] Zip Codes Processed:  27300
+[2024-07-17T19:47:02.469Z] Zip Codes Processed:  27350
+[2024-07-17T19:47:03.614Z] Zip Codes Processed:  27400
+[2024-07-17T19:47:04.788Z] Zip Codes Processed:  27450
+[2024-07-17T19:47:06.009Z] Zip Codes Processed:  27500
+[2024-07-17T19:47:07.246Z] Zip Codes Processed:  27550
+[2024-07-17T19:47:08.404Z] Zip Codes Processed:  27600
+[2024-07-17T19:47:09.557Z] Zip Codes Processed:  27650
+[2024-07-17T19:47:10.698Z] Zip Codes Processed:  27700
+[2024-07-17T19:47:11.841Z] Zip Codes Processed:  27750
+[2024-07-17T19:47:12.994Z] Zip Codes Processed:  27800
+[2024-07-17T19:47:14.139Z] Zip Codes Processed:  27850
+[2024-07-17T19:47:15.300Z] Zip Codes Processed:  27900
+[2024-07-17T19:47:16.606Z] Zip Codes Processed:  27950
+[2024-07-17T19:47:17.791Z] Zip Codes Processed:  28000
+[2024-07-17T19:47:18.909Z] Zip Codes Processed:  28050
+[2024-07-17T19:47:20.035Z] Zip Codes Processed:  28100
+[2024-07-17T19:47:21.203Z] Zip Codes Processed:  28150
+[2024-07-17T19:47:22.362Z] Zip Codes Processed:  28200
+[2024-07-17T19:47:23.491Z] Zip Codes Processed:  28250
+[2024-07-17T19:47:24.634Z] Zip Codes Processed:  28300
+[2024-07-17T19:47:25.967Z] Zip Codes Processed:  28350
+[2024-07-17T19:47:27.128Z] Zip Codes Processed:  28400
+[2024-07-17T19:47:28.251Z] Zip Codes Processed:  28450
+[2024-07-17T19:47:29.399Z] Zip Codes Processed:  28500
+[2024-07-17T19:47:30.527Z] Zip Codes Processed:  28550
+[2024-07-17T19:47:31.691Z] Zip Codes Processed:  28600
+[2024-07-17T19:47:32.837Z] Zip Codes Processed:  28650
+[2024-07-17T19:47:33.981Z] Zip Codes Processed:  28700
+[2024-07-17T19:47:35.139Z] Zip Codes Processed:  28750
+[2024-07-17T19:47:36.283Z] Zip Codes Processed:  28800
+[2024-07-17T19:47:37.461Z] Zip Codes Processed:  28850
+[2024-07-17T19:47:38.592Z] Zip Codes Processed:  28900
+[2024-07-17T19:47:39.737Z] Zip Codes Processed:  28950
+[2024-07-17T19:47:40.909Z] Zip Codes Processed:  29000
+[2024-07-17T19:47:42.061Z] Zip Codes Processed:  29050
+[2024-07-17T19:47:43.542Z] Zip Codes Processed:  29100
+[2024-07-17T19:47:44.694Z] Zip Codes Processed:  29150
+[2024-07-17T19:47:45.856Z] Zip Codes Processed:  29200
+[2024-07-17T19:47:47.001Z] Zip Codes Processed:  29250
+[2024-07-17T19:47:48.127Z] Zip Codes Processed:  29300
+[2024-07-17T19:47:49.243Z] Zip Codes Processed:  29350
+[2024-07-17T19:47:50.380Z] Zip Codes Processed:  29400
+[2024-07-17T19:47:51.507Z] Zip Codes Processed:  29450
+[2024-07-17T19:47:52.658Z] Zip Codes Processed:  29500
+[2024-07-17T19:47:53.816Z] Zip Codes Processed:  29550
+[2024-07-17T19:47:54.973Z] Zip Codes Processed:  29600
+[2024-07-17T19:47:56.117Z] Zip Codes Processed:  29650
+[2024-07-17T19:47:57.277Z] Zip Codes Processed:  29700
+[2024-07-17T19:47:58.430Z] Zip Codes Processed:  29750
+[2024-07-17T19:47:59.570Z] Zip Codes Processed:  29800
+[2024-07-17T19:48:00.737Z] Zip Codes Processed:  29850
+[2024-07-17T19:48:01.895Z] Zip Codes Processed:  29900
+[2024-07-17T19:48:03.062Z] Zip Codes Processed:  29950
+[2024-07-17T19:48:04.188Z] Zip Codes Processed:  30000
+[2024-07-17T19:48:05.350Z] Zip Codes Processed:  30050
+[2024-07-17T19:48:06.520Z] Zip Codes Processed:  30100
+[2024-07-17T19:48:07.663Z] Zip Codes Processed:  30150
+[2024-07-17T19:48:08.811Z] Zip Codes Processed:  30200
+[2024-07-17T19:48:09.942Z] Zip Codes Processed:  30250
+[2024-07-17T19:48:11.101Z] Zip Codes Processed:  30300
+[2024-07-17T19:48:12.381Z] Zip Codes Processed:  30350
+[2024-07-17T19:48:13.546Z] Zip Codes Processed:  30400
+[2024-07-17T19:48:14.672Z] Zip Codes Processed:  30450
+[2024-07-17T19:48:15.826Z] Zip Codes Processed:  30500
+[2024-07-17T19:48:16.992Z] Zip Codes Processed:  30550
+[2024-07-17T19:48:18.131Z] Zip Codes Processed:  30600
+[2024-07-17T19:48:19.256Z] Zip Codes Processed:  30650
+[2024-07-17T19:48:20.429Z] Zip Codes Processed:  30700
+[2024-07-17T19:48:21.572Z] Zip Codes Processed:  30750
+[2024-07-17T19:48:22.723Z] Zip Codes Processed:  30800
+[2024-07-17T19:48:23.873Z] Zip Codes Processed:  30850
+[2024-07-17T19:48:24.996Z] Zip Codes Processed:  30900
+[2024-07-17T19:48:26.122Z] Zip Codes Processed:  30950
+[2024-07-17T19:48:27.254Z] Zip Codes Processed:  31000
+[2024-07-17T19:48:28.397Z] Zip Codes Processed:  31050
+[2024-07-17T19:48:29.538Z] Zip Codes Processed:  31100
+[2024-07-17T19:48:30.725Z] Zip Codes Processed:  31150
+[2024-07-17T19:48:31.872Z] Zip Codes Processed:  31200
+[2024-07-17T19:48:33.003Z] Zip Codes Processed:  31250
+[2024-07-17T19:48:34.143Z] Zip Codes Processed:  31300
+[2024-07-17T19:48:35.284Z] Zip Codes Processed:  31350
+[2024-07-17T19:48:36.480Z] Zip Codes Processed:  31400
+[2024-07-17T19:48:37.651Z] Zip Codes Processed:  31450
+[2024-07-17T19:48:38.830Z] Zip Codes Processed:  31500
+[2024-07-17T19:48:40.012Z] Zip Codes Processed:  31550
+[2024-07-17T19:48:41.167Z] Zip Codes Processed:  31600
+[2024-07-17T19:48:42.333Z] Zip Codes Processed:  31650
+[2024-07-17T19:48:43.503Z] Zip Codes Processed:  31700
+[2024-07-17T19:48:44.642Z] Zip Codes Processed:  31750
+[2024-07-17T19:48:45.774Z] Zip Codes Processed:  31800
+[2024-07-17T19:48:46.930Z] Zip Codes Processed:  31850
+[2024-07-17T19:48:48.054Z] Zip Codes Processed:  31900
+[2024-07-17T19:48:49.181Z] Zip Codes Processed:  31950
+[2024-07-17T19:48:50.310Z] Zip Codes Processed:  32000
+[2024-07-17T19:48:51.501Z] Zip Codes Processed:  32050
+[2024-07-17T19:48:52.636Z] Zip Codes Processed:  32100
+[2024-07-17T19:48:53.792Z] Zip Codes Processed:  32150
+[2024-07-17T19:48:54.951Z] Zip Codes Processed:  32200
+[2024-07-17T19:48:56.091Z] Zip Codes Processed:  32250
+[2024-07-17T19:48:57.245Z] Zip Codes Processed:  32300
+[2024-07-17T19:48:58.389Z] Zip Codes Processed:  32350
+[2024-07-17T19:48:59.547Z] Zip Codes Processed:  32400
+[2024-07-17T19:49:00.742Z] Zip Codes Processed:  32450
+[2024-07-17T19:49:01.987Z] Zip Codes Processed:  32500
+[2024-07-17T19:49:03.126Z] Zip Codes Processed:  32550
+[2024-07-17T19:49:04.305Z] Zip Codes Processed:  32600
+[2024-07-17T19:49:05.453Z] Zip Codes Processed:  32650
+[2024-07-17T19:49:06.579Z] Zip Codes Processed:  32700
+[2024-07-17T19:49:07.737Z] Zip Codes Processed:  32750
+[2024-07-17T19:49:08.857Z] Zip Codes Processed:  32800
+[2024-07-17T19:49:10.026Z] Zip Codes Processed:  32850
+[2024-07-17T19:49:11.188Z] Zip Codes Processed:  32900
+[2024-07-17T19:49:12.346Z] Zip Codes Processed:  32950
+[2024-07-17T19:49:13.524Z] Zip Codes Processed:  33000
+[2024-07-17T19:49:14.652Z] Zip Codes Processed:  33050
+[2024-07-17T19:49:15.801Z] Zip Codes Processed:  33100
+[2024-07-17T19:49:16.933Z] Zip Codes Processed:  33150
+[2024-07-17T19:49:18.077Z] Zip Codes Processed:  33200
+[2024-07-17T19:49:19.247Z] Zip Codes Processed:  33250
+[2024-07-17T19:49:20.397Z] Zip Codes Processed:  33300
+[2024-07-17T19:49:21.560Z] Zip Codes Processed:  33350
+[2024-07-17T19:49:22.704Z] Zip Codes Processed:  33400
+[2024-07-17T19:49:23.868Z] Zip Codes Processed:  33450
+[2024-07-17T19:49:25.021Z] Zip Codes Processed:  33500
+[2024-07-17T19:49:26.138Z] Zip Codes Processed:  33550
+[2024-07-17T19:49:27.290Z] Zip Codes Processed:  33600
+[2024-07-17T19:49:28.436Z] Zip Codes Processed:  33650
+[2024-07-17T19:49:29.560Z] Zip Codes Processed:  33700
+[2024-07-17T19:49:30.688Z] Zip Codes Processed:  33750
+[2024-07-17T19:49:31.843Z] Zip Codes Processed:  33800
+[2024-07-17T19:49:32.975Z] Zip Codes Processed:  33850
+[2024-07-17T19:49:34.133Z] Zip Codes Processed:  33900
+[2024-07-17T19:49:35.300Z] Zip Codes Processed:  33950
+[2024-07-17T19:49:36.438Z] Zip Codes Processed:  34000
+[2024-07-17T19:49:37.585Z] Zip Codes Processed:  34050
+[2024-07-17T19:49:38.735Z] Zip Codes Processed:  34100
+[2024-07-17T19:49:39.925Z] Zip Codes Processed:  34150
+[2024-07-17T19:49:41.146Z] Zip Codes Processed:  34200
+[2024-07-17T19:49:42.342Z] Zip Codes Processed:  34250
+[2024-07-17T19:49:43.501Z] Zip Codes Processed:  34300
+[2024-07-17T19:49:44.679Z] Zip Codes Processed:  34350
+[2024-07-17T19:49:45.820Z] Zip Codes Processed:  34400
+[2024-07-17T19:49:46.969Z] Zip Codes Processed:  34450
+[2024-07-17T19:49:48.138Z] Zip Codes Processed:  34500
+[2024-07-17T19:49:49.278Z] Zip Codes Processed:  34550
+[2024-07-17T19:49:50.422Z] Zip Codes Processed:  34600
+[2024-07-17T19:49:51.590Z] Zip Codes Processed:  34650
+[2024-07-17T19:49:52.747Z] Zip Codes Processed:  34700
+[2024-07-17T19:49:53.901Z] Zip Codes Processed:  34750
+[2024-07-17T19:49:55.095Z] Zip Codes Processed:  34800
+[2024-07-17T19:49:56.253Z] Zip Codes Processed:  34850
+[2024-07-17T19:49:57.407Z] Zip Codes Processed:  34900
+[2024-07-17T19:49:58.536Z] Zip Codes Processed:  34950
+[2024-07-17T19:49:59.793Z] Zip Codes Processed:  35000
+[2024-07-17T19:50:01.012Z] Zip Codes Processed:  35050
+[2024-07-17T19:50:02.169Z] Zip Codes Processed:  35100
+[2024-07-17T19:50:03.308Z] Zip Codes Processed:  35150
+[2024-07-17T19:50:04.474Z] Zip Codes Processed:  35200
+[2024-07-17T19:50:05.604Z] Zip Codes Processed:  35250
+[2024-07-17T19:50:06.767Z] Zip Codes Processed:  35300
+[2024-07-17T19:50:07.904Z] Zip Codes Processed:  35350
+[2024-07-17T19:50:09.048Z] Zip Codes Processed:  35400
+[2024-07-17T19:50:10.260Z] Zip Codes Processed:  35450
+[2024-07-17T19:50:11.411Z] Zip Codes Processed:  35500
+[2024-07-17T19:50:12.584Z] Zip Codes Processed:  35550
+[2024-07-17T19:50:13.745Z] Zip Codes Processed:  35600
+[2024-07-17T19:50:14.895Z] Zip Codes Processed:  35650
+[2024-07-17T19:50:16.041Z] Zip Codes Processed:  35700
+[2024-07-17T19:50:17.222Z] Zip Codes Processed:  35750
+[2024-07-17T19:50:18.401Z] Zip Codes Processed:  35800
+[2024-07-17T19:50:19.538Z] Zip Codes Processed:  35850
+[2024-07-17T19:50:20.703Z] Zip Codes Processed:  35900
+[2024-07-17T19:50:21.835Z] Zip Codes Processed:  35950
+[2024-07-17T19:50:23.232Z] Zip Codes Processed:  36000
+[2024-07-17T19:50:24.389Z] Zip Codes Processed:  36050
+[2024-07-17T19:50:25.540Z] Zip Codes Processed:  36100
+[2024-07-17T19:50:26.668Z] Zip Codes Processed:  36150
+[2024-07-17T19:50:27.908Z] Zip Codes Processed:  36200
+[2024-07-17T19:50:29.057Z] Zip Codes Processed:  36250
+[2024-07-17T19:50:30.213Z] Zip Codes Processed:  36300
+[2024-07-17T19:50:31.399Z] Zip Codes Processed:  36350
+[2024-07-17T19:50:32.537Z] Zip Codes Processed:  36400
+[2024-07-17T19:50:33.688Z] Zip Codes Processed:  36450
+[2024-07-17T19:50:34.800Z] Zip Codes Processed:  36500
+[2024-07-17T19:50:36.024Z] Zip Codes Processed:  36550
+[2024-07-17T19:50:37.173Z] Zip Codes Processed:  36600
+[2024-07-17T19:50:38.303Z] Zip Codes Processed:  36650
+[2024-07-17T19:50:39.435Z] Zip Codes Processed:  36700
+[2024-07-17T19:50:40.582Z] Zip Codes Processed:  36750
+[2024-07-17T19:50:41.734Z] Zip Codes Processed:  36800
+[2024-07-17T19:50:42.891Z] Zip Codes Processed:  36850
+[2024-07-17T19:50:44.050Z] Zip Codes Processed:  36900
+[2024-07-17T19:50:45.201Z] Zip Codes Processed:  36950
+[2024-07-17T19:50:46.377Z] Zip Codes Processed:  37000
+[2024-07-17T19:50:47.520Z] Zip Codes Processed:  37050
+[2024-07-17T19:50:48.662Z] Zip Codes Processed:  37100
+[2024-07-17T19:50:49.817Z] Zip Codes Processed:  37150
+[2024-07-17T19:50:50.959Z] Zip Codes Processed:  37200
+[2024-07-17T19:50:52.087Z] Zip Codes Processed:  37250
+[2024-07-17T19:50:53.226Z] Zip Codes Processed:  37300
+[2024-07-17T19:50:54.349Z] Zip Codes Processed:  37350
+[2024-07-17T19:50:55.555Z] Zip Codes Processed:  37400
+[2024-07-17T19:50:57.102Z] Zip Codes Processed:  37450
+[2024-07-17T19:50:58.252Z] Zip Codes Processed:  37500
+[2024-07-17T19:50:59.440Z] Zip Codes Processed:  37550
+[2024-07-17T19:51:00.631Z] Zip Codes Processed:  37600
+[2024-07-17T19:51:02.237Z] Zip Codes Processed:  37650
+[2024-07-17T19:51:03.364Z] Zip Codes Processed:  37700
+[2024-07-17T19:51:04.546Z] Zip Codes Processed:  37750
+[2024-07-17T19:51:05.690Z] Zip Codes Processed:  37800
+[2024-07-17T19:51:06.830Z] Zip Codes Processed:  37850
+[2024-07-17T19:51:08.005Z] Zip Codes Processed:  37900
+[2024-07-17T19:51:09.174Z] Zip Codes Processed:  37950
+[2024-07-17T19:51:10.321Z] Zip Codes Processed:  38000
+[2024-07-17T19:51:11.401Z] Zip Codes Processed:  38001
+[2024-07-17T19:51:12.406Z] Total processed items: 38001
+[2024-07-17T19:53:40.401Z] Inside POST call to update weather forecast for All zips.
+[2024-07-17T19:53:40.405Z] DB Connection Status:  1
+[2024-07-17T19:53:40.406Z] DB Connection Established!
+[2024-07-17T19:53:43.130Z] Total processed items: 0
+[2024-07-17T19:54:31.358Z] Inside POST call to update weather forecast for All zips.
+[2024-07-17T19:54:31.361Z] DB Connection Status:  1
+[2024-07-17T19:54:31.362Z] DB Connection Established!
+[2024-07-17T19:54:34.816Z] Zip Codes processed for Weather Updates:  50
+[2024-07-17T19:54:35.958Z] Zip Codes processed for Weather Updates:  100
+[2024-07-17T19:54:37.143Z] Zip Codes processed for Weather Updates:  150
+[2024-07-17T19:54:38.262Z] Zip Codes processed for Weather Updates:  200
+[2024-07-17T19:54:39.354Z] Zip Codes processed for Weather Updates:  250
+[2024-07-17T19:54:40.508Z] Zip Codes processed for Weather Updates:  300
+[2024-07-17T19:54:41.638Z] Zip Codes processed for Weather Updates:  350
+[2024-07-17T19:54:42.785Z] Zip Codes processed for Weather Updates:  400
+[2024-07-17T19:54:43.903Z] Zip Codes processed for Weather Updates:  450
+[2024-07-17T19:54:45.046Z] Zip Codes processed for Weather Updates:  500
+[2024-07-17T19:54:46.157Z] Zip Codes processed for Weather Updates:  550
+[2024-07-17T19:54:47.250Z] Zip Codes processed for Weather Updates:  600
+[2024-07-17T19:54:48.382Z] Zip Codes processed for Weather Updates:  650
+[2024-07-17T19:54:49.480Z] Zip Codes processed for Weather Updates:  700
+[2024-07-17T19:54:50.601Z] Zip Codes processed for Weather Updates:  750
+[2024-07-17T19:54:51.800Z] Zip Codes processed for Weather Updates:  800
+[2024-07-17T19:54:53.010Z] Zip Codes processed for Weather Updates:  850
+[2024-07-17T19:54:54.120Z] Zip Codes processed for Weather Updates:  900
+[2024-07-17T19:54:55.216Z] Zip Codes processed for Weather Updates:  950
+[2024-07-17T19:54:57.065Z] Zip Codes processed for Weather Updates:  1000
+[2024-07-17T19:54:58.157Z] Zip Codes processed for Weather Updates:  1050
+[2024-07-17T19:54:59.307Z] Zip Codes processed for Weather Updates:  1100
+[2024-07-17T19:55:00.450Z] Zip Codes processed for Weather Updates:  1150
+[2024-07-17T19:55:01.672Z] Zip Codes processed for Weather Updates:  1200
+[2024-07-17T19:55:02.799Z] Zip Codes processed for Weather Updates:  1250
+[2024-07-17T19:55:03.887Z] Zip Codes processed for Weather Updates:  1300
+[2024-07-17T19:55:05.003Z] Zip Codes processed for Weather Updates:  1350
+[2024-07-17T19:55:06.202Z] Zip Codes processed for Weather Updates:  1400
+[2024-07-17T19:55:07.290Z] Zip Codes processed for Weather Updates:  1450
+[2024-07-17T19:55:08.403Z] Zip Codes processed for Weather Updates:  1500
+[2024-07-17T19:55:09.500Z] Zip Codes processed for Weather Updates:  1550
+[2024-07-17T19:55:10.607Z] Zip Codes processed for Weather Updates:  1600
+[2024-07-17T19:55:11.698Z] Zip Codes processed for Weather Updates:  1650
+[2024-07-17T19:55:12.920Z] Zip Codes processed for Weather Updates:  1700
+[2024-07-17T19:55:14.014Z] Zip Codes processed for Weather Updates:  1750
+[2024-07-17T19:55:15.112Z] Zip Codes processed for Weather Updates:  1800
+[2024-07-17T19:55:16.208Z] Zip Codes processed for Weather Updates:  1850
+[2024-07-17T19:55:17.309Z] Zip Codes processed for Weather Updates:  1900
+[2024-07-17T19:55:18.425Z] Zip Codes processed for Weather Updates:  1950
+[2024-07-17T19:55:19.549Z] Zip Codes processed for Weather Updates:  2000
+[2024-07-17T19:55:20.670Z] Zip Codes processed for Weather Updates:  2050
+[2024-07-17T19:55:21.763Z] Zip Codes processed for Weather Updates:  2100
+[2024-07-17T19:55:22.856Z] Zip Codes processed for Weather Updates:  2150
+[2024-07-17T19:55:23.965Z] Zip Codes processed for Weather Updates:  2200
+[2024-07-17T19:55:25.113Z] Zip Codes processed for Weather Updates:  2250
+[2024-07-17T19:55:26.209Z] Zip Codes processed for Weather Updates:  2300
+[2024-07-17T19:55:27.361Z] Zip Codes processed for Weather Updates:  2350
+[2024-07-17T19:55:28.542Z] Zip Codes processed for Weather Updates:  2400
+[2024-07-17T19:55:29.655Z] Zip Codes processed for Weather Updates:  2450
+[2024-07-17T19:55:30.793Z] Zip Codes processed for Weather Updates:  2500
+[2024-07-17T19:55:31.879Z] Zip Codes processed for Weather Updates:  2550
+[2024-07-17T19:55:32.993Z] Zip Codes processed for Weather Updates:  2600
+[2024-07-17T19:55:34.144Z] Zip Codes processed for Weather Updates:  2650
+[2024-07-17T19:55:35.326Z] Zip Codes processed for Weather Updates:  2700
+[2024-07-17T19:55:36.464Z] Zip Codes processed for Weather Updates:  2750
+[2024-07-17T19:55:37.563Z] Zip Codes processed for Weather Updates:  2800
+[2024-07-17T19:55:38.735Z] Zip Codes processed for Weather Updates:  2850
+[2024-07-17T19:55:39.850Z] Zip Codes processed for Weather Updates:  2900
+[2024-07-17T19:55:41.046Z] Zip Codes processed for Weather Updates:  2950
+[2024-07-17T19:55:42.137Z] Zip Codes processed for Weather Updates:  3000
+[2024-07-17T19:55:43.373Z] Zip Codes processed for Weather Updates:  3050
+[2024-07-17T19:55:44.486Z] Zip Codes processed for Weather Updates:  3100
+[2024-07-17T19:55:45.627Z] Zip Codes processed for Weather Updates:  3150
+[2024-07-17T19:55:46.763Z] Zip Codes processed for Weather Updates:  3200
+[2024-07-17T19:55:47.895Z] Zip Codes processed for Weather Updates:  3250
+[2024-07-17T19:55:48.989Z] Zip Codes processed for Weather Updates:  3300
+[2024-07-17T19:55:50.097Z] Zip Codes processed for Weather Updates:  3350
+[2024-07-17T19:55:51.202Z] Zip Codes processed for Weather Updates:  3400
+[2024-07-17T19:55:52.325Z] Zip Codes processed for Weather Updates:  3450
+[2024-07-17T19:55:53.423Z] Zip Codes processed for Weather Updates:  3500
+[2024-07-17T19:55:54.517Z] Zip Codes processed for Weather Updates:  3550
+[2024-07-17T19:55:55.617Z] Zip Codes processed for Weather Updates:  3600
+[2024-07-17T19:55:56.756Z] Zip Codes processed for Weather Updates:  3650
+[2024-07-17T19:55:57.924Z] Zip Codes processed for Weather Updates:  3700
+[2024-07-17T19:55:59.010Z] Zip Codes processed for Weather Updates:  3750
+[2024-07-17T19:56:00.117Z] Zip Codes processed for Weather Updates:  3800
+[2024-07-17T19:56:01.287Z] Zip Codes processed for Weather Updates:  3850
+[2024-07-17T19:56:02.474Z] Zip Codes processed for Weather Updates:  3900
+[2024-07-17T19:56:03.579Z] Zip Codes processed for Weather Updates:  3950
+[2024-07-17T19:56:04.656Z] Zip Codes processed for Weather Updates:  4000
+[2024-07-17T19:56:05.762Z] Zip Codes processed for Weather Updates:  4050
+[2024-07-17T19:56:06.900Z] Zip Codes processed for Weather Updates:  4100
+[2024-07-17T19:56:07.994Z] Zip Codes processed for Weather Updates:  4150
+[2024-07-17T19:56:09.110Z] Zip Codes processed for Weather Updates:  4200
+[2024-07-17T19:56:10.213Z] Zip Codes processed for Weather Updates:  4250
+[2024-07-17T19:56:11.297Z] Zip Codes processed for Weather Updates:  4300
+[2024-07-17T19:56:12.413Z] Zip Codes processed for Weather Updates:  4350
+[2024-07-17T19:56:13.551Z] Zip Codes processed for Weather Updates:  4400
+[2024-07-17T19:56:14.680Z] Zip Codes processed for Weather Updates:  4450
+[2024-07-17T19:56:15.774Z] Zip Codes processed for Weather Updates:  4500
+[2024-07-17T19:56:16.887Z] Zip Codes processed for Weather Updates:  4550
+[2024-07-17T19:56:17.975Z] Zip Codes processed for Weather Updates:  4600
+[2024-07-17T19:56:19.089Z] Zip Codes processed for Weather Updates:  4650
+[2024-07-17T19:56:20.246Z] Zip Codes processed for Weather Updates:  4700
+[2024-07-17T19:56:23.711Z] Zip Codes processed for Weather Updates:  4750
+[2024-07-17T19:56:24.852Z] Zip Codes processed for Weather Updates:  4800
+[2024-07-17T19:56:25.965Z] Zip Codes processed for Weather Updates:  4850
+[2024-07-17T19:56:27.076Z] Zip Codes processed for Weather Updates:  4900
+[2024-07-17T19:56:28.200Z] Zip Codes processed for Weather Updates:  4950
+[2024-07-17T19:56:29.318Z] Zip Codes processed for Weather Updates:  5000
+[2024-07-17T19:56:30.441Z] Zip Codes processed for Weather Updates:  5050
+[2024-07-17T19:56:31.635Z] Zip Codes processed for Weather Updates:  5100
+[2024-07-17T19:56:32.737Z] Zip Codes processed for Weather Updates:  5150
+[2024-07-17T19:56:33.836Z] Zip Codes processed for Weather Updates:  5200
+[2024-07-17T19:56:34.926Z] Zip Codes processed for Weather Updates:  5250
+[2024-07-17T19:56:36.043Z] Zip Codes processed for Weather Updates:  5300
+[2024-07-17T19:56:37.180Z] Zip Codes processed for Weather Updates:  5350
+[2024-07-17T19:56:38.268Z] Zip Codes processed for Weather Updates:  5400
+[2024-07-17T19:56:39.439Z] Zip Codes processed for Weather Updates:  5450
+[2024-07-17T19:56:40.531Z] Zip Codes processed for Weather Updates:  5500
+[2024-07-17T19:56:41.738Z] Zip Codes processed for Weather Updates:  5550
+[2024-07-17T19:56:42.839Z] Zip Codes processed for Weather Updates:  5600
+[2024-07-17T19:56:43.929Z] Zip Codes processed for Weather Updates:  5650
+[2024-07-17T19:56:45.014Z] Zip Codes processed for Weather Updates:  5700
+[2024-07-17T19:56:46.106Z] Zip Codes processed for Weather Updates:  5750
+[2024-07-17T19:56:47.186Z] Zip Codes processed for Weather Updates:  5800
+[2024-07-17T19:56:48.275Z] Zip Codes processed for Weather Updates:  5850
+[2024-07-17T19:56:49.373Z] Zip Codes processed for Weather Updates:  5900
+[2024-07-17T19:56:50.511Z] Zip Codes processed for Weather Updates:  5950
+[2024-07-17T19:56:51.634Z] Zip Codes processed for Weather Updates:  6000
+[2024-07-17T19:56:52.743Z] Zip Codes processed for Weather Updates:  6050
+[2024-07-17T19:56:53.875Z] Zip Codes processed for Weather Updates:  6100
+[2024-07-17T19:56:54.987Z] Zip Codes processed for Weather Updates:  6150
+[2024-07-17T19:56:56.082Z] Zip Codes processed for Weather Updates:  6200
+[2024-07-17T19:56:57.169Z] Zip Codes processed for Weather Updates:  6250
+[2024-07-17T19:56:58.258Z] Zip Codes processed for Weather Updates:  6300
+[2024-07-17T19:56:59.350Z] Zip Codes processed for Weather Updates:  6350
+[2024-07-17T19:57:00.479Z] Zip Codes processed for Weather Updates:  6400
+[2024-07-17T19:57:01.703Z] Zip Codes processed for Weather Updates:  6450
+[2024-07-17T19:57:02.780Z] Zip Codes processed for Weather Updates:  6500
+[2024-07-17T19:57:03.876Z] Zip Codes processed for Weather Updates:  6550
+[2024-07-17T19:57:04.961Z] Zip Codes processed for Weather Updates:  6600
+[2024-07-17T19:57:06.066Z] Zip Codes processed for Weather Updates:  6650
+[2024-07-17T19:57:07.238Z] Zip Codes processed for Weather Updates:  6700
+[2024-07-17T19:57:08.330Z] Zip Codes processed for Weather Updates:  6750
+[2024-07-17T19:57:09.420Z] Zip Codes processed for Weather Updates:  6800
+[2024-07-17T19:57:10.587Z] Zip Codes processed for Weather Updates:  6850
+[2024-07-17T19:57:11.701Z] Zip Codes processed for Weather Updates:  6900
+[2024-07-17T19:57:12.790Z] Zip Codes processed for Weather Updates:  6950
+[2024-07-17T19:57:13.870Z] Zip Codes processed for Weather Updates:  7000
+[2024-07-17T19:57:14.976Z] Zip Codes processed for Weather Updates:  7050
+[2024-07-17T19:57:16.094Z] Zip Codes processed for Weather Updates:  7100
+[2024-07-17T19:57:17.281Z] Zip Codes processed for Weather Updates:  7150
+[2024-07-17T19:57:18.369Z] Zip Codes processed for Weather Updates:  7200
+[2024-07-17T19:57:19.478Z] Zip Codes processed for Weather Updates:  7250
+[2024-07-17T19:57:20.592Z] Zip Codes processed for Weather Updates:  7300
+[2024-07-17T19:57:21.755Z] Zip Codes processed for Weather Updates:  7350
+[2024-07-17T19:57:22.846Z] Zip Codes processed for Weather Updates:  7400
+[2024-07-17T19:57:23.964Z] Zip Codes processed for Weather Updates:  7450
+[2024-07-17T19:57:25.063Z] Zip Codes processed for Weather Updates:  7500
+[2024-07-17T19:57:26.197Z] Zip Codes processed for Weather Updates:  7550
+[2024-07-17T19:57:27.325Z] Zip Codes processed for Weather Updates:  7600
+[2024-07-17T19:57:28.445Z] Zip Codes processed for Weather Updates:  7650
+[2024-07-17T19:57:29.545Z] Zip Codes processed for Weather Updates:  7700
+[2024-07-17T19:57:30.646Z] Zip Codes processed for Weather Updates:  7750
+[2024-07-17T19:57:31.748Z] Zip Codes processed for Weather Updates:  7800
+[2024-07-17T19:57:32.852Z] Zip Codes processed for Weather Updates:  7850
+[2024-07-17T19:57:33.973Z] Zip Codes processed for Weather Updates:  7900
+[2024-07-17T19:57:35.060Z] Zip Codes processed for Weather Updates:  7950
+[2024-07-17T19:57:36.179Z] Zip Codes processed for Weather Updates:  8000
+[2024-07-17T19:57:37.296Z] Zip Codes processed for Weather Updates:  8050
+[2024-07-17T19:57:38.391Z] Zip Codes processed for Weather Updates:  8100
+[2024-07-17T19:57:39.477Z] Zip Codes processed for Weather Updates:  8150
+[2024-07-17T19:57:40.641Z] Zip Codes processed for Weather Updates:  8200
+[2024-07-17T19:57:41.830Z] Zip Codes processed for Weather Updates:  8250
+[2024-07-17T19:57:42.948Z] Zip Codes processed for Weather Updates:  8300
+[2024-07-17T19:57:44.075Z] Zip Codes processed for Weather Updates:  8350
+[2024-07-17T19:57:45.172Z] Zip Codes processed for Weather Updates:  8400
+[2024-07-17T19:57:46.303Z] Zip Codes processed for Weather Updates:  8450
+[2024-07-17T19:57:47.414Z] Zip Codes processed for Weather Updates:  8500
+[2024-07-17T19:57:48.638Z] Zip Codes processed for Weather Updates:  8550
+[2024-07-17T19:57:49.726Z] Zip Codes processed for Weather Updates:  8600
+[2024-07-17T19:57:50.901Z] Zip Codes processed for Weather Updates:  8650
+[2024-07-17T19:57:52.001Z] Zip Codes processed for Weather Updates:  8700
+[2024-07-17T19:57:53.118Z] Zip Codes processed for Weather Updates:  8750
+[2024-07-17T19:57:54.219Z] Zip Codes processed for Weather Updates:  8800
+[2024-07-17T19:57:55.334Z] Zip Codes processed for Weather Updates:  8850
+[2024-07-17T19:57:56.441Z] Zip Codes processed for Weather Updates:  8900
+[2024-07-17T19:57:57.546Z] Zip Codes processed for Weather Updates:  8950
+[2024-07-17T19:57:58.629Z] Zip Codes processed for Weather Updates:  9000
+[2024-07-17T19:57:59.743Z] Zip Codes processed for Weather Updates:  9050
+[2024-07-17T19:58:01.159Z] Zip Codes processed for Weather Updates:  9100
+[2024-07-17T19:58:02.262Z] Zip Codes processed for Weather Updates:  9150
+[2024-07-17T19:58:03.363Z] Zip Codes processed for Weather Updates:  9200
+[2024-07-17T19:58:04.467Z] Zip Codes processed for Weather Updates:  9250
+[2024-07-17T19:58:05.567Z] Zip Codes processed for Weather Updates:  9300
+[2024-07-17T19:58:06.678Z] Zip Codes processed for Weather Updates:  9350
+[2024-07-17T19:58:07.850Z] Zip Codes processed for Weather Updates:  9400
+[2024-07-17T19:58:08.949Z] Zip Codes processed for Weather Updates:  9450
+[2024-07-17T19:58:10.057Z] Zip Codes processed for Weather Updates:  9500
+[2024-07-17T19:58:11.167Z] Zip Codes processed for Weather Updates:  9550
+[2024-07-17T19:58:12.273Z] Zip Codes processed for Weather Updates:  9600
+[2024-07-17T19:58:13.368Z] Zip Codes processed for Weather Updates:  9650
+[2024-07-17T19:58:14.490Z] Zip Codes processed for Weather Updates:  9700
+[2024-07-17T19:58:15.585Z] Zip Codes processed for Weather Updates:  9750
+[2024-07-17T19:58:16.680Z] Zip Codes processed for Weather Updates:  9800
+[2024-07-17T19:58:17.795Z] Zip Codes processed for Weather Updates:  9850
+[2024-07-17T19:58:18.954Z] Zip Codes processed for Weather Updates:  9900
+[2024-07-17T19:58:20.068Z] Zip Codes processed for Weather Updates:  9950
+[2024-07-17T19:58:21.176Z] Zip Codes processed for Weather Updates:  10000
+[2024-07-17T19:58:22.252Z] Zip Codes processed for Weather Updates:  10050
+[2024-07-17T19:58:23.355Z] Zip Codes processed for Weather Updates:  10100
+[2024-07-17T19:58:24.482Z] Zip Codes processed for Weather Updates:  10150
+[2024-07-17T19:58:25.598Z] Zip Codes processed for Weather Updates:  10200
+[2024-07-17T19:58:26.694Z] Zip Codes processed for Weather Updates:  10250
+[2024-07-17T19:58:27.793Z] Zip Codes processed for Weather Updates:  10300
+[2024-07-17T19:58:28.889Z] Zip Codes processed for Weather Updates:  10350
+[2024-07-17T19:58:30.090Z] Zip Codes processed for Weather Updates:  10400
+[2024-07-17T19:58:31.210Z] Zip Codes processed for Weather Updates:  10450
+[2024-07-17T19:58:32.323Z] Zip Codes processed for Weather Updates:  10500
+[2024-07-17T19:58:33.440Z] Zip Codes processed for Weather Updates:  10550
+[2024-07-17T19:58:34.524Z] Zip Codes processed for Weather Updates:  10600
+[2024-07-17T19:58:35.662Z] Zip Codes processed for Weather Updates:  10650
+[2024-07-17T19:58:36.840Z] Zip Codes processed for Weather Updates:  10700
+[2024-07-17T19:58:37.980Z] Zip Codes processed for Weather Updates:  10750
+[2024-07-17T19:58:39.081Z] Zip Codes processed for Weather Updates:  10800
+[2024-07-17T19:58:40.199Z] Zip Codes processed for Weather Updates:  10850
+[2024-07-17T19:58:41.303Z] Zip Codes processed for Weather Updates:  10900
+[2024-07-17T19:58:42.429Z] Zip Codes processed for Weather Updates:  10950
+[2024-07-17T19:58:43.521Z] Zip Codes processed for Weather Updates:  11000
+[2024-07-17T19:58:44.620Z] Zip Codes processed for Weather Updates:  11050
+[2024-07-17T19:58:45.715Z] Zip Codes processed for Weather Updates:  11100
+[2024-07-17T19:58:46.838Z] Zip Codes processed for Weather Updates:  11150
+[2024-07-17T19:58:47.940Z] Zip Codes processed for Weather Updates:  11200
+[2024-07-17T19:58:49.041Z] Zip Codes processed for Weather Updates:  11250
+[2024-07-17T19:58:50.126Z] Zip Codes processed for Weather Updates:  11300
+[2024-07-17T19:58:51.227Z] Zip Codes processed for Weather Updates:  11350
+[2024-07-17T19:58:52.385Z] Zip Codes processed for Weather Updates:  11400
+[2024-07-17T19:58:53.476Z] Zip Codes processed for Weather Updates:  11450
+[2024-07-17T19:58:54.587Z] Zip Codes processed for Weather Updates:  11500
+[2024-07-17T19:58:55.725Z] Zip Codes processed for Weather Updates:  11550
+[2024-07-17T19:58:56.835Z] Zip Codes processed for Weather Updates:  11600
+[2024-07-17T19:58:57.973Z] Zip Codes processed for Weather Updates:  11650
+[2024-07-17T19:58:59.075Z] Zip Codes processed for Weather Updates:  11700
+[2024-07-17T19:59:00.170Z] Zip Codes processed for Weather Updates:  11750
+[2024-07-17T19:59:01.393Z] Zip Codes processed for Weather Updates:  11800
+[2024-07-17T19:59:02.505Z] Zip Codes processed for Weather Updates:  11850
+[2024-07-17T19:59:03.661Z] Zip Codes processed for Weather Updates:  11900
+[2024-07-17T19:59:04.746Z] Zip Codes processed for Weather Updates:  11950
+[2024-07-17T19:59:05.838Z] Zip Codes processed for Weather Updates:  12000
+[2024-07-17T19:59:06.967Z] Zip Codes processed for Weather Updates:  12050
+[2024-07-17T19:59:08.072Z] Zip Codes processed for Weather Updates:  12100
+[2024-07-17T19:59:09.191Z] Zip Codes processed for Weather Updates:  12150
+[2024-07-17T19:59:10.316Z] Zip Codes processed for Weather Updates:  12200
+[2024-07-17T19:59:11.399Z] Zip Codes processed for Weather Updates:  12250
+[2024-07-17T19:59:12.502Z] Zip Codes processed for Weather Updates:  12300
+[2024-07-17T19:59:13.646Z] Zip Codes processed for Weather Updates:  12350
+[2024-07-17T19:59:14.731Z] Zip Codes processed for Weather Updates:  12400
+[2024-07-17T19:59:15.837Z] Zip Codes processed for Weather Updates:  12450
+[2024-07-17T19:59:16.924Z] Zip Codes processed for Weather Updates:  12500
+[2024-07-17T19:59:18.055Z] Zip Codes processed for Weather Updates:  12550
+[2024-07-17T19:59:19.176Z] Zip Codes processed for Weather Updates:  12600
+[2024-07-17T19:59:20.289Z] Zip Codes processed for Weather Updates:  12650
+[2024-07-17T19:59:21.468Z] Zip Codes processed for Weather Updates:  12700
+[2024-07-17T19:59:22.548Z] Zip Codes processed for Weather Updates:  12750
+[2024-07-17T19:59:23.735Z] Zip Codes processed for Weather Updates:  12800
+[2024-07-17T19:59:24.843Z] Zip Codes processed for Weather Updates:  12850
+[2024-07-17T19:59:25.948Z] Zip Codes processed for Weather Updates:  12900
+[2024-07-17T19:59:27.037Z] Zip Codes processed for Weather Updates:  12950
+[2024-07-17T19:59:28.133Z] Zip Codes processed for Weather Updates:  13000
+[2024-07-17T19:59:29.208Z] Zip Codes processed for Weather Updates:  13050
+[2024-07-17T19:59:30.303Z] Zip Codes processed for Weather Updates:  13100
+[2024-07-17T19:59:31.427Z] Zip Codes processed for Weather Updates:  13150
+[2024-07-17T19:59:32.544Z] Zip Codes processed for Weather Updates:  13200
+[2024-07-17T19:59:33.628Z] Zip Codes processed for Weather Updates:  13250
+[2024-07-17T19:59:34.770Z] Zip Codes processed for Weather Updates:  13300
+[2024-07-17T19:59:35.991Z] Zip Codes processed for Weather Updates:  13350
+[2024-07-17T19:59:37.183Z] Zip Codes processed for Weather Updates:  13400
+[2024-07-17T19:59:38.767Z] Zip Codes processed for Weather Updates:  13450
+[2024-07-17T19:59:39.933Z] Zip Codes processed for Weather Updates:  13500
+[2024-07-17T19:59:41.266Z] Zip Codes processed for Weather Updates:  13550
+[2024-07-17T19:59:42.346Z] Zip Codes processed for Weather Updates:  13600
+[2024-07-17T19:59:43.436Z] Zip Codes processed for Weather Updates:  13650
+[2024-07-17T19:59:44.561Z] Zip Codes processed for Weather Updates:  13700
+[2024-07-17T19:59:45.649Z] Zip Codes processed for Weather Updates:  13750
+[2024-07-17T19:59:46.796Z] Zip Codes processed for Weather Updates:  13800
+[2024-07-17T19:59:47.934Z] Zip Codes processed for Weather Updates:  13850
+[2024-07-17T19:59:49.105Z] Zip Codes processed for Weather Updates:  13900
+[2024-07-17T19:59:50.192Z] Zip Codes processed for Weather Updates:  13950
+[2024-07-17T19:59:51.355Z] Zip Codes processed for Weather Updates:  14000
+[2024-07-17T19:59:52.451Z] Zip Codes processed for Weather Updates:  14050
+[2024-07-17T19:59:53.598Z] Zip Codes processed for Weather Updates:  14100
+[2024-07-17T19:59:54.711Z] Zip Codes processed for Weather Updates:  14150
+[2024-07-17T19:59:55.821Z] Zip Codes processed for Weather Updates:  14200
+[2024-07-17T19:59:56.950Z] Zip Codes processed for Weather Updates:  14250
+[2024-07-17T19:59:58.135Z] Zip Codes processed for Weather Updates:  14300
+[2024-07-17T19:59:59.223Z] Zip Codes processed for Weather Updates:  14350
+[2024-07-17T20:00:00.341Z] Zip Codes processed for Weather Updates:  14400
+[2024-07-17T20:00:01.569Z] Zip Codes processed for Weather Updates:  14450
+[2024-07-17T20:00:03.001Z] Zip Codes processed for Weather Updates:  14500
+[2024-07-17T20:00:04.124Z] Zip Codes processed for Weather Updates:  14550
+[2024-07-17T20:00:05.250Z] Zip Codes processed for Weather Updates:  14600
+[2024-07-17T20:00:07.217Z] Zip Codes processed for Weather Updates:  14650
+[2024-07-17T20:00:08.327Z] Zip Codes processed for Weather Updates:  14700
+[2024-07-17T20:00:09.446Z] Zip Codes processed for Weather Updates:  14750
+[2024-07-17T20:00:10.589Z] Zip Codes processed for Weather Updates:  14800
+[2024-07-17T20:00:13.221Z] Zip Codes processed for Weather Updates:  14850
+[2024-07-17T20:00:14.384Z] Zip Codes processed for Weather Updates:  14900
+[2024-07-17T20:00:15.507Z] Zip Codes processed for Weather Updates:  14950
+[2024-07-17T20:00:16.615Z] Zip Codes processed for Weather Updates:  15000
+[2024-07-17T20:00:18.061Z] Zip Codes processed for Weather Updates:  15050
+[2024-07-17T20:00:19.205Z] Zip Codes processed for Weather Updates:  15100
+[2024-07-17T20:00:20.337Z] Zip Codes processed for Weather Updates:  15150
+[2024-07-17T20:00:21.645Z] Zip Codes processed for Weather Updates:  15200
+[2024-07-17T20:00:24.365Z] Zip Codes processed for Weather Updates:  15250
+[2024-07-17T20:00:26.543Z] Zip Codes processed for Weather Updates:  15300
+[2024-07-17T20:00:27.643Z] Zip Codes processed for Weather Updates:  15350
+[2024-07-17T20:00:28.750Z] Zip Codes processed for Weather Updates:  15400
+[2024-07-17T20:00:29.844Z] Zip Codes processed for Weather Updates:  15450
+[2024-07-17T20:00:30.982Z] Zip Codes processed for Weather Updates:  15500
+[2024-07-17T20:00:32.080Z] Zip Codes processed for Weather Updates:  15550
+[2024-07-17T20:00:33.211Z] Zip Codes processed for Weather Updates:  15600
+[2024-07-17T20:00:34.975Z] Zip Codes processed for Weather Updates:  15650
+[2024-07-17T20:00:36.153Z] Zip Codes processed for Weather Updates:  15700
+[2024-07-17T20:00:37.235Z] Zip Codes processed for Weather Updates:  15750
+[2024-07-17T20:00:38.367Z] Zip Codes processed for Weather Updates:  15800
+[2024-07-17T20:00:39.522Z] Zip Codes processed for Weather Updates:  15850
+[2024-07-17T20:00:40.608Z] Zip Codes processed for Weather Updates:  15900
+[2024-07-17T20:00:41.690Z] Zip Codes processed for Weather Updates:  15950
+[2024-07-17T20:00:42.814Z] Zip Codes processed for Weather Updates:  16000
+[2024-07-17T20:00:43.966Z] Zip Codes processed for Weather Updates:  16050
+[2024-07-17T20:00:45.075Z] Zip Codes processed for Weather Updates:  16100
+[2024-07-17T20:00:46.236Z] Zip Codes processed for Weather Updates:  16150
+[2024-07-17T20:00:47.347Z] Zip Codes processed for Weather Updates:  16200
+[2024-07-17T20:00:48.438Z] Zip Codes processed for Weather Updates:  16250
+[2024-07-17T20:00:49.539Z] Zip Codes processed for Weather Updates:  16300
+[2024-07-17T20:00:50.657Z] Zip Codes processed for Weather Updates:  16350
+[2024-07-17T20:00:51.737Z] Zip Codes processed for Weather Updates:  16400
+[2024-07-17T20:00:52.890Z] Zip Codes processed for Weather Updates:  16450
+[2024-07-17T20:00:53.958Z] Zip Codes processed for Weather Updates:  16500
+[2024-07-17T20:00:55.088Z] Zip Codes processed for Weather Updates:  16550
+[2024-07-17T20:00:56.356Z] Zip Codes processed for Weather Updates:  16600
+[2024-07-17T20:00:57.436Z] Zip Codes processed for Weather Updates:  16650
+[2024-07-17T20:00:58.527Z] Zip Codes processed for Weather Updates:  16700
+[2024-07-17T20:00:59.619Z] Zip Codes processed for Weather Updates:  16750
+[2024-07-17T20:01:00.705Z] Zip Codes processed for Weather Updates:  16800
+[2024-07-17T20:01:01.813Z] Zip Codes processed for Weather Updates:  16850
+[2024-07-17T20:01:02.933Z] Zip Codes processed for Weather Updates:  16900
+[2024-07-17T20:01:04.046Z] Zip Codes processed for Weather Updates:  16950
+[2024-07-17T20:01:05.126Z] Zip Codes processed for Weather Updates:  17000
+[2024-07-17T20:01:06.208Z] Zip Codes processed for Weather Updates:  17050
+[2024-07-17T20:01:07.342Z] Zip Codes processed for Weather Updates:  17100
+[2024-07-17T20:01:08.416Z] Zip Codes processed for Weather Updates:  17150
+[2024-07-17T20:01:09.505Z] Zip Codes processed for Weather Updates:  17200
+[2024-07-17T20:01:10.636Z] Zip Codes processed for Weather Updates:  17250
+[2024-07-17T20:01:11.739Z] Zip Codes processed for Weather Updates:  17300
+[2024-07-17T20:01:12.865Z] Zip Codes processed for Weather Updates:  17350
+[2024-07-17T20:01:13.960Z] Zip Codes processed for Weather Updates:  17400
+[2024-07-17T20:01:15.106Z] Zip Codes processed for Weather Updates:  17450
+[2024-07-17T20:01:16.224Z] Zip Codes processed for Weather Updates:  17500
+[2024-07-17T20:01:17.348Z] Zip Codes processed for Weather Updates:  17550
+[2024-07-17T20:01:18.464Z] Zip Codes processed for Weather Updates:  17600
+[2024-07-17T20:01:19.549Z] Zip Codes processed for Weather Updates:  17650
+[2024-07-17T20:01:20.638Z] Zip Codes processed for Weather Updates:  17700
+[2024-07-17T20:01:21.770Z] Zip Codes processed for Weather Updates:  17750
+[2024-07-17T20:01:22.868Z] Zip Codes processed for Weather Updates:  17800
+[2024-07-17T20:01:23.999Z] Zip Codes processed for Weather Updates:  17850
+[2024-07-17T20:01:25.097Z] Zip Codes processed for Weather Updates:  17900
+[2024-07-17T20:01:26.202Z] Zip Codes processed for Weather Updates:  17950
+[2024-07-17T20:01:27.310Z] Zip Codes processed for Weather Updates:  18000
+[2024-07-17T20:01:28.420Z] Zip Codes processed for Weather Updates:  18050
+[2024-07-17T20:01:29.633Z] Zip Codes processed for Weather Updates:  18100
+[2024-07-17T20:01:30.737Z] Zip Codes processed for Weather Updates:  18150
+[2024-07-17T20:01:31.829Z] Zip Codes processed for Weather Updates:  18200
+[2024-07-17T20:01:33.000Z] Zip Codes processed for Weather Updates:  18250
+[2024-07-17T20:01:34.108Z] Zip Codes processed for Weather Updates:  18300
+[2024-07-17T20:01:35.200Z] Zip Codes processed for Weather Updates:  18350
+[2024-07-17T20:01:36.290Z] Zip Codes processed for Weather Updates:  18400
+[2024-07-17T20:01:37.384Z] Zip Codes processed for Weather Updates:  18450
+[2024-07-17T20:01:38.484Z] Zip Codes processed for Weather Updates:  18500
+[2024-07-17T20:01:39.594Z] Zip Codes processed for Weather Updates:  18550
+[2024-07-17T20:01:40.744Z] Zip Codes processed for Weather Updates:  18600
+[2024-07-17T20:01:41.833Z] Zip Codes processed for Weather Updates:  18650
+[2024-07-17T20:01:42.961Z] Zip Codes processed for Weather Updates:  18700
+[2024-07-17T20:01:44.089Z] Zip Codes processed for Weather Updates:  18750
+[2024-07-17T20:01:45.187Z] Zip Codes processed for Weather Updates:  18800
+[2024-07-17T20:01:46.289Z] Zip Codes processed for Weather Updates:  18850
+[2024-07-17T20:01:47.388Z] Zip Codes processed for Weather Updates:  18900
+[2024-07-17T20:01:48.473Z] Zip Codes processed for Weather Updates:  18950
+[2024-07-17T20:01:49.563Z] Zip Codes processed for Weather Updates:  19000
+[2024-07-17T20:01:50.673Z] Zip Codes processed for Weather Updates:  19050
+[2024-07-17T20:01:51.774Z] Zip Codes processed for Weather Updates:  19100
+[2024-07-17T20:01:52.884Z] Zip Codes processed for Weather Updates:  19150
+[2024-07-17T20:01:53.978Z] Zip Codes processed for Weather Updates:  19200
+[2024-07-17T20:01:55.142Z] Zip Codes processed for Weather Updates:  19250
+[2024-07-17T20:01:56.245Z] Zip Codes processed for Weather Updates:  19300
+[2024-07-17T20:01:57.337Z] Zip Codes processed for Weather Updates:  19350
+[2024-07-17T20:01:58.464Z] Zip Codes processed for Weather Updates:  19400
+[2024-07-17T20:01:59.641Z] Zip Codes processed for Weather Updates:  19450
+[2024-07-17T20:02:00.719Z] Zip Codes processed for Weather Updates:  19500
+[2024-07-17T20:02:01.806Z] Zip Codes processed for Weather Updates:  19550
+[2024-07-17T20:02:02.896Z] Zip Codes processed for Weather Updates:  19600
+[2024-07-17T20:02:04.084Z] Zip Codes processed for Weather Updates:  19650
+[2024-07-17T20:02:05.270Z] Zip Codes processed for Weather Updates:  19700
+[2024-07-17T20:02:06.344Z] Zip Codes processed for Weather Updates:  19750
+[2024-07-17T20:02:07.491Z] Zip Codes processed for Weather Updates:  19800
+[2024-07-17T20:02:08.578Z] Zip Codes processed for Weather Updates:  19850
+[2024-07-17T20:02:09.730Z] Zip Codes processed for Weather Updates:  19900
+[2024-07-17T20:02:10.842Z] Zip Codes processed for Weather Updates:  19950
+[2024-07-17T20:02:12.116Z] Zip Codes processed for Weather Updates:  20000
+[2024-07-17T20:02:13.245Z] Zip Codes processed for Weather Updates:  20050
+[2024-07-17T20:02:14.417Z] Zip Codes processed for Weather Updates:  20100
+[2024-07-17T20:02:15.538Z] Zip Codes processed for Weather Updates:  20150
+[2024-07-17T20:02:16.639Z] Zip Codes processed for Weather Updates:  20200
+[2024-07-17T20:02:17.808Z] Zip Codes processed for Weather Updates:  20250
+[2024-07-17T20:02:18.930Z] Zip Codes processed for Weather Updates:  20300
+[2024-07-17T20:02:20.042Z] Zip Codes processed for Weather Updates:  20350
+[2024-07-17T20:02:21.170Z] Zip Codes processed for Weather Updates:  20400
+[2024-07-17T20:02:22.283Z] Zip Codes processed for Weather Updates:  20450
+[2024-07-17T20:02:23.431Z] Zip Codes processed for Weather Updates:  20500
+[2024-07-17T20:02:24.561Z] Zip Codes processed for Weather Updates:  20550
+[2024-07-17T20:02:25.672Z] Zip Codes processed for Weather Updates:  20600
+[2024-07-17T20:02:26.782Z] Zip Codes processed for Weather Updates:  20650
+[2024-07-17T20:02:27.885Z] Zip Codes processed for Weather Updates:  20700
+[2024-07-17T20:02:28.975Z] Zip Codes processed for Weather Updates:  20750
+[2024-07-17T20:02:30.079Z] Zip Codes processed for Weather Updates:  20800
+[2024-07-17T20:02:31.192Z] Zip Codes processed for Weather Updates:  20850
+[2024-07-17T20:02:32.284Z] Zip Codes processed for Weather Updates:  20900
+[2024-07-17T20:02:33.377Z] Zip Codes processed for Weather Updates:  20950
+[2024-07-17T20:02:34.460Z] Zip Codes processed for Weather Updates:  21000
+[2024-07-17T20:02:35.567Z] Zip Codes processed for Weather Updates:  21050
+[2024-07-17T20:02:36.661Z] Zip Codes processed for Weather Updates:  21100
+[2024-07-17T20:02:37.759Z] Zip Codes processed for Weather Updates:  21150
+[2024-07-17T20:02:38.852Z] Zip Codes processed for Weather Updates:  21200
+[2024-07-17T20:02:39.956Z] Zip Codes processed for Weather Updates:  21250
+[2024-07-17T20:02:41.057Z] Zip Codes processed for Weather Updates:  21300
+[2024-07-17T20:02:42.158Z] Zip Codes processed for Weather Updates:  21350
+[2024-07-17T20:02:43.283Z] Zip Codes processed for Weather Updates:  21400
+[2024-07-17T20:02:44.435Z] Zip Codes processed for Weather Updates:  21450
+[2024-07-17T20:02:45.531Z] Zip Codes processed for Weather Updates:  21500
+[2024-07-17T20:02:46.665Z] Zip Codes processed for Weather Updates:  21550
+[2024-07-17T20:02:47.808Z] Zip Codes processed for Weather Updates:  21600
+[2024-07-17T20:02:48.905Z] Zip Codes processed for Weather Updates:  21650
+[2024-07-17T20:02:50.028Z] Zip Codes processed for Weather Updates:  21700
+[2024-07-17T20:02:51.153Z] Zip Codes processed for Weather Updates:  21750
+[2024-07-17T20:02:52.279Z] Zip Codes processed for Weather Updates:  21800
+[2024-07-17T20:02:53.390Z] Zip Codes processed for Weather Updates:  21850
+[2024-07-17T20:02:54.506Z] Zip Codes processed for Weather Updates:  21900
+[2024-07-17T20:02:55.597Z] Zip Codes processed for Weather Updates:  21950
+[2024-07-17T20:02:56.714Z] Zip Codes processed for Weather Updates:  22000
+[2024-07-17T20:02:58.039Z] Zip Codes processed for Weather Updates:  22050
+[2024-07-17T20:02:59.258Z] Zip Codes processed for Weather Updates:  22100
+[2024-07-17T20:03:00.396Z] Zip Codes processed for Weather Updates:  22150
+[2024-07-17T20:03:01.538Z] Zip Codes processed for Weather Updates:  22200
+[2024-07-17T20:03:02.662Z] Zip Codes processed for Weather Updates:  22250
+[2024-07-17T20:03:03.780Z] Zip Codes processed for Weather Updates:  22300
+[2024-07-17T20:03:04.890Z] Zip Codes processed for Weather Updates:  22350
+[2024-07-17T20:03:06.016Z] Zip Codes processed for Weather Updates:  22400
+[2024-07-17T20:03:07.118Z] Zip Codes processed for Weather Updates:  22450
+[2024-07-17T20:03:08.210Z] Zip Codes processed for Weather Updates:  22500
+[2024-07-17T20:03:09.327Z] Zip Codes processed for Weather Updates:  22550
+[2024-07-17T20:03:10.423Z] Zip Codes processed for Weather Updates:  22600
+[2024-07-17T20:03:11.534Z] Zip Codes processed for Weather Updates:  22650
+[2024-07-17T20:03:12.630Z] Zip Codes processed for Weather Updates:  22700
+[2024-07-17T20:03:13.721Z] Zip Codes processed for Weather Updates:  22750
+[2024-07-17T20:03:16.684Z] Zip Codes processed for Weather Updates:  22800
+[2024-07-17T20:03:17.799Z] Zip Codes processed for Weather Updates:  22850
+[2024-07-17T20:03:18.896Z] Zip Codes processed for Weather Updates:  22900
+[2024-07-17T20:03:20.026Z] Zip Codes processed for Weather Updates:  22950
+[2024-07-17T20:03:21.114Z] Zip Codes processed for Weather Updates:  23000
+[2024-07-17T20:03:22.230Z] Zip Codes processed for Weather Updates:  23050
+[2024-07-17T20:03:23.338Z] Zip Codes processed for Weather Updates:  23100
+[2024-07-17T20:03:24.429Z] Zip Codes processed for Weather Updates:  23150
+[2024-07-17T20:03:25.521Z] Zip Codes processed for Weather Updates:  23200
+[2024-07-17T20:03:26.605Z] Zip Codes processed for Weather Updates:  23250
+[2024-07-17T20:03:27.707Z] Zip Codes processed for Weather Updates:  23300
+[2024-07-17T20:03:28.811Z] Zip Codes processed for Weather Updates:  23350
+[2024-07-17T20:03:29.915Z] Zip Codes processed for Weather Updates:  23400
+[2024-07-17T20:03:31.019Z] Zip Codes processed for Weather Updates:  23450
+[2024-07-17T20:03:32.154Z] Zip Codes processed for Weather Updates:  23500
+[2024-07-17T20:03:33.252Z] Zip Codes processed for Weather Updates:  23550
+[2024-07-17T20:03:34.347Z] Zip Codes processed for Weather Updates:  23600
+[2024-07-17T20:03:35.467Z] Zip Codes processed for Weather Updates:  23650
+[2024-07-17T20:03:36.554Z] Zip Codes processed for Weather Updates:  23700
+[2024-07-17T20:03:37.689Z] Zip Codes processed for Weather Updates:  23750
+[2024-07-17T20:03:38.802Z] Zip Codes processed for Weather Updates:  23800
+[2024-07-17T20:03:39.901Z] Zip Codes processed for Weather Updates:  23850
+[2024-07-17T20:03:41.103Z] Zip Codes processed for Weather Updates:  23900
+[2024-07-17T20:03:42.195Z] Zip Codes processed for Weather Updates:  23950
+[2024-07-17T20:03:43.305Z] Zip Codes processed for Weather Updates:  24000
+[2024-07-17T20:03:44.405Z] Zip Codes processed for Weather Updates:  24050
+[2024-07-17T20:03:45.544Z] Zip Codes processed for Weather Updates:  24100
+[2024-07-17T20:03:46.644Z] Zip Codes processed for Weather Updates:  24150
+[2024-07-17T20:03:47.782Z] Zip Codes processed for Weather Updates:  24200
+[2024-07-17T20:03:48.870Z] Zip Codes processed for Weather Updates:  24250
+[2024-07-17T20:03:49.988Z] Zip Codes processed for Weather Updates:  24300
+[2024-07-17T20:03:51.087Z] Zip Codes processed for Weather Updates:  24350
+[2024-07-17T20:03:52.181Z] Zip Codes processed for Weather Updates:  24400
+[2024-07-17T20:03:53.307Z] Zip Codes processed for Weather Updates:  24450
+[2024-07-17T20:03:54.400Z] Zip Codes processed for Weather Updates:  24500
+[2024-07-17T20:03:55.498Z] Zip Codes processed for Weather Updates:  24550
+[2024-07-17T20:03:56.610Z] Zip Codes processed for Weather Updates:  24600
+[2024-07-17T20:03:57.721Z] Zip Codes processed for Weather Updates:  24650
+[2024-07-17T20:03:58.870Z] Zip Codes processed for Weather Updates:  24700
+[2024-07-17T20:03:59.999Z] Zip Codes processed for Weather Updates:  24750
+[2024-07-17T20:04:01.178Z] Zip Codes processed for Weather Updates:  24800
+[2024-07-17T20:04:02.307Z] Zip Codes processed for Weather Updates:  24850
+[2024-07-17T20:04:03.409Z] Zip Codes processed for Weather Updates:  24900
+[2024-07-17T20:04:04.554Z] Zip Codes processed for Weather Updates:  24950
+[2024-07-17T20:04:05.652Z] Zip Codes processed for Weather Updates:  25000
+[2024-07-17T20:04:06.767Z] Zip Codes processed for Weather Updates:  25050
+[2024-07-17T20:04:07.971Z] Zip Codes processed for Weather Updates:  25100
+[2024-07-17T20:04:09.131Z] Zip Codes processed for Weather Updates:  25150
+[2024-07-17T20:04:10.258Z] Zip Codes processed for Weather Updates:  25200
+[2024-07-17T20:04:11.384Z] Zip Codes processed for Weather Updates:  25250
+[2024-07-17T20:04:12.476Z] Zip Codes processed for Weather Updates:  25300
+[2024-07-17T20:04:13.571Z] Zip Codes processed for Weather Updates:  25350
+[2024-07-17T20:04:14.710Z] Zip Codes processed for Weather Updates:  25400
+[2024-07-17T20:04:15.852Z] Zip Codes processed for Weather Updates:  25450
+[2024-07-17T20:04:16.945Z] Zip Codes processed for Weather Updates:  25500
+[2024-07-17T20:04:18.025Z] Zip Codes processed for Weather Updates:  25550
+[2024-07-17T20:04:19.126Z] Zip Codes processed for Weather Updates:  25600
+[2024-07-17T20:04:20.367Z] Zip Codes processed for Weather Updates:  25650
+[2024-07-17T20:04:21.469Z] Zip Codes processed for Weather Updates:  25700
+[2024-07-17T20:04:24.447Z] Zip Codes processed for Weather Updates:  25750
+[2024-07-17T20:04:25.661Z] Zip Codes processed for Weather Updates:  25800
+[2024-07-17T20:04:26.761Z] Zip Codes processed for Weather Updates:  25850
+[2024-07-17T20:04:27.857Z] Zip Codes processed for Weather Updates:  25900
+[2024-07-17T20:04:28.993Z] Zip Codes processed for Weather Updates:  25950
+[2024-07-17T20:04:30.111Z] Zip Codes processed for Weather Updates:  26000
+[2024-07-17T20:04:31.222Z] Zip Codes processed for Weather Updates:  26050
+[2024-07-17T20:04:32.357Z] Zip Codes processed for Weather Updates:  26100
+[2024-07-17T20:04:33.456Z] Zip Codes processed for Weather Updates:  26150
+[2024-07-17T20:04:34.564Z] Zip Codes processed for Weather Updates:  26200
+[2024-07-17T20:04:35.662Z] Zip Codes processed for Weather Updates:  26250
+[2024-07-17T20:04:36.781Z] Zip Codes processed for Weather Updates:  26300
+[2024-07-17T20:04:37.889Z] Zip Codes processed for Weather Updates:  26350
+[2024-07-17T20:04:38.978Z] Zip Codes processed for Weather Updates:  26400
+[2024-07-17T20:04:40.075Z] Zip Codes processed for Weather Updates:  26450
+[2024-07-17T20:04:41.189Z] Zip Codes processed for Weather Updates:  26500
+[2024-07-17T20:04:42.318Z] Zip Codes processed for Weather Updates:  26550
+[2024-07-17T20:04:43.425Z] Zip Codes processed for Weather Updates:  26600
+[2024-07-17T20:04:44.546Z] Zip Codes processed for Weather Updates:  26650
+[2024-07-17T20:04:45.654Z] Zip Codes processed for Weather Updates:  26700
+[2024-07-17T20:04:46.767Z] Zip Codes processed for Weather Updates:  26750
+[2024-07-17T20:04:47.875Z] Zip Codes processed for Weather Updates:  26800
+[2024-07-17T20:04:49.011Z] Zip Codes processed for Weather Updates:  26850
+[2024-07-17T20:04:50.118Z] Zip Codes processed for Weather Updates:  26900
+[2024-07-17T20:04:51.235Z] Zip Codes processed for Weather Updates:  26950
+[2024-07-17T20:04:52.331Z] Zip Codes processed for Weather Updates:  27000
+[2024-07-17T20:04:53.429Z] Zip Codes processed for Weather Updates:  27050
+[2024-07-17T20:04:54.557Z] Zip Codes processed for Weather Updates:  27100
+[2024-07-17T20:04:55.653Z] Zip Codes processed for Weather Updates:  27150
+[2024-07-17T20:04:56.760Z] Zip Codes processed for Weather Updates:  27200
+[2024-07-17T20:04:57.856Z] Zip Codes processed for Weather Updates:  27250
+[2024-07-17T20:04:58.953Z] Zip Codes processed for Weather Updates:  27300
+[2024-07-17T20:05:00.102Z] Zip Codes processed for Weather Updates:  27350
+[2024-07-17T20:05:01.314Z] Zip Codes processed for Weather Updates:  27400
+[2024-07-17T20:05:02.439Z] Zip Codes processed for Weather Updates:  27450
+[2024-07-17T20:05:03.581Z] Zip Codes processed for Weather Updates:  27500
+[2024-07-17T20:05:04.678Z] Zip Codes processed for Weather Updates:  27550
+[2024-07-17T20:05:05.858Z] Zip Codes processed for Weather Updates:  27600
+[2024-07-17T20:05:06.964Z] Zip Codes processed for Weather Updates:  27650
+[2024-07-17T20:05:08.054Z] Zip Codes processed for Weather Updates:  27700
+[2024-07-17T20:05:09.154Z] Zip Codes processed for Weather Updates:  27750
+[2024-07-17T20:05:10.241Z] Zip Codes processed for Weather Updates:  27800
+[2024-07-17T20:05:11.336Z] Zip Codes processed for Weather Updates:  27850
+[2024-07-17T20:05:12.460Z] Zip Codes processed for Weather Updates:  27900
+[2024-07-17T20:05:13.561Z] Zip Codes processed for Weather Updates:  27950
+[2024-07-17T20:05:14.679Z] Zip Codes processed for Weather Updates:  28000
+[2024-07-17T20:05:15.777Z] Zip Codes processed for Weather Updates:  28050
+[2024-07-17T20:05:16.907Z] Zip Codes processed for Weather Updates:  28100
+[2024-07-17T20:05:18.030Z] Zip Codes processed for Weather Updates:  28150
+[2024-07-17T20:05:19.154Z] Zip Codes processed for Weather Updates:  28200
+[2024-07-17T20:05:20.307Z] Zip Codes processed for Weather Updates:  28250
+[2024-07-17T20:05:21.418Z] Zip Codes processed for Weather Updates:  28300
+[2024-07-17T20:05:22.520Z] Zip Codes processed for Weather Updates:  28350
+[2024-07-17T20:05:23.631Z] Zip Codes processed for Weather Updates:  28400
+[2024-07-17T20:05:24.729Z] Zip Codes processed for Weather Updates:  28450
+[2024-07-17T20:05:25.831Z] Zip Codes processed for Weather Updates:  28500
+[2024-07-17T20:05:26.956Z] Zip Codes processed for Weather Updates:  28550
+[2024-07-17T20:05:28.114Z] Zip Codes processed for Weather Updates:  28600
+[2024-07-17T20:05:29.213Z] Zip Codes processed for Weather Updates:  28650
+[2024-07-17T20:05:30.311Z] Zip Codes processed for Weather Updates:  28700
+[2024-07-17T20:05:31.436Z] Zip Codes processed for Weather Updates:  28750
+[2024-07-17T20:05:32.554Z] Zip Codes processed for Weather Updates:  28800
+[2024-07-17T20:05:33.647Z] Zip Codes processed for Weather Updates:  28850
+[2024-07-17T20:05:34.790Z] Zip Codes processed for Weather Updates:  28900
+[2024-07-17T20:05:35.875Z] Zip Codes processed for Weather Updates:  28950
+[2024-07-17T20:05:36.961Z] Zip Codes processed for Weather Updates:  29000
+[2024-07-17T20:05:38.073Z] Zip Codes processed for Weather Updates:  29050
+[2024-07-17T20:05:39.167Z] Zip Codes processed for Weather Updates:  29100
+[2024-07-17T20:05:40.269Z] Zip Codes processed for Weather Updates:  29150
+[2024-07-17T20:05:41.391Z] Zip Codes processed for Weather Updates:  29200
+[2024-07-17T20:05:42.510Z] Zip Codes processed for Weather Updates:  29250
+[2024-07-17T20:05:43.596Z] Zip Codes processed for Weather Updates:  29300
+[2024-07-17T20:05:44.852Z] Zip Codes processed for Weather Updates:  29350
+[2024-07-17T20:05:45.951Z] Zip Codes processed for Weather Updates:  29400
+[2024-07-17T20:05:47.042Z] Zip Codes processed for Weather Updates:  29450
+[2024-07-17T20:05:48.139Z] Zip Codes processed for Weather Updates:  29500
+[2024-07-17T20:05:49.231Z] Zip Codes processed for Weather Updates:  29550
+[2024-07-17T20:05:50.317Z] Zip Codes processed for Weather Updates:  29600
+[2024-07-17T20:05:51.420Z] Zip Codes processed for Weather Updates:  29650
+[2024-07-17T20:05:52.535Z] Zip Codes processed for Weather Updates:  29700
+[2024-07-17T20:05:53.660Z] Zip Codes processed for Weather Updates:  29750
+[2024-07-17T20:05:54.764Z] Zip Codes processed for Weather Updates:  29800
+[2024-07-17T20:05:55.872Z] Zip Codes processed for Weather Updates:  29850
+[2024-07-17T20:05:56.984Z] Zip Codes processed for Weather Updates:  29900
+[2024-07-17T20:05:58.090Z] Zip Codes processed for Weather Updates:  29950
+[2024-07-17T20:05:59.219Z] Zip Codes processed for Weather Updates:  30000
+[2024-07-17T20:06:00.400Z] Zip Codes processed for Weather Updates:  30050
+[2024-07-17T20:06:01.593Z] Zip Codes processed for Weather Updates:  30100
+[2024-07-17T20:06:02.704Z] Zip Codes processed for Weather Updates:  30150
+[2024-07-17T20:06:03.799Z] Zip Codes processed for Weather Updates:  30200
+[2024-07-17T20:06:04.926Z] Zip Codes processed for Weather Updates:  30250
+[2024-07-17T20:06:06.022Z] Zip Codes processed for Weather Updates:  30300
+[2024-07-17T20:06:07.157Z] Zip Codes processed for Weather Updates:  30350
+[2024-07-17T20:06:08.252Z] Zip Codes processed for Weather Updates:  30400
+[2024-07-17T20:06:09.353Z] Zip Codes processed for Weather Updates:  30450
+[2024-07-17T20:06:10.457Z] Zip Codes processed for Weather Updates:  30500
+[2024-07-17T20:06:11.547Z] Zip Codes processed for Weather Updates:  30550
+[2024-07-17T20:06:12.677Z] Zip Codes processed for Weather Updates:  30600
+[2024-07-17T20:06:13.799Z] Zip Codes processed for Weather Updates:  30650
+[2024-07-17T20:06:14.893Z] Zip Codes processed for Weather Updates:  30700
+[2024-07-17T20:06:15.988Z] Zip Codes processed for Weather Updates:  30750
+[2024-07-17T20:06:17.114Z] Zip Codes processed for Weather Updates:  30800
+[2024-07-17T20:06:18.259Z] Zip Codes processed for Weather Updates:  30850
+[2024-07-17T20:06:19.356Z] Zip Codes processed for Weather Updates:  30900
+[2024-07-17T20:06:20.486Z] Zip Codes processed for Weather Updates:  30950
+[2024-07-17T20:06:21.587Z] Zip Codes processed for Weather Updates:  31000
+[2024-07-17T20:06:22.880Z] Zip Codes processed for Weather Updates:  31050
+[2024-07-17T20:06:23.979Z] Zip Codes processed for Weather Updates:  31100
+[2024-07-17T20:06:25.081Z] Zip Codes processed for Weather Updates:  31150
+[2024-07-17T20:06:26.199Z] Zip Codes processed for Weather Updates:  31200
+[2024-07-17T20:06:27.286Z] Zip Codes processed for Weather Updates:  31250
+[2024-07-17T20:06:28.420Z] Zip Codes processed for Weather Updates:  31300
+[2024-07-17T20:06:29.526Z] Zip Codes processed for Weather Updates:  31350
+[2024-07-17T20:06:30.631Z] Zip Codes processed for Weather Updates:  31400
+[2024-07-17T20:06:31.719Z] Zip Codes processed for Weather Updates:  31450
+[2024-07-17T20:06:32.832Z] Zip Codes processed for Weather Updates:  31500
+[2024-07-17T20:06:33.926Z] Zip Codes processed for Weather Updates:  31550
+[2024-07-17T20:06:35.074Z] Zip Codes processed for Weather Updates:  31600
+[2024-07-17T20:06:36.163Z] Zip Codes processed for Weather Updates:  31650
+[2024-07-17T20:06:37.272Z] Zip Codes processed for Weather Updates:  31700
+[2024-07-17T20:06:38.376Z] Zip Codes processed for Weather Updates:  31750
+[2024-07-17T20:06:39.466Z] Zip Codes processed for Weather Updates:  31800
+[2024-07-17T20:06:40.572Z] Zip Codes processed for Weather Updates:  31850
+[2024-07-17T20:06:41.668Z] Zip Codes processed for Weather Updates:  31900
+[2024-07-17T20:06:42.781Z] Zip Codes processed for Weather Updates:  31950
+[2024-07-17T20:06:43.904Z] Zip Codes processed for Weather Updates:  32000
+[2024-07-17T20:06:45.029Z] Zip Codes processed for Weather Updates:  32050
+[2024-07-17T20:06:46.117Z] Zip Codes processed for Weather Updates:  32100
+[2024-07-17T20:06:47.217Z] Zip Codes processed for Weather Updates:  32150
+[2024-07-17T20:06:48.348Z] Zip Codes processed for Weather Updates:  32200
+[2024-07-17T20:06:49.458Z] Zip Codes processed for Weather Updates:  32250
+[2024-07-17T20:06:50.594Z] Zip Codes processed for Weather Updates:  32300
+[2024-07-17T20:06:51.691Z] Zip Codes processed for Weather Updates:  32350
+[2024-07-17T20:06:52.811Z] Zip Codes processed for Weather Updates:  32400
+[2024-07-17T20:06:53.939Z] Zip Codes processed for Weather Updates:  32450
+[2024-07-17T20:06:55.041Z] Zip Codes processed for Weather Updates:  32500
+[2024-07-17T20:06:56.138Z] Zip Codes processed for Weather Updates:  32550
+[2024-07-17T20:06:57.232Z] Zip Codes processed for Weather Updates:  32600
+[2024-07-17T20:06:58.400Z] Zip Codes processed for Weather Updates:  32650
+[2024-07-17T20:06:59.507Z] Zip Codes processed for Weather Updates:  32700
+[2024-07-17T20:07:00.669Z] Zip Codes processed for Weather Updates:  32750
+[2024-07-17T20:07:01.949Z] Zip Codes processed for Weather Updates:  32800
+[2024-07-17T20:07:03.073Z] Zip Codes processed for Weather Updates:  32850
+[2024-07-17T20:07:04.184Z] Zip Codes processed for Weather Updates:  32900
+[2024-07-17T20:07:05.284Z] Zip Codes processed for Weather Updates:  32950
+[2024-07-17T20:07:06.375Z] Zip Codes processed for Weather Updates:  33000
+[2024-07-17T20:07:07.488Z] Zip Codes processed for Weather Updates:  33050
+[2024-07-17T20:07:08.566Z] Zip Codes processed for Weather Updates:  33100
+[2024-07-17T20:07:09.685Z] Zip Codes processed for Weather Updates:  33150
+[2024-07-17T20:07:10.843Z] Zip Codes processed for Weather Updates:  33200
+[2024-07-17T20:07:11.957Z] Zip Codes processed for Weather Updates:  33250
+[2024-07-17T20:07:13.076Z] Zip Codes processed for Weather Updates:  33300
+[2024-07-17T20:07:14.176Z] Zip Codes processed for Weather Updates:  33350
+[2024-07-17T20:07:15.290Z] Zip Codes processed for Weather Updates:  33400
+[2024-07-17T20:07:16.465Z] Zip Codes processed for Weather Updates:  33450
+[2024-07-17T20:07:17.575Z] Zip Codes processed for Weather Updates:  33500
+[2024-07-17T20:07:18.696Z] Zip Codes processed for Weather Updates:  33550
+[2024-07-17T20:07:19.830Z] Zip Codes processed for Weather Updates:  33600
+[2024-07-17T20:07:21.054Z] Zip Codes processed for Weather Updates:  33650
+[2024-07-17T20:07:22.139Z] Zip Codes processed for Weather Updates:  33700
+[2024-07-17T20:07:23.238Z] Zip Codes processed for Weather Updates:  33750
+[2024-07-17T20:07:24.353Z] Zip Codes processed for Weather Updates:  33800
+[2024-07-17T20:07:25.464Z] Zip Codes processed for Weather Updates:  33850
+[2024-07-17T20:07:26.574Z] Zip Codes processed for Weather Updates:  33900
+[2024-07-17T20:07:27.698Z] Zip Codes processed for Weather Updates:  33950
+[2024-07-17T20:07:28.814Z] Zip Codes processed for Weather Updates:  34000
+[2024-07-17T20:07:29.898Z] Zip Codes processed for Weather Updates:  34050
+[2024-07-17T20:07:31.001Z] Zip Codes processed for Weather Updates:  34100
+[2024-07-17T20:07:32.089Z] Zip Codes processed for Weather Updates:  34150
+[2024-07-17T20:07:33.207Z] Zip Codes processed for Weather Updates:  34200
+[2024-07-17T20:07:34.318Z] Zip Codes processed for Weather Updates:  34250
+[2024-07-17T20:07:35.418Z] Zip Codes processed for Weather Updates:  34300
+[2024-07-17T20:07:36.504Z] Zip Codes processed for Weather Updates:  34350
+[2024-07-17T20:07:37.626Z] Zip Codes processed for Weather Updates:  34400
+[2024-07-17T20:07:38.739Z] Zip Codes processed for Weather Updates:  34450
+[2024-07-17T20:07:39.841Z] Zip Codes processed for Weather Updates:  34500
+[2024-07-17T20:07:40.946Z] Zip Codes processed for Weather Updates:  34550
+[2024-07-17T20:07:42.058Z] Zip Codes processed for Weather Updates:  34600
+[2024-07-17T20:07:43.173Z] Zip Codes processed for Weather Updates:  34650
+[2024-07-17T20:07:44.302Z] Zip Codes processed for Weather Updates:  34700
+[2024-07-17T20:07:45.413Z] Zip Codes processed for Weather Updates:  34750
+[2024-07-17T20:07:46.515Z] Zip Codes processed for Weather Updates:  34800
+[2024-07-17T20:07:47.639Z] Zip Codes processed for Weather Updates:  34850
+[2024-07-17T20:07:48.762Z] Zip Codes processed for Weather Updates:  34900
+[2024-07-17T20:07:49.858Z] Zip Codes processed for Weather Updates:  34950
+[2024-07-17T20:07:50.964Z] Zip Codes processed for Weather Updates:  35000
+[2024-07-17T20:07:52.053Z] Zip Codes processed for Weather Updates:  35050
+[2024-07-17T20:07:53.175Z] Zip Codes processed for Weather Updates:  35100
+[2024-07-17T20:07:54.263Z] Zip Codes processed for Weather Updates:  35150
+[2024-07-17T20:07:55.384Z] Zip Codes processed for Weather Updates:  35200
+[2024-07-17T20:07:56.497Z] Zip Codes processed for Weather Updates:  35250
+[2024-07-17T20:07:57.579Z] Zip Codes processed for Weather Updates:  35300
+[2024-07-17T20:07:58.675Z] Zip Codes processed for Weather Updates:  35350
+[2024-07-17T20:07:59.767Z] Zip Codes processed for Weather Updates:  35400
+[2024-07-17T20:08:01.015Z] Zip Codes processed for Weather Updates:  35450
+[2024-07-17T20:08:02.121Z] Zip Codes processed for Weather Updates:  35500
+[2024-07-17T20:08:03.228Z] Zip Codes processed for Weather Updates:  35550
+[2024-07-17T20:08:04.333Z] Zip Codes processed for Weather Updates:  35600
+[2024-07-17T20:08:05.421Z] Zip Codes processed for Weather Updates:  35650
+[2024-07-17T20:08:06.549Z] Zip Codes processed for Weather Updates:  35700
+[2024-07-17T20:08:07.673Z] Zip Codes processed for Weather Updates:  35750
+[2024-07-17T20:08:08.786Z] Zip Codes processed for Weather Updates:  35800
+[2024-07-17T20:08:09.879Z] Zip Codes processed for Weather Updates:  35850
+[2024-07-17T20:08:10.993Z] Zip Codes processed for Weather Updates:  35900
+[2024-07-17T20:08:12.145Z] Zip Codes processed for Weather Updates:  35950
+[2024-07-17T20:08:13.274Z] Zip Codes processed for Weather Updates:  36000
+[2024-07-17T20:08:14.435Z] Zip Codes processed for Weather Updates:  36050
+[2024-07-17T20:08:15.530Z] Zip Codes processed for Weather Updates:  36100
+[2024-07-17T20:08:16.653Z] Zip Codes processed for Weather Updates:  36150
+[2024-07-17T20:08:17.816Z] Zip Codes processed for Weather Updates:  36200
+[2024-07-17T20:08:18.927Z] Zip Codes processed for Weather Updates:  36250
+[2024-07-17T20:08:20.047Z] Zip Codes processed for Weather Updates:  36300
+[2024-07-17T20:08:21.131Z] Zip Codes processed for Weather Updates:  36350
+[2024-07-17T20:08:22.581Z] Zip Codes processed for Weather Updates:  36400
+[2024-07-17T20:08:23.718Z] Zip Codes processed for Weather Updates:  36450
+[2024-07-17T20:08:24.821Z] Zip Codes processed for Weather Updates:  36500
+[2024-07-17T20:08:25.954Z] Zip Codes processed for Weather Updates:  36550
+[2024-07-17T20:08:27.091Z] Zip Codes processed for Weather Updates:  36600
+[2024-07-17T20:08:28.179Z] Zip Codes processed for Weather Updates:  36650
+[2024-07-17T20:08:29.283Z] Zip Codes processed for Weather Updates:  36700
+[2024-07-17T20:08:30.401Z] Zip Codes processed for Weather Updates:  36750
+[2024-07-17T20:08:31.508Z] Zip Codes processed for Weather Updates:  36800
+[2024-07-17T20:08:32.588Z] Zip Codes processed for Weather Updates:  36850
+[2024-07-17T20:08:33.699Z] Zip Codes processed for Weather Updates:  36900
+[2024-07-17T20:08:34.816Z] Zip Codes processed for Weather Updates:  36950
+[2024-07-17T20:08:35.907Z] Zip Codes processed for Weather Updates:  37000
+[2024-07-17T20:08:37.029Z] Zip Codes processed for Weather Updates:  37050
+[2024-07-17T20:08:38.126Z] Zip Codes processed for Weather Updates:  37100
+[2024-07-17T20:08:39.214Z] Zip Codes processed for Weather Updates:  37150
+[2024-07-17T20:08:40.306Z] Zip Codes processed for Weather Updates:  37200
+[2024-07-17T20:08:41.426Z] Zip Codes processed for Weather Updates:  37250
+[2024-07-17T20:08:42.558Z] Zip Codes processed for Weather Updates:  37300
+[2024-07-17T20:08:43.675Z] Zip Codes processed for Weather Updates:  37350
+[2024-07-17T20:08:44.789Z] Zip Codes processed for Weather Updates:  37400
+[2024-07-17T20:08:45.913Z] Zip Codes processed for Weather Updates:  37450
+[2024-07-17T20:08:47.006Z] Zip Codes processed for Weather Updates:  37500
+[2024-07-17T20:08:48.519Z] Zip Codes processed for Weather Updates:  37550
+[2024-07-17T20:08:49.615Z] Zip Codes processed for Weather Updates:  37600
+[2024-07-17T20:08:50.748Z] Zip Codes processed for Weather Updates:  37650
+[2024-07-17T20:08:51.856Z] Zip Codes processed for Weather Updates:  37700
+[2024-07-17T20:08:52.956Z] Zip Codes processed for Weather Updates:  37750
+[2024-07-17T20:08:54.073Z] Zip Codes processed for Weather Updates:  37800
+[2024-07-17T20:08:55.175Z] Zip Codes processed for Weather Updates:  37850
+[2024-07-17T20:08:56.294Z] Zip Codes processed for Weather Updates:  37900
+[2024-07-17T20:08:57.399Z] Zip Codes processed for Weather Updates:  37950
+[2024-07-17T20:08:58.504Z] Zip Codes processed for Weather Updates:  37997
+[2024-07-17T20:08:59.510Z] Total processed items: 37997
+[2024-07-17T20:14:09.321Z] DB Connection Status:  1
+[2024-07-17T20:14:09.321Z] DB Connection Established!
+[2024-07-17T20:14:09.322Z] Connected to database.
+[2024-07-17T20:14:09.823Z] Updated zip code 60148 with location code 26252_PC and time zone America/Chicago
+[2024-07-17T20:14:09.892Z] Updated zip code 18034 with location code 7361_PC and time zone America/New_York
+[2024-07-17T20:14:09.971Z] Updated zip code 96718 with location code 40630_PC and time zone Pacific/Honolulu
+[2024-07-17T20:14:09.972Z] Specific zip codes updated successfully.
+[2024-07-17T20:15:46.971Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:15:46.971Z] Zip Codes:  60148,18034,96718
+[2024-07-17T20:15:46.977Z] DB Connection Status:  1
+[2024-07-17T20:15:46.978Z] DB Connection Established!
+[2024-07-17T20:15:47.663Z] Zip Codes processed for Weather Updates:  2
+[2024-07-17T20:15:48.669Z] Total processed items: 2
+[2024-07-17T20:15:48.670Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:17:12.819Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:17:12.820Z] Zip Codes:  60148,18034,96718
+[2024-07-17T20:17:12.821Z] DB Connection Status:  1
+[2024-07-17T20:17:12.821Z] DB Connection Established!
+[2024-07-17T20:17:13.095Z] Zip Codes processed for Weather Updates:  1
+[2024-07-17T20:17:14.101Z] Total processed items: 1
+[2024-07-17T20:17:14.102Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:18:20.703Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:18:20.704Z] Zip Codes:  60148,18034,96718
+[2024-07-17T20:18:20.705Z] DB Connection Status:  1
+[2024-07-17T20:18:20.705Z] DB Connection Established!
+[2024-07-17T20:18:20.732Z] Total processed items: 0
+[2024-07-17T20:18:20.733Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:20:23.036Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:20:23.037Z] Zip Codes:  60148,18034,96718
+[2024-07-17T20:20:23.039Z] DB Connection Status:  1
+[2024-07-17T20:20:23.040Z] DB Connection Established!
+[2024-07-17T20:20:23.414Z] Zip Codes processed for Weather Updates:  1
+[2024-07-17T20:20:24.420Z] Total processed items: 1
+[2024-07-17T20:20:24.423Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:20:47.687Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:20:47.687Z] Zip Codes:  60148,18034,96718
+[2024-07-17T20:20:47.688Z] DB Connection Status:  1
+[2024-07-17T20:20:47.688Z] DB Connection Established!
+[2024-07-17T20:20:48.015Z] Zip Codes processed for Weather Updates:  2
+[2024-07-17T20:20:49.027Z] Total processed items: 2
+[2024-07-17T20:20:49.029Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:21:09.564Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:21:09.565Z] Zip Codes:  60148,18034,96718
+[2024-07-17T20:21:09.566Z] DB Connection Status:  1
+[2024-07-17T20:21:09.567Z] DB Connection Established!
+[2024-07-17T20:21:10.239Z] Zip Codes processed for Weather Updates:  3
+[2024-07-17T20:21:11.243Z] Total processed items: 3
+[2024-07-17T20:21:11.245Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:25:57.761Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:25:57.761Z] Zip Codes:  60148,18034,96718
+[2024-07-17T20:25:57.763Z] DB Connection Status:  1
+[2024-07-17T20:25:57.763Z] DB Connection Established!
+[2024-07-17T20:25:58.120Z] Zip Codes processed for Weather Updates:  3
+[2024-07-17T20:25:59.126Z] Total processed items: 3
+[2024-07-17T20:25:59.127Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:42:48.898Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:42:48.899Z] Zip Codes:  60148,18034,96718
+[2024-07-17T20:42:48.900Z] DB Connection Status:  1
+[2024-07-17T20:42:48.900Z] DB Connection Established!
+[2024-07-17T20:42:49.774Z] Zip Codes processed for Weather Updates:  3
+[2024-07-17T20:42:50.792Z] Total processed items: 3
+[2024-07-17T20:42:50.795Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:46:27.029Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:46:27.030Z] Zip Codes:  18034
+[2024-07-17T20:46:27.313Z] Zip Codes processed for Weather Updates:  4
+[2024-07-17T20:46:28.338Z] Total processed items: 1
+[2024-07-17T20:46:28.352Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:46:59.071Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:46:59.072Z] Zip Codes:  18034
+[2024-07-17T20:46:59.074Z] DB Connection Status:  1
+[2024-07-17T20:46:59.075Z] DB Connection Established!
+[2024-07-17T20:46:59.608Z] Zip Codes processed for Weather Updates:  1
+[2024-07-17T20:47:00.614Z] Total processed items: 1
+[2024-07-17T20:47:00.635Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:48:14.297Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:48:14.297Z] Zip Codes:  18034
+[2024-07-17T20:48:14.729Z] Zip Codes processed for Weather Updates:  2
+[2024-07-17T20:48:15.757Z] Total processed items: 1
+[2024-07-17T20:48:15.768Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:49:28.374Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:49:28.375Z] Zip Codes:  18034
+[2024-07-17T20:49:28.987Z] Zip Codes processed for Weather Updates:  3
+[2024-07-17T20:49:29.990Z] Total processed items: 1
+[2024-07-17T20:49:29.993Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:52:14.943Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:52:14.951Z] Zip Codes:  18034
+[2024-07-17T20:52:14.956Z] DB Connection Status:  1
+[2024-07-17T20:52:14.959Z] DB Connection Established!
+[2024-07-17T20:52:15.446Z] Zip Codes processed for Weather Updates:  1
+[2024-07-17T20:52:16.474Z] Total processed items: 1
+[2024-07-17T20:52:16.498Z] Weather Updates by ZipCode is a success!
+[2024-07-17T20:57:01.220Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-17T20:57:01.224Z] Zip Codes:  18034
+[2024-07-17T20:57:01.697Z] Zip Codes processed for Weather Updates:  2
+[2024-07-17T20:57:02.719Z] Total processed items: 1
+[2024-07-17T20:57:02.727Z] Weather Updates by ZipCode is a success!

@@ -1,0 +1,124 @@
+[2024-07-18T15:16:26.951Z] DB Connection Status:  1
+[2024-07-18T15:16:26.954Z] DB Connection Established!
+[2024-07-18T15:16:27.410Z] Updated severity for zip code 18034
+[2024-07-18T15:20:14.795Z] DB Connection Status:  1
+[2024-07-18T15:20:14.806Z] DB Connection Established!
+[2024-07-18T15:20:15.169Z] Error fetching weather severity for location code 7361_PC: severity is not defined
+[2024-07-18T15:22:23.869Z] Reusing existing database connection
+[2024-07-18T15:22:24.094Z] Error fetching weather severity for location code 7361_PC: severity is not defined
+[2024-07-18T15:23:24.081Z] Reusing existing database connection
+[2024-07-18T15:23:24.212Z] Error fetching weather severity for location code 7361_PC: severity is not defined
+[2024-07-18T15:25:04.879Z] Reusing existing database connection
+[2024-07-18T15:25:05.094Z] Error fetching weather severity for location code 7361_PC: Cannot destructure property 'IconPhrase' of 'response.data[0]' as it is undefined.
+[2024-07-18T15:25:16.513Z] Reusing existing database connection
+[2024-07-18T15:25:16.652Z] Error fetching weather severity for location code 7361_PC: Cannot destructure property 'IconPhrase' of 'response.data[0]' as it is undefined.
+[2024-07-18T15:26:37.139Z] Reusing existing database connection
+[2024-07-18T15:26:37.355Z] Updated severity for zip code 18034
+[2024-07-18T17:03:45.251Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:03:45.260Z] Zip Codes:  18034
+[2024-07-18T17:04:15.538Z] Failed to read location data from database:
+[2024-07-18T17:04:15.544Z] Total processed items: 0
+[2024-07-18T17:04:15.567Z] Weather Updates by ZipCode is a success!
+[2024-07-18T17:04:59.488Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:04:59.496Z] Zip Codes:  18034
+[2024-07-18T17:05:29.562Z] Failed to read location data from database:
+[2024-07-18T17:05:29.572Z] Total processed items: 0
+[2024-07-18T17:05:29.611Z] Weather Updates by ZipCode is a success!
+[2024-07-18T17:07:08.294Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:07:08.299Z] Zip Codes:  18034
+[2024-07-18T17:07:38.362Z] Failed to read location data from database:
+[2024-07-18T17:07:38.370Z] Total processed items: 0
+[2024-07-18T17:07:38.376Z] Weather Updates by ZipCode is a success!
+[2024-07-18T17:09:06.562Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:09:06.567Z] Zip Codes:  18034
+[2024-07-18T17:09:36.632Z] Failed to read location data from database:
+[2024-07-18T17:09:36.641Z] Total processed items: 0
+[2024-07-18T17:09:36.649Z] Weather Updates by ZipCode is a success!
+[2024-07-18T17:32:33.110Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:32:33.115Z] Zip Codes:  18034
+[2024-07-18T17:33:10.399Z] Failed to read location data from database:
+[2024-07-18T17:33:10.408Z] Total processed items: 0
+[2024-07-18T17:33:10.429Z] Weather Updates by ZipCode is a success!
+[2024-07-18T17:51:02.520Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:51:02.529Z] Zip Codes:  18034
+[2024-07-18T17:51:02.709Z] Failed to read location data from database:
+[2024-07-18T17:51:02.718Z] Total processed items: 0
+[2024-07-18T17:51:02.725Z] Weather Updates by ZipCode is a success!
+[2024-07-18T17:52:13.557Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:52:13.564Z] Zip Codes:  18034
+[2024-07-18T17:52:43.806Z] Failed to read location data from database:
+[2024-07-18T17:52:43.814Z] Total processed items: 0
+[2024-07-18T17:52:43.821Z] Weather Updates by ZipCode is a success!
+[2024-07-18T17:55:39.958Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:55:39.962Z] Zip Codes:  18034
+[2024-07-18T17:55:40.075Z] Failed to read location data from database:
+[2024-07-18T17:55:40.084Z] Total processed items: 0
+[2024-07-18T17:55:40.091Z] Weather Updates by ZipCode is a success!
+[2024-07-18T17:56:05.252Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T17:56:05.258Z] Zip Codes:  18034
+[2024-07-18T17:56:36.597Z] Failed to read location data from database:
+[2024-07-18T17:56:36.602Z] Total processed items: 0
+[2024-07-18T17:56:36.631Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:20:02.878Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:20:02.883Z] Zip Codes:  18034
+[2024-07-18T18:20:03.023Z] Failed to read location data from database:
+[2024-07-18T18:20:03.045Z] Total processed items: 0
+[2024-07-18T18:20:03.050Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:20:30.129Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:20:30.133Z] Zip Codes:  18034
+[2024-07-18T18:21:00.418Z] Failed to read location data from database:
+[2024-07-18T18:21:00.428Z] Total processed items: 0
+[2024-07-18T18:21:00.434Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:22:27.728Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:22:27.730Z] Zip Codes:  18034
+[2024-07-18T18:22:59.040Z] Failed to read location data from database:
+[2024-07-18T18:22:59.045Z] Total processed items: 0
+[2024-07-18T18:22:59.048Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:23:58.305Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:23:58.309Z] Zip Codes:  18034
+[2024-07-18T18:23:58.420Z] Failed to read location data from database:
+[2024-07-18T18:23:58.435Z] Total processed items: 0
+[2024-07-18T18:23:58.441Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:24:22.395Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:24:22.398Z] Zip Codes:  18034
+[2024-07-18T18:24:26.551Z] Failed to read location data from database:
+[2024-07-18T18:24:26.568Z] Total processed items: 0
+[2024-07-18T18:24:26.590Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:30:59.315Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:30:59.318Z] Zip Codes:  18034
+[2024-07-18T18:31:03.595Z] Failed to read location data from database:
+[2024-07-18T18:31:03.607Z] Total processed items: 0
+[2024-07-18T18:31:03.613Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:37:54.430Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:37:54.433Z] Zip Codes:  18034
+[2024-07-18T18:38:24.556Z] Failed to read location data from database:
+[2024-07-18T18:38:24.569Z] Total processed items: 0
+[2024-07-18T18:38:24.574Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:39:47.652Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:39:47.655Z] Zip Codes:  18034
+[2024-07-18T18:40:17.768Z] Failed to read location data from database:
+[2024-07-18T18:40:17.785Z] Total processed items: 0
+[2024-07-18T18:40:17.793Z] Weather Updates by ZipCode is a success!
+[2024-07-18T18:42:49.383Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T18:42:49.387Z] Zip Codes:  18034
+[2024-07-18T18:43:19.511Z] Failed to read location data from database:
+[2024-07-18T18:43:19.539Z] Total processed items: 0
+[2024-07-18T18:43:19.579Z] Weather Updates by ZipCode is a success!
+[2024-07-18T19:13:21.803Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T19:13:21.808Z] Zip Codes:  18034
+[2024-07-18T19:13:22.420Z] Database Connected!!! 1
+[2024-07-18T19:13:23.151Z] Error fetching weather for location code 7361_PC: Cannot read properties of undefined (reading 'Value')
+[2024-07-18T19:13:23.462Z] Error updating catalog:
+[2024-07-18T19:13:23.465Z] Total processed items: 0
+[2024-07-18T19:13:23.471Z] Weather Updates by ZipCode is a success!
+[2024-07-18T19:30:25.859Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T19:30:25.863Z] Zip Codes:  18034
+[2024-07-18T19:30:25.868Z] Reusing existing database connection
+[2024-07-18T19:30:26.083Z] Total processed items: 0
+[2024-07-18T19:30:26.092Z] Weather Updates by ZipCode is a success!
+[2024-07-18T19:31:04.950Z] Inside POST call to update weather forecast by zip Code.
+[2024-07-18T19:31:04.953Z] Zip Codes:  18034
+[2024-07-18T19:31:04.968Z] Using existing database connection
+[2024-07-18T19:31:05.448Z] Zip Codes processed for Weather Updates:  1
+[2024-07-18T19:31:06.476Z] Total processed items: 1
+[2024-07-18T19:31:06.494Z] Weather Updates by ZipCode is a success!

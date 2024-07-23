@@ -1,7 +1,9 @@
 {
-  "name": "braze-catalog-updater",
-  "version": "0.1.0",
+  "name": "AW-CatalogUpdater",
+  "version": "1.0.0",
+  "description": "This Braze catalog updater helps to facilitate weather campaigns in Braze.  This is currently setup to work with AccuWeather.",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev -p 8090",
     "build": "next build",
@@ -10,9 +12,14 @@
   },
   "dependencies": {
     "axios": "^1.6.7",
+    "csv-writer": "^1.6.0",
     "luxon": "^3.4.4",
-    "next": "14.1.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "next": "^14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "redis": "^4.6.15",
+    "sqlite3": "^5.1.7"
   }
 }
