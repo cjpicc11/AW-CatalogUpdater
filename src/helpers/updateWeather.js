@@ -72,13 +72,12 @@ async function filterByTime(locationData, utcNow) {
       const epochNow = localTime.toSeconds()
 
       const isValidTime = localTime.hour >= 6 && localTime.hour <= 18
-      const isNotInSeverityPeriod = !(weatherSeverity === 1 && epochNow >= severityEffectiveEpochStart && epochNow <= severityEffectiveEpochEnd)
 
-      if (isValidTime && isNotInSeverityPeriod) {
+      if (isValidTime) {
         console.log("Zip Code:  " + zipCode + " Hour:  " + localTime.hour)
       }
 
-      return isValidTime && isNotInSeverityPeriod // Include only valid records
+      return isValidTime // Include all valid time records
     })
     .reduce((acc, [zipCode, data]) => {
       const localTime = utcNow.setZone(data.timeZone)
@@ -107,11 +106,12 @@ async function updateWeather(zipCodes = []) {
     const catalogItems = []
 
     for (const zipCode of batch) {
-      const { locationCode, timeOfDay } = validLocationData[zipCode]
+      const { locationCode, timeOfDay, weatherSeverity, severityEffectiveEpochStart, severityEffectiveEpochEnd } = validLocationData[zipCode]
 
       try {
         const currentDate = utcNow.setZone(validLocationData[zipCode].timeZone).toISO().split("T")[0]
         const currentDateCatalog = utcNow.setZone(validLocationData[zipCode].timeZone).toISO()
+        const currentDateString = utcNow.setZone(validLocationData[zipCode].timeZone).toFormat("yyyy-MM-dd")
         await incrementApiCallCount("AccuWeather")
         const response = await axios.get(`http://dataservice.accuweather.com/forecasts/v1/hourly/1hour/${locationCode}?apikey=${AW_API_KEY}`)
         const { IconPhrase, Temperature, PrecipitationProbability } = response.data[0]
@@ -140,15 +140,23 @@ async function updateWeather(zipCodes = []) {
           }
         }
 
+        let weatherSafety = "safe"
+        const epochNow = DateTime.now().setZone(validLocationData[zipCode].timeZone).toSeconds()
+        if (weatherSeverity === 1 && epochNow >= severityEffectiveEpochStart && epochNow <= severityEffectiveEpochEnd) {
+          weatherSafety = "dangerous"
+        }
+
         catalogItems.push({
           id: zipCode,
           zipCode,
           weather,
           temp: currentTemp,
-          updateDate: currentDateCatalog,
+          updateDateTime: currentDateCatalog,
+          updateDateString: currentDateString, // Include the current date string in the catalog item
+          precipitationChance: PrecipitationProbability,
           timeOfDay, // Include timeOfDay in the catalog item
           unseasonable, // Include unseasonable in the catalog item
-          precipitationChance: PrecipitationProbability,
+          weatherSafety, // Include weatherSafety in the catalog item
         })
       } catch (error) {
         logToFile(`Error fetching weather for location code ${locationCode}: ${error.response ? error.response.data : error.message}`)

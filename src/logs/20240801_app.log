@@ -1,0 +1,40 @@
+[2024-08-01T15:34:57.164Z] Received GET request for zipCode: 07657 and dateString: 2024-07-10
+[2024-08-01T15:34:57.692Z] Database Connected!!! 1
+[2024-08-01T15:34:58.017Z] Data Payload Returned!
+[2024-08-01T15:36:00.507Z] Received GET request for zipCode: 07657 and dateString: 2024-07-10
+[2024-08-01T15:36:00.509Z] Reusing existing database connection
+[2024-08-01T15:36:06.310Z] Received GET request for zipCode: 07657 and dateString: 2024-07-10
+[2024-08-01T15:36:06.311Z] Using existing database connection
+[2024-08-01T15:36:06.403Z] Data Payload Returned!
+[2024-08-01T15:36:21.096Z] Inside POST call to Generate Climo Data.
+[2024-08-01T16:29:15.366Z] Received GET request for zipCode: 07657 and dateString: 2024-07-10
+[2024-08-01T16:29:15.931Z] Database Connected!!! 1
+[2024-08-01T16:29:16.203Z] Data Payload Returned!
+[2024-08-01T16:29:54.251Z] Inside POST call to update weather forecast by zip Code.
+[2024-08-01T16:29:54.254Z] Zip Codes:  18034
+[2024-08-01T16:29:54.397Z] Reusing existing database connection
+[2024-08-01T16:29:54.399Z] Weather Updates by ZipCode is a success!
+[2024-08-01T16:29:54.495Z] Using existing database connection
+[2024-08-01T16:29:56.013Z] Failed to read climate data for zip code 18034: No climate data found for zip code 18034 on date 2024-08-01
+[2024-08-01T16:29:56.156Z] Error updating catalog:
+[2024-08-01T16:29:56.158Z] Total processed items: 0
+[2024-08-01T16:32:06.638Z] Reusing existing database connection
+[2024-08-01T16:32:06.643Z] Connected to database.
+[2024-08-01T16:32:06.646Z] Using existing database connection
+[2024-08-01T16:32:06.951Z] Updated zip code 18036 with location code 7363_PC and time zone America/New_York
+[2024-08-01T16:32:06.953Z] Specific zip codes updated successfully.
+[2024-08-01T16:32:27.695Z] Inside POST call to update weather forecast by zip Code.
+[2024-08-01T16:32:27.698Z] Zip Codes:  18036
+[2024-08-01T16:32:27.713Z] Reusing existing database connection
+[2024-08-01T16:32:27.714Z] Weather Updates by ZipCode is a success!
+[2024-08-01T16:32:27.768Z] Using existing database connection
+[2024-08-01T16:32:28.781Z] Failed to read climate data for zip code 18036: No climate data found for zip code 18036 on date 2024-08-01
+[2024-08-01T16:32:28.899Z] Error updating catalog:
+[2024-08-01T16:32:28.900Z] Total processed items: 0
+[2024-08-01T16:34:59.699Z] Inside POST call to Generate Climo Data.
+[2024-08-01T17:25:33.948Z] Inside POST call to Generate Climo Data.
+[2024-08-01T17:25:34.502Z] Database Connected!!! 1
+[2024-08-01T18:03:48.869Z] Inside POST call to Generate Climo Data.
+[2024-08-01T18:03:48.872Z] Connecting to DB
+[2024-08-01T18:03:49.395Z] Database Connected!!! 1
+[2024-08-01T18:03:51.061Z] Processing Zipcodes for climo data...

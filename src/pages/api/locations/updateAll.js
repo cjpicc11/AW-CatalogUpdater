@@ -1,6 +1,6 @@
 // pages/api/locations/updateAll.js
 
-import { updateAllZipCodes } from "../../../helpers/updateLocationCodes"
+import updateLocationData from "../../../helpers/updateLocationCodes"
 import { authenticateToken } from "../../../middleware/auth"
 
 export default async function handler(req, res) {
@@ -9,8 +9,8 @@ export default async function handler(req, res) {
     switch (method) {
       case "POST":
         try {
-          await updateAllZipCodes()
-          res.status(200).json({ success: true, message: "All zip codes updated successfully" })
+          updateLocationData()
+          res.status(200).json({ success: true, message: "Location Key Updates Initiated" })
         } catch (error) {
           res.status(500).json({ success: false, message: error.message })
         }

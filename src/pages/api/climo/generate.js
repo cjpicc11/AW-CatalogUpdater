@@ -1,19 +1,16 @@
-// pages/api/locations/updateSpecific.js
-
-import updateLocationData from "../../../helpers/updateLocationCodes"
+import { generateClimoData } from "../../../helpers/generateClimoData"
+import logToFile from "../../../util/logger"
 import { authenticateToken } from "../../../middleware/auth"
+
 export default async function handler(req, res) {
   const { method } = req
   authenticateToken(req, res, async () => {
     switch (method) {
       case "POST":
         try {
-          const { zipCodes } = req.body
-          if (!zipCodes || !Array.isArray(zipCodes)) {
-            return res.status(400).json({ success: false, message: "zipCodes must be an array" })
-          }
-          updateLocationData(zipCodes)
-          res.status(200).json({ success: true, message: "Location Key Updates Initiated." })
+          logToFile("Inside POST call to Generate Climo Data.")
+          generateClimoData()
+          res.status(200).json({ success: true, message: "Climo Data Generation has started" })
         } catch (error) {
           res.status(500).json({ success: false, message: error.message })
         }

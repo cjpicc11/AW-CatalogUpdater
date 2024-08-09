@@ -5,12 +5,10 @@ const connection = {}
 
 async function dbConnect() {
   if (connection.isConnected) {
-    logToFile("Using existing database connection")
     return
   }
 
   if (mongoose.connections.length > 0 && mongoose.connections[0].readyState === 1) {
-    logToFile("Reusing existing database connection")
     connection.isConnected = true
     return
   }

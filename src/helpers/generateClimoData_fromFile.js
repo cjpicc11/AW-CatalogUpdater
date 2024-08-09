@@ -1,8 +1,18 @@
+import fs from "fs"
+import path from "path"
+import { fileURLToPath } from "url"
 import mongoose from "mongoose"
 import dbConnect from "../util/dbConnect.js"
 import Climo from "../models/Climo.js"
-import Location from "../models/Location.js" // Updated to use the Location model
-import logToFile from "../util/logger.js" // Import the logToFile function
+
+// Convert file URL to path
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+// Function to generate a unique ID by concatenating zipCode and date
+const generateUniqueId = (zipCode, date) => {
+  return `${zipCode}_${date}`
+}
 
 // Function to get the number of days in the current month
 const getDaysInMonth = (year, month) => {
@@ -36,46 +46,45 @@ const generateTemperatureData = zipCode => {
 // Main function to populate the database
 export const generateClimoData = async () => {
   try {
+    const zipCodeFilePath = path.join(__dirname, "locationCodes.txt")
+    console.log(`Reading zip codes from: ${zipCodeFilePath}`)
+
+    const fileContent = fs.readFileSync(zipCodeFilePath, "utf-8")
+    console.log(`File content: ${fileContent}`)
+
+    const zipCodes = fileContent.split(",")
+    console.log(`Parsed zip codes: ${zipCodes.length}`)
+
+    let allData = []
+
+    for (const zipCodeInfo of zipCodes) {
+      if (zipCodeInfo.trim() === "") continue // Skip empty entries
+      const [zipCode] = zipCodeInfo.split(":")
+      console.log(`Processing zip code: ${zipCode}`)
+
+      const data = generateTemperatureData(zipCode)
+      allData = allData.concat(data)
+    }
+
+    console.log(`Total records to save: ${allData.length}`)
+
     // Connect to MongoDB using the dbConnect utility
     await dbConnect()
 
-    // Fetch zip codes from the Location collection
-    const locations = await Location.find().select("zipCode -_id")
-    const zipCodes = locations.map(location => location.zipCode)
-    logToFile(`Fetched zip codes: ${zipCodes.length}`)
-
-    logToFile("Processing Zip Codes for Climo Generation...")
-    // Process zip codes in parallel
-    const allDataPromises = zipCodes.map(zipCode => {
-      return new Promise(resolve => {
-        const data = generateTemperatureData(zipCode)
-        resolve(data)
-      })
-    })
-
-    // Wait for all promises to resolve
-    const allDataArrays = await Promise.all(allDataPromises)
-
-    // Flatten the array of arrays into a single array
-    const allData = [].concat(...allDataArrays)
-
-    logToFile(`Total records to save: ${allData.length}`)
-
     // Clear the Climo collection before inserting new data
     await Climo.deleteMany({})
-    logToFile("Cleared the Climo collection")
+    console.log("Cleared the Climo collection")
 
-    logToFile("Saving Data to DB...")
     // Insert new data into MongoDB
     await Climo.insertMany(allData)
-    logToFile("Data has been saved to DB.")
+    console.log("Data has been saved to MongoDB")
 
     // Disconnect from MongoDB
     await mongoose.disconnect()
   } catch (error) {
-    logToFile(`Error: ${error.message}`)
+    console.error(`Error: ${error.message}`)
   }
 }
 
 // If you want to call the function from the same file
-// generateClimoData().catch(err => logToFile(err));
+// populateDatabase().catch(err => console.error(err));

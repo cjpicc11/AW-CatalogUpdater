@@ -14,7 +14,7 @@ async function getLocationData(zipCodes = []) {
     console.log(locations)
     return locations
   } catch (error) {
-    logToFile("Failed to read location data from database:", error)
+    logToFile("ERROR:  Failed to read location data from database:", error)
     return []
   }
 }
@@ -41,7 +41,7 @@ async function updateLocationSeverity(location) {
 
     logToFile(`Updated severity for zip code ${zipCode}`)
   } catch (error) {
-    logToFile(`Error fetching weather severity for location code ${locationCode}: ${error.response ? error.response.data : error.message}`)
+    logToFile(`ERROR:  fetching weather severity for location code ${locationCode}: ${error.response ? error.response.data : error.message}`)
   }
 }
 
