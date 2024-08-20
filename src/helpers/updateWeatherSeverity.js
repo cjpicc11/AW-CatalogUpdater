@@ -3,33 +3,43 @@ import dbConnect from "../util/dbConnect.js"
 import Location from "../models/Location.js"
 import logToFile from "../util/logger.js"
 import { incrementApiCallCount } from "./incrementApiCallCount.js"
+import { ALLOWED_TIMEZONES } from "../util/constants.js" // Import the allowed time zones
 
 const AW_API_KEY = process.env.AW_API
+const AW_DOMAIN = process.env.AW_DOMAIN
 
 async function getLocationData(zipCodes = []) {
   try {
     await dbConnect()
-    const query = zipCodes.length ? { zipCode: { $in: zipCodes } } : {}
+
+    // Build the query based on provided zip codes, allowed time zones, and storeZipCode = true
+    const query = zipCodes.length
+      ? { zipCode: { $in: zipCodes }, timeZone: { $in: ALLOWED_TIMEZONES }, storeZipCode: true }
+      : { timeZone: { $in: ALLOWED_TIMEZONES }, storeZipCode: true }
+
     const locations = await Location.find(query)
-    console.log(locations)
     return locations
   } catch (error) {
-    logToFile("ERROR:  Failed to read location data from database:", error)
+    logToFile("ERROR: Failed to read location data from database:", error)
     return []
   }
 }
 
 async function updateLocationSeverity(location) {
   const { zipCode, locationCode } = location
-  console.log("INSIDE updateLocationSeverity")
+
+  // Skip locations where locationCode is "NULL"
+  if (locationCode === "NULL") {
+    logToFile(`Skipping location with zip code ${zipCode} as locationCode is "NULL"`)
+    return
+  }
+
   try {
-    await incrementApiCallCount("AccuWeather")
-    const response = await axios.get(`http://dataservice.accuweather.com/forecasts/v1/daily/1day/${locationCode}?apikey=${AW_API_KEY}`)
+    await incrementApiCallCount("AccuWeather-DEMO")
+    const response = await axios.get(`https://${AW_DOMAIN}/forecasts/v1/daily/1day/${locationCode}?apikey=${AW_API_KEY}`)
 
     const { Severity, EffectiveEpochDate, EndEpochDate } = response.data.Headline
-    console.log("severity:  " + Severity)
-    console.log("EffectiveEpochDate:  " + EffectiveEpochDate)
-    console.log("EndEpochDate:  " + EndEpochDate)
+
     await Location.updateOne(
       { zipCode },
       {
@@ -38,19 +48,25 @@ async function updateLocationSeverity(location) {
         severityEffectiveEpochEnd: EndEpochDate,
       }
     )
-
-    logToFile(`Updated severity for zip code ${zipCode}`)
+    //logToFile(`Weather severity updated for zip code ${zipCode}`)
   } catch (error) {
-    logToFile(`ERROR:  fetching weather severity for location code ${locationCode}: ${error.response ? error.response.data : error.message}`)
+    const errorDetails = JSON.stringify(error, Object.getOwnPropertyNames(error), 2)
+    logToFile(`ERROR: fetching weather severity for location code ${locationCode}: ${errorDetails}`)
   }
 }
 
 async function updateWeatherSeverity(zipCodes = []) {
+  logToFile(`Getting Locations to update...`)
   const locations = await getLocationData(zipCodes)
 
-  for (const location of locations) {
-    await updateLocationSeverity(location)
-  }
+  // Log the count of valid locations (excluding those with locationCode "NULL")
+  const validLocations = locations.filter(loc => loc.locationCode !== "NULL")
+  logToFile(`Found ${validLocations.length} valid locations to update weather severity.`)
+
+  logToFile(`Processing Weather Severity for Locations...`)
+  // Run updates asynchronously for all valid locations
+  await Promise.all(validLocations.map(updateLocationSeverity))
+  logToFile(`Weather Severity for Locations complete!!!`)
 }
 
 export async function updateWeatherSeverityForAllZipCodes() {

@@ -8,13 +8,27 @@ export default async function handler(req, res) {
     switch (method) {
       case "POST":
         try {
-          logToFile("Inside POST call to update weather forecast for All zips.")
-          updateWeatherForAllZipCodes()
-          res.status(200).json({ success: true, message: "Weather data updates has started for all zip codes" })
+          const { batch } = req.body
+
+          logToFile("Inside POST call to update weather forecast for all zip codes.")
+          logToFile(`Batch: ${batch}`)
+
+          // Validate that batch is provided and is an integer
+          if (typeof batch !== "number" || !Number.isInteger(batch)) {
+            logToFile("ERROR: Batch is not an integer!")
+            return res.status(400).json({ success: false, message: "batch must be an integer" })
+          }
+
+          // Call the helper function to update the weather forecast for all zip codes
+          updateWeatherForAllZipCodes(batch)
+
+          res.status(200).json({ success: true, message: "Weather data updates have started for all zip codes." })
         } catch (error) {
+          logToFile(`ERROR: There was a problem - ${error.message}`)
           res.status(500).json({ success: false, message: error.message })
         }
         break
+
       default:
         res.setHeader("Allow", ["POST"])
         res.status(405).end(`Method ${method} Not Allowed`)

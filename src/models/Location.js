@@ -4,6 +4,7 @@ const LocationDataSchema = new mongoose.Schema({
   zipCode: { type: String, required: true, unique: true },
   locationCode: { type: String, required: true },
   timeZone: { type: String, required: true },
+  storeZipCode: { type: Boolean, required: false },
   weatherSeverity: { type: Number, required: false },
   severityEffectiveEpochStart: { type: Number, required: false },
   severityEffectiveEpochEnd: { type: Number, required: false },
