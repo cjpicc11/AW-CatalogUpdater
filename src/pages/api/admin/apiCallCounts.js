@@ -38,7 +38,7 @@ export default async function handler(req, res) {
         return res.status(404).json({ success: false, message: "No call counts found for the specified parameters" })
       }
 
-      res.status(200).json({ success: true, data: callCounts })
+      res.status(200).json({ success: true, apiCounts: callCounts })
     } catch (error) {
       logToFile(`Error fetching API call counts: ${error.message}`)
       res.status(500).json({ success: false, message: "Server Error" })

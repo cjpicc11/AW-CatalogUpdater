@@ -40,7 +40,9 @@ export default async function handler(req, res) {
         try {
           if (fs.existsSync(logFilePath)) {
             const logContents = fs.readFileSync(logFilePath, "utf8")
-            res.status(200).json({ success: true, data: logContents })
+            const formattedLogContents = logContents.split("\n").join("<br>")
+
+            res.status(200).json({ success: true, logData: formattedLogContents })
           } else {
             res.status(404).json({ success: false, message: "Log file not found" })
           }

@@ -7,6 +7,7 @@ import { ALLOWED_TIMEZONES } from "../util/constants.js" // Import the allowed t
 
 const AW_API_KEY = process.env.AW_API
 const AW_DOMAIN = process.env.AW_DOMAIN
+const AW_API_DESC = process.env.AW_API_DESC
 
 async function getLocationData(zipCodes = []) {
   try {
@@ -35,7 +36,7 @@ async function updateLocationSeverity(location) {
   }
 
   try {
-    await incrementApiCallCount("AccuWeather-DEMO")
+    await incrementApiCallCount(AW_API_DESC)
     const response = await axios.get(`https://${AW_DOMAIN}/forecasts/v1/daily/1day/${locationCode}?apikey=${AW_API_KEY}`)
 
     const { Severity, EffectiveEpochDate, EndEpochDate } = response.data.Headline

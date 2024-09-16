@@ -19,25 +19,23 @@ const batchSize = 50
 const delayBetweenRequests = 0 // Define the delayBetweenRequests here
 let zipCodesProcessed = 0
 
-async function getLocationData(zipCodes = []) {
+async function getLocationData(zipCodes = [], timeZones = []) {
   try {
     await dbConnect()
 
     // Build the query based on provided zip codes, allowed time zones, and storeZipCode = true
-    const query = zipCodes.length
-      ? { zipCode: { $in: zipCodes }, timeZone: { $in: ALLOWED_TIMEZONES }, storeZipCode: true }
-      : { timeZone: { $in: ALLOWED_TIMEZONES }, storeZipCode: true }
+    const query = {
+      timeZone: { $in: timeZones.length ? timeZones : ALLOWED_TIMEZONES },
+      storeZipCode: true,
+    }
+
+    if (zipCodes.length) {
+      query.zipCode = { $in: zipCodes }
+    }
 
     const locations = await Location.find(query)
 
-    // Log the total valid location codes to be updated
     logToFile(`Total valid location codes to be updated: ${locations.length}`)
-
-    // Log each location's zipCode, storeZipCode value, and timeZone value
-    // DEBUGGING ONLY
-    // locations.forEach(location => {
-    //   logToFile(`Processing location - Zip Code: ${location.zipCode}, Store Zip Code: ${location.storeZipCode}, Time Zone: ${location.timeZone}`)
-    // })
 
     return locations.reduce((acc, { zipCode, locationCode, timeZone, weatherSeverity, severityEffectiveEpochStart, severityEffectiveEpochEnd }) => {
       acc[zipCode] = {
@@ -132,9 +130,9 @@ async function processBatch(batch, validLocationData, utcNow, batchNumber) {
         const { avgHigh, avgLow } = climoData
         let unseasonable = "None"
 
-        if (currentTemp > avgHigh + 15) {
+        if (currentTemp > avgHigh + 15 && currentTemp >= 65) {
           unseasonable = "Hot"
-        } else if (currentTemp < avgLow - 15) {
+        } else if (currentTemp < avgLow - 15 && currentTemp < 60) {
           unseasonable = "Cold"
         }
 
@@ -176,10 +174,10 @@ async function processBatch(batch, validLocationData, utcNow, batchNumber) {
   return catalogItems.filter(item => item !== null) // Remove any null results
 }
 
-async function updateWeather(zipCodes = [], batch = 1) {
+async function updateWeather(zipCodes = [], timeZones = [], batch = 1) {
   const utcNow = DateTime.utc()
 
-  const allLocationData = await getLocationData(zipCodes)
+  const allLocationData = await getLocationData(zipCodes, timeZones)
   const validLocationData = await filterByTime(allLocationData, utcNow)
 
   const zipCodesToProcess = Object.keys(validLocationData)
@@ -193,7 +191,7 @@ async function updateWeather(zipCodes = [], batch = 1) {
     try {
       await axios.patch(
         `https://${BRAZE_API_DOMAIN}/catalogs/${CATALOG_NAME}/items`,
-        { items: catalogItems }, // Include the batch parameter in the Braze API request
+        { items: catalogItems },
         {
           headers: {
             "Content-Type": "application/json",
@@ -218,10 +216,16 @@ async function updateWeather(zipCodes = [], batch = 1) {
   logToFile(`Total processed items in batch ${batch}: ${zipCodesProcessed}`)
 }
 
+// New function: updateWeatherByTimeZone
+export async function updateWeatherByTimeZone(timeZones, batch) {
+  await updateWeather([], timeZones, batch) // Call updateWeather with empty zipCodes array and pass timeZones and batch
+}
+
+// Update the existing functions for all zip codes and specific zip codes to use the new updateWeather signature
 export async function updateWeatherForAllZipCodes(batch) {
-  await updateWeather([], batch)
+  await updateWeather([], [], batch)
 }
 
 export async function updateWeatherForSpecificZipCodes(zipCodes, batch) {
-  await updateWeather(zipCodes, batch)
+  await updateWeather(zipCodes, [], batch)
 }

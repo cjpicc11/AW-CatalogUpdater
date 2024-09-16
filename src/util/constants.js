@@ -13,6 +13,22 @@ export const ALLOWED_TIMEZONES = [
   "America/North_Dakota/New_Salem",
   "America/Boise",
 ]
+
+export const EAST_TIMEZONES = [
+  "America/New_York",
+  "America/Detroit",
+  "America/Indiana/Indianapolis",
+  "America/Kentucky/Louisville",
+  "America/Indiana/Vincennes",
+  "America/Indiana/Winamac",
+]
+
+export const CENTRAL_TIMEZONES = ["America/Chicago", "America/Menominee", "America/North_Dakota/New_Salem"]
+
+export const MOUNTAIN_TIMEZONES = ["America/Denver", "America/Boise"]
+
+export const WEST_TIMEZONES = ["America/Los_Angeles", "America/Phoenix"]
+
 export const ALLOWED_TIMEZONES_LOC = [
   "America/New_York",
   "America/Chicago",
@@ -37,9 +53,7 @@ export const rainPhrases = [
 export const snowPhrases = [
   "Snow",
   "Mostly Cloudy w/ Snow",
-  "Ice",
   "Sleet",
-  "Freezing Rain",
   "Rain and Snow",
   "Flurries",
   "Mostly Cloudy w/ Flurries",
